@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "guide": "/components/common/guide/template-guide",
+    "account-box": "/components/common/account",
+    "order-box": "/components/common/orderBox",
+    "gird-box": "/components/common/girdBox",
+    "logout": "/components/common/loginOut"
+  }
+}

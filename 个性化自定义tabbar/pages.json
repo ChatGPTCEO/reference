@@ -1,0 +1,46 @@
+{
+	"pages": [
+		{"path" : "pages/index/index"},
+		{"path" : "pages/me/me"},
+		{"path" : "pages/msg/msg"},
+		{"path" : "pages/find/find"}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Tabbar",
+		"navigationBarBackgroundColor": "#FFD301",
+		"backgroundColor": "#fff"
+	},
+	"tabBar":{
+		"color": "#b4b4b4",
+		"selectedColor": "#FFD301",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"text":"首页",
+				"iconPath":"/static/image/home.png",
+				"selectedIconPath":"/static/image/home-active.png",
+				"pagePath":"pages/index/index"
+			},
+			{
+				"text":"转让",
+				"iconPath": "/static/image/transfer.png",
+				"selectedIconPath": "/static/image/transfer-active.png",
+				"pagePath":"pages/find/find"
+			},
+			{
+				"text":"求购",
+				"iconPath": "/static/image/looking.png",
+				"selectedIconPath": "/static/image/looking-active.png",
+				"pagePath":"pages/msg/msg"
+			},
+			{
+				"text":"我的",
+				"iconPath": "/static/image/user.png",
+				"selectedIconPath": "/static/image/user-active.png",
+				"pagePath":"pages/me/me"
+			}
+		]
+	}
+}

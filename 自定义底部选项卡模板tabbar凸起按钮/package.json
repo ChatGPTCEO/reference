@@ -1,0 +1,17 @@
+{
+    "id": "popup-tabbar",
+    "name": "底部弹出tab栏",
+    "version": "1.0.0",
+    "description": "底部弹出tabbar",
+    "keywords": [
+        "tabbar",
+        "弹出",
+        "自定义导航栏"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

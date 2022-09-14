@@ -1,0 +1,115 @@
+.long-categories.data-v-15a670fc {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  color: #363132;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+}
+.left.data-v-15a670fc {
+  width: 25%;
+  background: #FFFFFF;
+  padding-left: 2rpx;
+  border-top: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+  padding-top: 30rpx;
+}
+.left .left-scroll.data-v-15a670fc ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.left-item.data-v-15a670fc {
+  height: 60rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  border-radius: 50%;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.left-item-active.data-v-15a670fc {
+  background: red;
+  color: #ffffff;
+  border-radius: 24rpx;
+}
+.right.data-v-15a670fc {
+  width: 75%;
+  background: #FFFFFF;
+  border-top: 1px solid #d8d8d8;
+}
+.right .right-scroll.data-v-15a670fc ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.right-container .category-name.data-v-15a670fc {
+  padding: 20rpx;
+  text-align: left;
+}
+.right-container .category-name .txt.data-v-15a670fc {
+  padding: 0 8rpx;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 32rpx;
+}
+.right-container .category-content.data-v-15a670fc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.right-container .activityEmpty.data-v-15a670fc {
+  margin: 0rpx 20rpx;
+  padding: 20rpx;
+  background-color: #F7f7F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-item.data-v-15a670fc {
+  margin-left: 12rpx;
+  margin-bottom: 20rpx;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  font-size: 28rpx;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-item .good-img.data-v-15a670fc {
+  margin: 4rpx 5%;
+}
+.right-item .good-name.data-v-15a670fc {
+  text-align: center;
+  width: 100%;
+  font-size: 24rpx;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.right-item .good-name-disable.data-v-15a670fc {
+  opacity: 0.4;
+}
+.right-item-active.data-v-15a670fc {
+  border-color: #DCDFE6;
+}
+.right-item-disable.data-v-15a670fc {
+  border-color: #f3f4f6;
+  opacity: 0.8;
+}
+.active.data-v-15a670fc {
+  color: #F24544;
+}
+

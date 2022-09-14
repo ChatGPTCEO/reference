@@ -1,0 +1,80 @@
+
+.navheader.data-v-29d3b732{
+	height: 88rpx;
+	line-height: 88rpx;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	color: #000000;
+}
+.swiperbox.data-v-29d3b732{
+	-webkit-transform: translateY(0rpx);
+	        transform: translateY(0rpx);
+}
+.loadbox.data-v-29d3b732 {
+	position: fixed;
+	z-index: 1;
+	left: 0rpx;
+	top: -200rpx;
+	transition: all 0.5s;
+	width: 100%;
+	text-align: center;
+}
+.loadboxshow.data-v-29d3b732 {
+	top: 180rpx;
+}
+.loadingfn.data-v-29d3b732 {
+	-webkit-transform: translateY(192rpx);
+	        transform: translateY(192rpx);
+	transition: all 0.5s;
+}
+.loading.data-v-29d3b732 {
+	height: 30px;
+	margin: 0 auto;
+}
+.loading text.data-v-29d3b732 {
+	display: inline-block;
+	width: 8px;
+	height: 100%;
+	border-radius: 4px;
+	background: #007AFF;
+	margin: 0rpx 5rpx;
+	-webkit-animation: load-data-v-29d3b732 1s ease infinite;
+}
+@-webkit-keyframes load-data-v-29d3b732 {
+0%,
+	100% {
+		-webkit-transform: scale(0.6);
+		        transform: scale(0.6);
+		background-color: #55beff;
+}
+50% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+		background-color: #007AFF;
+}
+}
+.loading text.data-v-29d3b732:nth-child(2) {
+	-webkit-animation-delay: 0.2s;
+}
+.loading text.data-v-29d3b732:nth-child(3) {
+	-webkit-animation-delay: 0.4s;
+}
+.loading text.data-v-29d3b732:nth-child(4) {
+	-webkit-animation-delay: 0.6s;
+}
+.loading text.data-v-29d3b732:nth-child(5) {
+	-webkit-animation-delay: 0.8s;
+}
+.chush.data-v-29d3b732{
+	height: calc(100vh - 124rpx);
+}
+.odheight.data-v-29d3b732{
+	height: calc(100vh - 84rpx);
+}
+.list.data-v-29d3b732{
+	width: 100%;
+	height: 100%;
+}
+
+

@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-badge": "/node-modules/uview-ui/components/u-badge/u-badge",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "limit-activity": "/components/common/limitActivity",
+    "theme-gird": "/components/common/themeGird",
+    "selected-application": "/components/common/selectedApplication",
+    "selected-brand": "/components/common/selectedBrand",
+    "marketing-activity": "/components/common/marketingActivity",
+    "home-notice": "/components/common/notice"
+  }
+}

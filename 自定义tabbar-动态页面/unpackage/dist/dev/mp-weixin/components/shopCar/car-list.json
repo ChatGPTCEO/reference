@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/navList",
+    "pages/demo",
+    "pages/demo1",
+    "pages/demo2",
+    "pages/demo3",
+    "pages/demo4",
+    "pages/demo5",
+    "pages/demo6",
+    "pages/demo7",
+    "pages/demo8",
+    "pages/demo9",
+    "pages/demo10",
+    "pages/demo11"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "案例",
+    "navigationBarBackgroundColor": "#FFFF",
+    "backgroundColor": "#FFFF",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#47c3bf",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/navList",
+        "iconPath": "static/tab/icon_home.png",
+        "selectedIconPath": "static/tab/icon_home_c.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/demo6",
+        "iconPath": "static/tab/icon_my.png",
+        "selectedIconPath": "static/tab/icon_my_c.png",
+        "text": "案例6"
+      }
+    ]
+  },
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index"
+  }
+}

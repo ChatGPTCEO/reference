@@ -20,7 +20,7 @@
     "compileType": "miniprogram",
     "libVersion": "2.26.0",
     "appid": "touristappid",
-    "projectname": "vue版纯自定义tabbar、支持APP和小程序以及刘海屏",
+    "projectname": "自定义tabBar组件示例",
     "condition": {},
     "editorSetting": {
         "tabIndent": "insertSpaces",

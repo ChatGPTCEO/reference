@@ -980,7 +980,7 @@ const getPushClientId = defineAsyncApi(API_GET_PUSH_CLIENT_ID, (_, { resolve: re
     if (typeof enabled === "undefined") {
       enabled = false;
       cid = "";
-      cidErrMsg = "unipush is not enabled";
+      cidErrMsg = "uniPush is not enabled";
     }
     getPushCidCallbacks.push((cid2, errMsg) => {
       if (cid2) {
@@ -1267,8 +1267,8 @@ function populateParameters(fromRes, toRes) {
     appVersion: "1.0.0",
     appVersionCode: "100",
     appLanguage: getAppLanguage(hostLanguage),
-    uniCompileVersion: "3.5.3",
-    uniRuntimeVersion: "3.5.3",
+    uniCompileVersion: "3.6.2",
+    uniRuntimeVersion: "3.6.2",
     uniPlatform: "mp-weixin",
     deviceBrand,
     deviceModel: model,
@@ -4713,7 +4713,10 @@ function findComponentPublicInstance(mpComponents, id) {
   const mpInstance = mpComponents.find((com) => com && (com.properties || com.props).uI === id);
   if (mpInstance) {
     const vm = mpInstance.$vm;
-    return getExposeProxy(vm.$) || vm;
+    if (vm) {
+      return getExposeProxy(vm.$) || vm;
+    }
+    return mpInstance;
   }
   return null;
 }

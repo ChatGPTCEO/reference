@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/nav-bar/nav-bar"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "unipush": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

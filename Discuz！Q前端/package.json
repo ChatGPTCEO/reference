@@ -1,0 +1,60 @@
+{
+    "name": "Discuz！Q前端",
+    "version": "v2.3.2105282",
+    "description": "Discuz! Q 继承了Discuz! X 的社区的核心能力，增强了变现的能力，原生接入微信生态",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "Apache 2.0",
+    "dependencies": {
+        "jsonpath-plus": "4.0.0",
+        "jweixin-module": "1.6.0",
+        "lodash.get": "4.4.2",
+        "lodash.isequal": "4.5.0",
+        "lodash.merge": "4.6.2",
+        "promise.allsettled": "1.0.2",
+        "vod-js-sdk-v6": "1.4.8",
+        "vue-i18n": "8.18.2",
+        "es-abstract": "1.18.0-next.1",
+        "vditor": "3.6.1",
+        "vue-virtual-scroll-list": "2.3.1",
+        "vue-virtual-scroller": "1.0.10",
+        "@ungap/promise-all-settled": "1.1.2",
+        "async-validator": "3.5.1",
+        "axios": "0.21.1"
+    },
+    "uni-app": {
+        "scripts": {
+            "h5-play": {
+                "title": "h5-play",
+                "BROWSER": "Chrome",
+                "env": {
+                    "UNI_PLATFORM": "h5"
+                },
+                "define": {
+                    "H5-PLAY": true,
+                    "MP-WEIXIN-PLAY": false
+                }
+            },
+            "mp-weixin-play": {
+                "title": "mp-weixin-play",
+                "BROWSER": "Chrome",
+                "env": {
+                    "UNI_PLATFORM": "mp-weixin"
+                },
+                "define": {
+                    "MP-WEIXIN-PLAY": true,
+                    "H5-PLAY": false
+                }
+            }
+        }
+    },
+    "id": "tencent-dzq",
+    "keywords": [
+        "discuz",
+        "discuzq",
+        "discuz!q"
+    ]
+}

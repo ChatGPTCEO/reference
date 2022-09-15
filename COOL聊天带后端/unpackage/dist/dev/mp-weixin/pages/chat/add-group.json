@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发起群聊",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-list-index": "/node-modules//@/cool/ui/components/cl-list-index/cl-list-index",
+    "cl-button": "/node-modules//@/cool/ui/components/cl-button/cl-button"
+  }
+}

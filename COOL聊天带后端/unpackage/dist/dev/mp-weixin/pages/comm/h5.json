@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page"
+  }
+}

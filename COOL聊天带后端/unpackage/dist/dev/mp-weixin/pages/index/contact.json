@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-list-index": "/node-modules//@/cool/ui/components/cl-list-index/cl-list-index"
+  }
+}

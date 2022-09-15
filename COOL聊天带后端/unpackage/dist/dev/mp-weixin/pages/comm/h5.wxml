@@ -1,0 +1,1 @@
+<cl-page vue-id="2369e79f-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="page-h5"><web-view src="{{url}}" allow="{{true}}"></web-view></view></cl-page>

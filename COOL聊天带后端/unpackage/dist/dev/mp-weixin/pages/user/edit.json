@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-topbar": "/node-modules//@/cool/ui/components/cl-topbar/cl-topbar",
+    "cl-button": "/node-modules//@/cool/ui/components/cl-button/cl-button",
+    "cl-form": "/node-modules//@/cool/ui/components/cl-form/cl-form",
+    "cl-form-item": "/node-modules//@/cool/ui/components/cl-form-item/cl-form-item",
+    "cl-input": "/node-modules//@/cool/ui/components/cl-input/cl-input",
+    "cl-select": "/node-modules//@/cool/ui/components/cl-select/cl-select"
+  }
+}

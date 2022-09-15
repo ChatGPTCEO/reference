@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-avatar": "/node-modules//@/cool/ui/components/cl-avatar/cl-avatar",
+    "cl-text": "/node-modules//@/cool/ui/components/cl-text/cl-text",
+    "cl-icon": "/node-modules//@/cool/ui/components/cl-icon/cl-icon",
+    "cl-list": "/node-modules//@/cool/ui/components/cl-list/cl-list",
+    "cl-list-item": "/node-modules//@/cool/ui/components/cl-list-item/cl-list-item",
+    "cl-action-sheet": "/node-modules//@/cool/ui/components/cl-action-sheet/cl-action-sheet"
+  }
+}

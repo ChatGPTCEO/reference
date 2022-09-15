@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-topbar": "/node-modules//@/cool/ui/components/cl-topbar/cl-topbar",
+    "cl-captcha": "/node-modules//@/cool/ui/components/cl-captcha/cl-captcha",
+    "cl-button": "/node-modules//@/cool/ui/components/cl-button/cl-button",
+    "cl-text": "/node-modules//@/cool/ui/components/cl-text/cl-text"
+  }
+}

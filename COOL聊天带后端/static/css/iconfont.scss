@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "chat-iconfont"; /* Project id 2341078 */
+	src: url("https://at.alicdn.com/t/font_2341078_xtt11v2b6g.woff2?t=1650524262080")
+			format("woff2"),
+		url("https://at.alicdn.com/t/font_2341078_xtt11v2b6g.woff?t=1650524262080") format("woff"),
+		url("https://at.alicdn.com/t/font_2341078_xtt11v2b6g.ttf?t=1650524262080")
+			format("truetype");
+}
+
+[class*="chat-icon-"] {
+	font-family: "chat-iconfont";
+	font-size: inherit;
+	font-style: normal;
+}
+
+.chat-icon-message:before {
+	content: "\e600";
+}
+
+.chat-icon-man:before {
+	content: "\e616";
+}
+
+.chat-icon-woman:before {
+	content: "\e617";
+}
+
+.chat-icon-add-circle:before {
+	content: "\e635";
+}
+
+.chat-icon-microphone:before {
+	content: "\e63e";
+}
+
+.chat-icon-tool-image:before {
+	content: "\e643";
+}
+
+.chat-icon-tool-call:before {
+	content: "\e644";
+}
+
+.chat-icon-tool-folder:before {
+	content: "\e645";
+}
+
+.chat-icon-tool-shoot:before {
+	content: "\e646";
+}
+
+.chat-icon-voice-right:before {
+	content: "\e647";
+}
+
+.chat-icon-voice-left:before {
+	content: "\e650";
+}
+
+.chat-icon-keyboard:before {
+	content: "\e653";
+}
+
+.chat-icon-subtract-circle:before {
+	content: "\e655";
+}
+
+.chat-icon-more:before {
+	content: "\e657";
+}
+
+.chat-icon-play:before {
+	content: "\e664";
+}
+
+.chat-icon-emoji:before {
+	content: "\e6a9";
+}
+
+.chat-icon-tool-video:before {
+	content: "\e75e";
+}
+
+.chat-icon-voice-left1:before {
+	content: "\e75f";
+}
+
+.chat-icon-voice-right1:before {
+	content: "\e760";
+}

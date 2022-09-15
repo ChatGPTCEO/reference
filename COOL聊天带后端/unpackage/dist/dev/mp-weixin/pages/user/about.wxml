@@ -1,0 +1,1 @@
+<cl-page vue-id="0ab2b778-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="page-about"><image class="logo" src="/static/logo.png"></image><text class="name">{{app.info.name}}</text><text class="desc">{{app.info.desc}}</text><text class="version">{{"v"+app.info.version}}</text></view></cl-page>

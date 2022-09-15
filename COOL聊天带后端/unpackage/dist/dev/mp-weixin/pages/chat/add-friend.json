@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加朋友",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-search": "/node-modules//@/cool/ui/components/cl-search/cl-search"
+  }
+}

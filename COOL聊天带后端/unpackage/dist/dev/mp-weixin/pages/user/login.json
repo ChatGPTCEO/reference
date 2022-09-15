@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-topbar": "/node-modules//@/cool/ui/components/cl-topbar/cl-topbar",
+    "cl-button": "/node-modules//@/cool/ui/components/cl-button/cl-button",
+    "cl-checkbox": "/node-modules//@/cool/ui/components/cl-checkbox/cl-checkbox",
+    "cl-divider": "/node-modules//@/cool/ui/components/cl-divider/cl-divider",
+    "cl-text": "/node-modules//@/cool/ui/components/cl-text/cl-text"
+  }
+}

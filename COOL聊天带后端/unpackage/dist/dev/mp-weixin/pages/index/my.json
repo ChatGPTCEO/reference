@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-avatar": "/node-modules//@/cool/ui/components/cl-avatar/cl-avatar",
+    "cl-text": "/node-modules//@/cool/ui/components/cl-text/cl-text",
+    "cl-list": "/node-modules//@/cool/ui/components/cl-list/cl-list",
+    "cl-list-item": "/node-modules//@/cool/ui/components/cl-list-item/cl-list-item"
+  }
+}

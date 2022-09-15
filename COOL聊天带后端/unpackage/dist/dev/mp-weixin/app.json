@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/message",
+    "pages/index/contact",
+    "pages/index/my"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/chat",
+      "pages": [
+        "index",
+        "detail",
+        "user-detail",
+        "add-friend",
+        "add-group"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "set",
+        "edit",
+        "login",
+        "captcha",
+        "about"
+      ]
+    },
+    {
+      "root": "pages/comm",
+      "pages": [
+        "h5"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "酷聊",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f7f7f7"
+  },
+  "tabBar": {
+    "color": "#C7C7C7",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/message",
+        "iconPath": "static/icon/tabbar/message.png",
+        "selectedIconPath": "static/icon/tabbar/message2.png"
+      },
+      {
+        "pagePath": "pages/index/contact",
+        "iconPath": "static/icon/tabbar/contact.png",
+        "selectedIconPath": "static/icon/tabbar/contact2.png"
+      },
+      {
+        "pagePath": "pages/index/my",
+        "iconPath": "static/icon/tabbar/my.png",
+        "selectedIconPath": "static/icon/tabbar/my2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

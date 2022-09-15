@@ -1,0 +1,42 @@
+
+.loading-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 90rpx;
+	padding-top: 10rpx;
+}
+.load-icon {
+	display: block;
+	width: 45rpx;
+	height: 45rpx;
+	margin-right: 12rpx;
+	-webkit-animation: load 1s steps(12) infinite;
+	animation: load 1s steps(12) infinite;
+}
+.load-text {
+	font-size: 28rpx;
+	color: #848c98;
+}
+@-webkit-keyframes load {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+@keyframes load {
+0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn);
+}
+}
+

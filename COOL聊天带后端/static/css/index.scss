@@ -1,0 +1,40 @@
+page {
+	background-color: #f7f7f7;
+	height: 100%;
+
+	& > div {
+		height: 100%;
+	}
+}
+
+.uni-tabbar {
+	&__icon {
+		height: 50rpx !important;
+		width: 50rpx !important;
+	}
+}
+
+.mp-html {
+	p {
+		line-height: normal !important;
+	}
+
+	img {
+		display: block;
+	}
+
+	image {
+		display: block;
+	}
+}
+
+// cl-ui
+.cl-button {
+	&--primary {
+		.cl-button__text {
+			color: #333 !important;
+		}
+	}
+}
+
+@import "./iconfont.scss";

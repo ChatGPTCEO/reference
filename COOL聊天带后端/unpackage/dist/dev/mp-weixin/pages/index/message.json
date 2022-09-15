@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "cl-page": "/node-modules//@/cool/ui/components/cl-page/cl-page",
+    "cl-sticky": "/node-modules//@/cool/ui/components/cl-sticky/cl-sticky",
+    "cl-input": "/node-modules//@/cool/ui/components/cl-input/cl-input",
+    "cl-icon": "/node-modules//@/cool/ui/components/cl-icon/cl-icon",
+    "cl-list-item": "/node-modules//@/cool/ui/components/cl-list-item/cl-list-item",
+    "cl-badge": "/node-modules//@/cool/ui/components/cl-badge/cl-badge",
+    "cl-avatar": "/node-modules//@/cool/ui/components/cl-avatar/cl-avatar",
+    "cl-button": "/node-modules//@/cool/ui/components/cl-button/cl-button"
+  }
+}

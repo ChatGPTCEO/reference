@@ -1,1 +1,0 @@
-<view>用户<tab-bar vue-id="380011e0-1" pagePath="/pages/user/user" bind:__l="__l"></tab-bar></view>

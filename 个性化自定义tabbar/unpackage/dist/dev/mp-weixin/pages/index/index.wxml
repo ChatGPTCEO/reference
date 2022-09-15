@@ -1,1 +1,0 @@
-<view><swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"><swiper-item><view class="swiper-item"></view></swiper-item><swiper-item><view class="swiper-item"></view></swiper-item></swiper><tabbar wx:if="{{a}}" u-i="d697ce10-0" bind:__l="__l" u-p="{{a}}"></tabbar></view>

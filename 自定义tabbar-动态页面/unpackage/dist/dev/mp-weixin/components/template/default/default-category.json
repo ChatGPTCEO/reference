@@ -1,8 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
-    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
-    "long-categories": "/components/category/categoryList"
-  }
-}

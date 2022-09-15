@@ -1,1 +1,0 @@
-<view>首页<tab-bar vue-id="8dd740cc-1" pagePath="/pages/index/index" bind:__l="__l"></tab-bar></view>

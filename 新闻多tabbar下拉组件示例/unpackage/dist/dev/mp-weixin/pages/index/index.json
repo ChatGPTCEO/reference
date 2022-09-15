@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {
-    "uni-tablist": "/components/uni-tablist/uni-tablist"
-  }
-}

@@ -1,0 +1,324 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/quanzi/quanzi",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/jigong/stajigong/stajigong",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "记一笔工",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/yuepai/yuepai",
+			"style": {
+				"navigationBarTitleText": "约拍",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/publish/success",
+			"style": {
+				"navigationBarTitleText": "发布成功"
+			}
+		},
+		{
+			"path": "pages/publish/successYuepai",
+			"style": {
+				"navigationBarTitleText": "发布成功"
+			}
+		},
+
+
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+
+
+		{
+			"path": "pages/yuepai/sinfo",
+			"style": {
+				"navigationBarTitleText": "约拍详情"
+			}
+		},
+		{
+			"path": "pages/yuepai/rinfo",
+			"style": {
+				"navigationBarTitleText": "约拍详情"
+			}
+		},
+		{
+			"path": "pages/yuepai/send",
+			"style": {
+				"navigationBarTitleText": "我发起的约拍"
+			}
+		},
+		{
+			"path": "pages/yuepai/receive",
+			"style": {
+				"navigationBarTitleText": "我收到的约拍"
+			}
+		},
+		{
+			"path": "pages/yuepai/submit",
+			"style": {
+				"navigationBarTitleText": "发起约拍"
+			}
+		},
+		{
+			"path": "pages/yuepai/photo/detail",
+			"style": {
+				"navigationBarTitleText": "作品详情"
+			}
+		},
+		{
+			"path": "pages/yuepai/place/detail",
+			"style": {
+				"navigationBarTitleText": "地点详情"
+				
+			}
+		},
+		{
+			"path": "pages/publish/zuopin",
+			"style": {
+				"navigationBarTitleText": "发布作品"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/yuepai/place/place",
+			"style": {
+				"navigationBarTitleText": "拍摄场地",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/zuopin/mine",
+			"style": {
+				"navigationBarTitleText": "我的作品"
+			}
+		},
+		{
+			"path": "pages/user/fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝/关注"
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "微信登录"
+			}
+		},
+		{
+			"path": "pages/good/mine",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/publish/changdi",
+			"style": {
+				"navigationBarTitleText": "发布场地"
+			}
+		},
+		{
+			"path": "pages/publish/yuepai",
+			"style": {
+				"navigationBarTitleText": "发布约拍"
+			}
+		},
+		{
+			"path": "pages/yuepai/detail/detail",
+			"style": {
+				"navigationBarTitleText": "约拍详情"
+			}
+		},
+		{
+			"path": "pages/publish/quanzi",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+		{
+			"path": "pages/quanzi/comment",
+			"style": {
+				"navigationBarTitleText": "动态详情"
+			}
+		},
+		
+		{
+			"path": "pages/user/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+
+		},
+		{
+			"path": "pages/user/modify/modify",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/yuepai/model/model",
+			"style": {
+				"navigationBarTitleText": "模特热榜",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/yuepai/photo/photo",
+			"style": {
+				"navigationBarTitleText": "相册作品"/* ,
+				"enablePullDownRefresh": true */
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布中心"
+			}
+		},
+		{
+			"path": "pages/yuepai/mine",
+			"style": {
+				"navigationBarTitleText": "我的约拍",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/quanzi/mine",
+			"style": {
+				"navigationBarTitleText": "我的圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/publish/detail",
+			"style": {
+				"navigationBarTitleText": "选择类型"
+			}
+		},
+		{
+			"path": "pages/user/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#554D84"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#554D84"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#554D84"
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+
+		}
+
+		, {
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"navigationBarBackgroundColor": "#554D84",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	    ,{
+            "path" : "pages/jigong/jigong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#554d84",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#554d84",
+		"list": [{
+				"pagePath": "pages/quanzi/quanzi",
+				"iconPath": "static/quanzi.png",
+				"selectedIconPath": "static/quanzi1.png",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/yuepai/yuepai",
+				"iconPath": "static/photo.png",
+				"selectedIconPath": "static/photo1.png",
+				"text": "约拍"
+			},
+			{
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/fabu.png",
+				"selectedIconPath": "static/fabu.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/center.png",
+				"selectedIconPath": "static/center1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

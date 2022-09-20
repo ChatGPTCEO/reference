@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "关注/粉丝",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "zhuige-tab": "/components/zhuige-tab",
-    "zhuige-nodata": "/components/zhuige-nodata"
-  }
-}

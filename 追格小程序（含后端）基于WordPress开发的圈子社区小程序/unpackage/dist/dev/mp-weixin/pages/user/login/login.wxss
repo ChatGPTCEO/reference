@@ -1,0 +1,53 @@
+
+.zhuige-login {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+.zhuige-logo {
+	padding-top: 360rpx;
+}
+.zhuige-logo image {
+	height: 160rpx;
+	width: 160rpx;
+	border-radius: 50%;
+}
+.zhuige-logo view {
+	line-height: 4rem;
+	font-size: 38rpx;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+.zhuige-logo view:nth-child(3) {
+	font-size: 28rpx;
+	font-weight: 400;
+}
+.zhuige-login-btn {
+	position: absolute;
+	width: 100%;
+	bottom: 140rpx;
+}
+.zhuige-button {
+	margin: 0 100rpx;
+	line-height: 100rpx;
+	height: 100rpx;
+	border-radius: 100rpx;
+	font-size: 32rpx;
+	font-weight: 500;
+	margin-bottom: 1.2rem;
+	border: 1rpx solid #EEEEEE;
+	background: none;
+	color: #FFFFFF;
+}
+.zhuige-login-tip {
+	font-size: 22rpx;
+	color: #FFFFFF;
+}
+.zhuige-login-tip text {
+	color: #EEEEEE;
+	text-decoration: underline;
+}
+

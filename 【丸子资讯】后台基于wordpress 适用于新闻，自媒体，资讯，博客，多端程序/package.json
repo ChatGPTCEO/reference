@@ -1,0 +1,19 @@
+{
+    "id": "wanzi-zixun",
+    "name": "【丸子资讯】后台基于wordpress 适用于新闻，自媒体，资讯，博客，多端程序",
+    "version": "1.1.2",
+    "description": "丸子资讯版适用于新闻/自媒体/资讯/博客多端程序，后台基于wordpress",
+    "keywords": [
+        "前端模板",
+        "wordpress",
+        "资讯",
+        "博客",
+        "自媒体"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

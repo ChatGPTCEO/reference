@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "列表",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
-    "zhuige-topic": "/components/zhuige-topic",
-    "zhuige-nodata": "/components/zhuige-nodata"
-  }
-}

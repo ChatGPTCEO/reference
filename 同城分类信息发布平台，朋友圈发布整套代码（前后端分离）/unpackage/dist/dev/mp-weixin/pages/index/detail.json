@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

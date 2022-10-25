@@ -1,0 +1,10 @@
+
+.add.data-v-6eb7b326 {
+	position: fixed;
+	bottom: 280rpx;
+	right: 30rpx;
+	border-radius: 50%;
+	opacity: 0.8;
+	z-index: 9;
+}
+

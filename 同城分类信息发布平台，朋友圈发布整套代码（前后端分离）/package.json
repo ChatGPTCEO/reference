@@ -1,0 +1,19 @@
+{
+    "id": "siddhi-bar",
+    "name": "同城分类信息发布平台，朋友圈发布整套代码（含后端）",
+    "version": "1.1.0",
+    "description": "基于uinapp+uview+thinkphp开发的同城分类信息发布平台， 可打包小程序，h5， app完整前后端，分站管理，直接部署上线即可运营！可以搜索“悉地吧”小程序查看效果",
+    "keywords": [
+        "uniapp-uview-php",
+        "同城分类信息",
+        "完整代码",
+        "朋友圈发布",
+        "小程序h5分站"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

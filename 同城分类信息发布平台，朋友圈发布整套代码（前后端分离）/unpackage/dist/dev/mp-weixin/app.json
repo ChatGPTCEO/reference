@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/square/square",
+    "pages/add/add",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/more/more",
+    "pages/add/create",
+    "pages/index/detail",
+    "pages/user/detail",
+    "pages/message/send",
+    "pages/square/apply",
+    "pages/user/login",
+    "pages/user/profile",
+    "pages/user/apply",
+    "pages/user/setting",
+    "pages/index/search",
+    "pages/user/list",
+    "pages/more/list",
+    "pages/browser/browser",
+    "pages/other/about",
+    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+    "pages/other/feedback",
+    "pages/other/protocol",
+    "pages/other/help"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "悉地吧",
+    "navigationBarBackgroundColor": "#1296db",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/homepage.png",
+        "selectedIconPath": "static/icon/homepage_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "iconPath": "static/icon/browse.png",
+        "selectedIconPath": "static/icon/browse_fill.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "static/icon/addition.png",
+        "selectedIconPath": "static/icon/addition_fill.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/icon/message.png",
+        "selectedIconPath": "static/icon/message_fill.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/people.png",
+        "selectedIconPath": "static/icon/people_fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

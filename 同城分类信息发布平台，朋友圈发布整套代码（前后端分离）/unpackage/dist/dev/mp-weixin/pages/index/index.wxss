@@ -1,0 +1,42 @@
+
+page {
+	background: #f1f1f1;
+}
+.status-bar {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	background: #1296DB;
+	z-index: 9;
+}
+.search-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.6);
+}
+.category {
+	margin-bottom: 10rpx;
+	z-index: 2;
+	box-shadow: 0 10rpx 20rpx 0 rgba(0, 0, 0, 0.1);
+	position: -webkit-sticky;
+	position: sticky;
+}
+.topic {
+	border-radius: 20rpx;
+	margin: 20rpx;
+}
+.warp {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.rect {
+	width: 70%;
+	height: 50%;
+	background: #FFFFFF;
+}
+

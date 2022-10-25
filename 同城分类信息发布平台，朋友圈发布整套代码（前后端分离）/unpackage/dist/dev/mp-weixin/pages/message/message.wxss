@@ -1,0 +1,35 @@
+
+.refresh.data-v-a91f51d4{
+	position: fixed;
+	bottom: 120rpx;
+	right: 40rpx;
+	background: #F1F1F1;
+	padding: 20rpx;
+	border-radius: 20rpx;
+	opacity: 0.8;
+}
+.xuanzhuan.data-v-a91f51d4{
+	-webkit-animation: round-data-v-a91f51d4 .5s linear infinite;
+	        animation: round-data-v-a91f51d4 .5s linear infinite;
+}
+@-webkit-keyframes round-data-v-a91f51d4{
+from{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+@keyframes round-data-v-a91f51d4{
+from{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+

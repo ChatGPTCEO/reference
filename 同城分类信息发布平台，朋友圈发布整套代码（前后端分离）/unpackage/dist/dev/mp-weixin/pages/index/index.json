@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "forum-list-card": "/components/forum-list-card/forum-list-card",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-mask": "/uview-ui/components/u-mask/u-mask",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

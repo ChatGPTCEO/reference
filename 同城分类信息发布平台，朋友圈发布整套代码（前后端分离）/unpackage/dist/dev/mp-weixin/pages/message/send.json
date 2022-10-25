@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

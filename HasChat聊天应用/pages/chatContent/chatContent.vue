@@ -982,17 +982,17 @@
 				}
 			}
 
-			// .popup-layer {
-			// 	transition: all .15s linear;
-			// 	width: 100%;
-			// 	height: 50vw;
-			// 	padding-bottom: 15px;
-			// 	background-color: #fff;
-			// 	border-top: solid 0.5px #ddd;
-			// 	position: fixed;
-			// 	z-index: 20;
-			// 	top: 100%;
-			// 	padding-top: 40rpx;
+			.popup-layer {
+				transition: all .15s linear;
+				width: 100%;
+				height: 50vw;
+				padding-bottom: 15px;
+				background-color: #fff;
+				border-top: solid 0.5px #ddd;
+				position: fixed;
+				z-index: 20;
+				top: 100%;
+				padding-top: 40rpx;
 
 				.toolUl {
 					width: 100%;

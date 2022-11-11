@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/conversations/conversations",
+    "pages/login/login",
+    "pages/contacts/contacts",
+    "pages/mine/mine",
+    "pages/chat/privateChat/privateChat",
+    "pages/chat/groupChat/groupChat",
+    "pages/chat/groupChat/member"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F3F4F7",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#454750",
+    "selectedColor": "#618DFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F7F7",
+    "height": "60px",
+    "list": [
+      {
+        "pagePath": "pages/conversations/conversations",
+        "text": "信息",
+        "iconPath": "static/images/chat.png",
+        "selectedIconPath": "static/images/chat-active.png"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "text": "通讯录",
+        "iconPath": "static/images/contacts.png",
+        "selectedIconPath": "static/images/contacts-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我",
+        "iconPath": "static/images/mine.png",
+        "selectedIconPath": "static/images/mine-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

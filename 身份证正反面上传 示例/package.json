@@ -1,0 +1,17 @@
+{
+    "id": "Rboy-upload-sfz",
+    "name": "身份证正反面上传 ",
+    "version": "1.0.1",
+    "description": "身份证正反面上传 预览 删除",
+    "keywords": [
+        "身份证",
+        "上传",
+        "预览"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/chat/list",
+    "pages/chat/chat",
+    "pages/user/signIn",
+    "pages/user/signUp",
+    "pages/user/me",
+    "pages/addressBook/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "IM",
+    "navigationBarBackgroundColor": "#F7F7F7",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#1441B8",
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "list": [
+      {
+        "pagePath": "pages/chat/list",
+        "iconPath": "static/tab/chat.png",
+        "selectedIconPath": "static/tab/chat-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/addressBook/index",
+        "iconPath": "static/tab/address-book.png",
+        "selectedIconPath": "static/tab/address-book-active.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/user/me",
+        "iconPath": "static/tab/user.png",
+        "selectedIconPath": "static/tab/user-active.png",
+        "text": "用户中心"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

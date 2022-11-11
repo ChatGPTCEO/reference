@@ -1,0 +1,226 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fafafa;
+    padding-bottom: 32rpx;
+}
+
+.resume-p {
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    font-size: 28rpx;
+}
+
+.resume-p,
+.resume-tips {
+    width: 100%;
+    color: #9c9c9c;
+}
+
+.resume-tips {
+    height: 76rpx;
+    line-height: 76rpx;
+    font-size: 24rpx;
+    padding: 0 32rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.info-item {
+    width: 100%;
+    border-bottom: 2rpx solid #f3f4f5;
+    background: #fff url('https://qiniu-image.qtshe.com/20190516icon_cell_more@2x.png') no-repeat 686rpx;
+    background-size: 36rpx 36rpx;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 72rpx 0 36rpx;
+    align-items: center;
+}
+
+.info-item.change {
+    border-bottom: none;
+}
+
+.info-item.active {
+    background: #fff;
+}
+
+.info-item input {
+    height: 100rpx;
+    line-height: 100rpx;
+    border: none;
+    text-align: right;
+    width: 500rpx;
+}
+
+.mt32 {
+    margin-top: 32rpx;
+    padding-right: 32rpx;
+}
+
+.info-title {
+    width: 200rpx;
+    line-height: 100rpx;
+}
+
+.info-text {
+    width: 100%;
+    line-height: 40rpx;
+}
+
+.save-btn {
+    width: 686rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 32rpx;
+    background: #0c8;
+    border-radius: 8rpx;
+    margin: 32rpx;
+}
+
+.save-btn.active {
+    position: static;
+    bottom: auto;
+}
+
+.create-add {
+    width: 100%;
+    height: 100rpx;
+    background: #fff url('https://qiniu-image.qtshe.com/20190605add.png') no-repeat 270rpx;
+    font-size: 28rpx;
+    background-size: 28rpx 28rpx;
+    text-align: center;
+    color: #3c3c3c;
+    padding-left: 32rpx;
+    line-height: 100rpx;
+}
+
+.education-contaner,
+.education-info {
+    width: 100%;
+    background: #fff;
+}
+
+.education-info {
+    display: flex;
+    padding: 32rpx;
+    border-bottom: 2rpx solid #f3f4f5;
+    justify-content: space-between;
+}
+
+.education-detail {
+    width: 620rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-name {
+    width: 100%;
+    font-size: 32rpx;
+    color: #3c3c3c;
+    font-weight: 600;
+    margin-bottom: 16rpx;
+}
+
+.education-year {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28rpx;
+    color: #9c9c9c;
+}
+
+.education-year text:nth-of-type(1) {
+    margin-right: 32rpx;
+}
+
+.education-edit {
+    color: #0c8;
+    font-size: 28rpx;
+}
+
+.work-resume {
+    width: 100%;
+    height: 284rpx;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.create-works {
+    width: 212rpx;
+    height: 40rpx;
+    background: url('https://qiniu-image.qtshe.com/20190605add.png') no-repeat 0;
+    font-size: 28rpx;
+    background-size: 28rpx 28rpx;
+    text-align: center;
+    color: #3c3c3c;
+    padding-left: 32rpx;
+}
+
+.jobtype-list {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    padding: 0 32rpx 16rpx;
+    flex-wrap: wrap;
+}
+
+.jobtype-item {
+    border: 2rpx solid #0c8;
+    color: #0c8;
+    font-size: 24rpx;
+    overflow: hidden;
+    padding: 16rpx;
+    background: rgba(0, 204, 136, 0.1);
+    border-radius: 8rpx;
+    margin-right: 32rpx;
+    line-height: 1;
+    margin-bottom: 16rpx;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6c6c6c;
+    font-size: 28rpx;
+    font-weight: 400;
+}
+
+.exp image {
+    display: block;
+    width: 48rpx;
+    height: 48rpx;
+    margin-right: 8rpx;
+}
+
+.exp-item {
+    display: flex;
+    align-items: center;
+}
+
+.exp-item.active {
+    color: #3c3c3c;
+}
+
+.margin-left-80 {
+    margin-left: 80rpx;
+}

@@ -1,0 +1,53 @@
+view,
+text,
+swiper,
+input,
+scroll-view{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 28rpx;
+	box-sizing: border-box;
+}
+
+/*flex布局*/
+.flex-flow{
+	display: flex;
+	flex-flow: row wrap;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/*文本截取*/
+.text-ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*间距*/
+.space{
+	height: 20rpx;
+}
+.space.small{
+	height: 10rpx;
+}
+.space.big{
+	height: 30rpx;
+}
+
+/*容器*/
+.container{
+	min-height: 100vh;
+	background-color: #F9F9F9;
+}

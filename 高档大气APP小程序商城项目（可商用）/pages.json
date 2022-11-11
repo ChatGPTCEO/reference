@@ -1,0 +1,648 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							"color": "#6C757D",
+							"fontSize": "16",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			//会员中心
+			"path": "pages/user/user",
+			"style": {
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "会员中心",
+						"buttons": [{
+								"float": "right",
+								"fontSrc": "/static/common/css/iconfont.ttf",
+								"text": "\ue60f",
+								"color": "#313131",
+								"fontSize": "24",
+								"background": "rgba(0,0,0,0)"
+							},
+							{
+								"float": "right",
+								"fontSrc": "/static/common/css/iconfont.ttf",
+								"text": "\ue608",
+								"color": "#313131",
+								"fontSize": "22",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/product/list",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "rgba(223, 223, 223,.6)",
+							"disabled": true,
+							"placeholderColor": "#606266",
+							"placeholder": "请输入搜索商品",
+							"borderRadius": "15px"
+						},
+						"buttons": [{
+							"fontSrc": "/static/common/css/iconfont.ttf",
+							"text": "\ue692",
+							"float": "right",
+							"fontSize": "32",
+							"color": "#4b4b4b"
+						}]
+					}
+				}
+			}
+		},{
+			"path": "pages/product/category-product",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "分类商品",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/promotion/newproducts",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/promotion/seckill",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/promotion/selected-list",
+			"style": {
+				"navigationBarTitleText": "精品推荐",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/promotion/hotproducts-list",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/promotion/hotproducts-list-two",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			//会员中心
+			"path": "pages/product/product",
+			"style": {
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "商品详情",
+						"buttons": [{
+							"float": "right",
+							"fontSrc": "/static/common/css/iconfont.ttf",
+							"text": "\ue63c",
+							"color": "#313131",
+							"fontSize": "18",
+							"background": "rgba(0,0,0,.6)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#f61f1b",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/establishorder",
+			"style": {
+				"navigationBarTitleText": "创建订单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/pay/pay",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"transparentTitle": "always",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			//登陆页面
+			"path": "pages/public/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/configure/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/configure/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/configure/editaddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/chat/privateChat",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/chat/groupChat",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/configure/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user/configure/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/apply-distribution/apply-distribution",
+			"style": {
+				"navigationBarTitleText": "成为推广员",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/distribution-status/distribution-status",
+			"style": {
+				"navigationBarTitleText": "推广员进度",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/my-subordinate/my-subordinate",
+			"style": {
+				"navigationBarTitleText": "我的下级",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/distribution-center/distribution-center",
+			"style": {
+				"navigationBarTitleText": "推广中心",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/choice-distribution-goods/choice-distribution-goods",
+			"style": {
+				"navigationBarTitleText": "挑选分销商品",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/my-stores/my-stores",
+			"style": {
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarTitleText": "我的小店",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/application-profit/application-profit",
+			"style": {
+				"navigationBarTitleText": "申请提现",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/profit-details/profit-details",
+			"style": {
+				"navigationBarTitleText": "收益详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/distribution-orders/distribution-orders",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/withdrawal-list/withdrawal-list",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/distribution/my-distribution-info/my-distribution-info",
+			"style": {
+				"navigationBarTitleText": "我的推广信息",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/marketing/coupon/my-coupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/marketing/coupon/receive-coupon",
+			"style": {
+				"navigationBarTitleText": "领券中心",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/brand/brand-list",
+			"style": {
+				"navigationBarTitleText": "品牌街",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/brand/brand-goods",
+			"style": {
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "大牌商品"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/marketing/my-red-envelope-list/my-red-envelope-list",
+			"style": {
+				"navigationBarTitleText": "我的红包",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/boost/boost-center",
+			"style": {
+				"navigationBarTitleText": "助力列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/boost/boost-launch-detail",
+			"style": {
+				"navigationBarTitleText": "助力详情",
+				"navigationBarBackgroundColor": "#F74951",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/user-collection/user-collection",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/product/add-evaluate",
+			"style": {
+				"navigationBarTitleText": "评价商品",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/product/goods-evaluate-list",
+			"style": {
+				"navigationBarTitleText": "商品评价",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		},
+		{
+			"path":"pages/article/article-list",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path":"pages/article/article-list-video",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path":"pages/article/article-mall",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path":"pages/article/article-details",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path":"pages/article/article-video",
+			"style": {
+				// #ifdef MP-WEIXIN
+				"navigationStyle": "custom",
+				// #endif
+				"navigationBarBackgroundColor": "#000",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path":"pages/article/article-release",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/group-buying/group-list",
+            "style" :
+            {
+                "navigationBarTitleText": "超值拼团",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/group-buying/my-group-buying",
+            "style" :
+            {
+                "navigationBarTitleText": "我的拼团",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/group-buying/my-group-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "拼团详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "土豆丁爱购",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 200
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"fontSize": "12",
+		"selectedColor": "#333333",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/common/img/home.png",
+				"selectedIconPath": "static/common/img/take-home.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/category/category",
+				"iconPath": "static/common/img/category.png",
+				"selectedIconPath": "static/common/img/take-category.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/common/img/cart.png",
+				"selectedIconPath": "static/common/img/take-cart.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/common/img/my.png",
+				"selectedIconPath": "static/common/img/take-my.png"
+			}
+		]
+	}
+}

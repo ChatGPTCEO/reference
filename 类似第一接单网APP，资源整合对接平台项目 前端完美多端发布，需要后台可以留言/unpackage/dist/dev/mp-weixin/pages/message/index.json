@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "usingComponents": {
+    "u-swipe-action": "/node-modules/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-swipe-action-item": "/node-modules/uview-ui/components/u-swipe-action-item/u-swipe-action-item",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "customtop2": "/components/customtop2"
+  }
+}

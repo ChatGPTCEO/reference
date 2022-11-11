@@ -1,0 +1,137 @@
+.store_list {
+    .store {
+        background: #fff;
+        border-radius: 20rpx;
+        position: relative;
+        padding-top: 10rpx;
+        .main_img {
+            width: 220rpx;
+            height: 220rpx;
+            border-radius: 10rpx;
+        }
+
+        .store_info {
+            height: 200rpx;
+            // width: 100%;
+            width: 470rpx;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+
+            .title {
+                font-size: 32rpx;
+                font-family: PingFang SC;
+                font-weight: bold;
+                color: #000000;
+                width: 80%;
+            }
+
+            .flex {
+                font-size: 26rpx;
+                font-family: PingFang SC;
+                font-weight: 400;
+                color: #666666;
+                width: 100%;
+                flex-direction: row;
+                align-items: center;
+
+                .time {}
+
+                .fen {
+                    font-size: 32rpx;
+                    font-family: Arial;
+                    font-weight: 400;
+                    color: $main_color;
+                }
+            }
+
+            .tags {
+                // margin-top: auto;
+
+                .typenei,
+                .typewai {
+                    // margin-left: auto;
+                    width: 79rpx;
+                    height: 37rpx;
+                    border-radius: 6rpx;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .typenei {
+                    background: #FF4C5C;
+
+                }
+
+                .typewai {
+                    background: #47A4F6;
+                }
+
+                .tag {
+                    background: fade-out($main_color, .9);
+                    border-radius: 4rpx;
+                    padding: 3rpx 10rpx;
+                    margin-right: 10rpx;
+                    font-size: 24rpx;
+                    font-family: PingFang SC;
+                    font-weight: 500;
+                    color: $main_color;
+                    margin-left: 30rpx;
+                }
+            }
+
+            .flex,
+            .tags {
+                // margin-top: auto;
+            }
+
+        }
+    }
+}
+
+.store_close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100rpx;
+    height: 42rpx;
+} .typenei,
+.typewai {
+    // margin-left: auto;
+    width: 79rpx;
+    height: 37rpx;
+    border-radius: 6rpx;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typenei {
+    background: $main_color;
+
+}
+
+.typewai {
+    background: #47A4F6;
+}
+
+
+switch[checked] .wx-switch-input.wx-switch-input-checked,
+checkbox[checked] .wx-checkbox-input,
+radio[checked] .wx-radio-input,
+switch.checked .uni-switch-input.uni-switch-input-checked,
+checkbox.checked .uni-checkbox-input,
+radio.checked .uni-radio-input {
+    background-color: $main_color !important;
+    border-color: $main_color !important;
+    color: #ffffff !important;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

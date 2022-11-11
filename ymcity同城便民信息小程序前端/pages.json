@@ -1,0 +1,491 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/news/news",
+		"style": {
+			"navigationBarTitleText": "头条",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#ffffff"
+		}
+
+	}, {
+		"path": "pages/find/find",
+		"style": {
+			"navigationBarTitleText": "商家",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#ffffff"
+		}
+
+	}, {
+		"path": "pages/user/user",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#ffffff"
+		}
+
+	}, {
+		"path": "pages/push/push",
+		"style": {
+			"navigationBarTitleText": "发布",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#ffffff"
+		}
+
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom",
+			"navigationBarTextStyle": "white"
+		}
+
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarTitleText": "注册",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom",
+			"navigationBarTextStyle": "white"
+		}
+
+	}, {
+		"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+		"style": {
+			"navigationBarTitleText": "头像裁剪",
+			"navigationBarBackgroundColor": "#000000"
+		}
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": "搜索",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/yonghu/yonghu",
+		"style": {
+			"navigationStyle": "custom", // 隐藏系统导航栏
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"subPackages": [{
+		"root": "pagesIndex",
+		"pages": [{
+			"path": "job/job",
+			"style": {
+				"navigationBarTitleText": "全部招聘",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "jobmain/jobmain",
+			"style": {
+				"navigationBarTitleText": "招聘详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "house/house",
+			"style": {
+				"navigationBarTitleText": "房屋租售",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "houselist/houselist",
+			"style": {
+				"navigationBarTitleText": "房源列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "storehouse/storehouse",
+			"style": {
+				"navigationBarTitleText": "商铺列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "car/car",
+			"style": {
+				"navigationBarTitleText": "二手车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "goods/goods",
+			"style": {
+				"navigationBarTitleText": "物品交易",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "farming/farming",
+			"style": {
+				"navigationBarTitleText": "农林牧渔",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "transfer/transfer",
+			"style": {
+				"navigationBarTitleText": "生意转让",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "ask/ask",
+			"style": {
+				"navigationBarTitleText": "需求打听",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "carpool/carpool",
+			"style": {
+				"navigationBarTitleText": "拼车出行",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "promote/promote",
+			"style": {
+				"navigationBarTitleText": "本地推广",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "resume/resume",
+			"style": {
+				"navigationBarTitleText": "找人才",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "resumemain/resumemain",
+			"style": {
+				"navigationBarTitleText": "简历详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "housemain/housemain",
+			"style": {
+				"navigationBarTitleText": "房屋详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "carmain/carmain",
+			"style": {
+				"navigationBarTitleText": "车辆详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "goodsmain/goodsmain",
+			"style": {
+				"navigationBarTitleText": "物品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "farmingmain/farmingmain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "transfermain/transfermain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "askmain/askmain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "promotemain/promotemain",
+			"style": {
+				"navigationBarTitleText": "推广详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "carpoolmain/carpoolmain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}, {
+		"root": "pagesNews",
+		"pages": [{
+			"path": "newsmain/newsmain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}, {
+		"root": "pagesPush",
+		"pages": []
+	}, {
+		"root": "pagesFind",
+		"pages": [{
+			"path": "storemain/storemain",
+			"style": {
+				"navigationBarTitleText": "商家详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "storelist/storelist",
+			"style": {
+				"navigationBarTitleText": "商家列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "storecomment/storecomment",
+			"style": {
+				"navigationBarTitleText": "全部评价",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "addcomment/addcomment",
+			"style": {
+				"navigationBarTitleText": "发表点评",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "add_store/add_store",
+			"style": {
+				"navigationBarTitleText": "申请入驻",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "store_pay/store_pay",
+			"style": {
+				"navigationBarTitleText": "入驻缴费",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}, {
+		"root": "pagesUser",
+		"pages": [{
+			"path": "msg/msg",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "setting/setting",
+			"style": {
+				"navigationBarTitleText": "系统设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "nickname/nickname",
+			"style": {
+				"navigationBarTitleText": "设置昵称",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "mobile/mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "password/password",
+			"style": {
+				"navigationBarTitleText": "更换密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "resume/resume",
+			"style": {
+				"navigationBarTitleText": "我的简历",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "job/job",
+			"style": {
+				"navigationBarTitleText": "招聘信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "house/house",
+			"style": {
+				"navigationBarTitleText": "房产信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "car/car",
+			"style": {
+				"navigationBarTitleText": "车辆信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "commodity/commodity",
+			"style": {
+				"navigationBarTitleText": "物品信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "farming/farming",
+			"style": {
+				"navigationBarTitleText": "农林牧渔",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "transfer/transfer",
+			"style": {
+				"navigationBarTitleText": "生意转让",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "ask/ask",
+			"style": {
+				"navigationBarTitleText": "需求打听",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "promote/promote",
+			"style": {
+				"navigationBarTitleText": "本地推广",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "collect/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "textmain/textmain",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "carpool/carpool",
+			"style": {
+				"navigationBarTitleText": "拼车管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pay_result/pay_result",
+			"style": {
+				"navigationBarTitleText": "支付结果",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#f44c01",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/images/circle.png",
+				"selectedIconPath": "static/images/circle-on.png",
+				"text": "头条"
+			},
+			{
+				"pagePath": "pages/push/push",
+				"iconPath": "static/images/publish.png",
+				"selectedIconPath": "static/images/publish-on.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/images/find.png",
+				"selectedIconPath": "static/images/find-on.png",
+				"text": "商家"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/my.png",
+				"selectedIconPath": "static/images/my-on.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "HiCity",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,114 @@
+page {
+  padding-bottom: 30rpx;
+}
+.account_index .top {
+	padding: 40rpx 0;
+	overflow: hidden;
+}
+.account_index .top .avatar {
+	float: left;
+}
+.account_index .top .avatar img {
+	width: 110rpx;
+	height: 110rpx;
+	border-radius: 50%;
+	vertical-align: top;
+  object-fit: cover;
+}
+.account_index .top .left .info {
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.account_index .top .left .info .name {
+	font-weight: 600;
+}
+.account_index .top .left .info .name i {
+	margin-left: 5px;
+	color: #999;
+	font-size: 24rpx;
+	font-weight: 400;
+}
+.account_index .top .left .info .tags .sex-icon {
+	font-size: 24rpx;
+	font-weight: 400;
+}
+.account_index .top .left .info .tags .sex-icon.man {
+	color: #007AFF;
+}
+.account_index .top .left .info .tags .sex-icon.woman {
+	color: #ff4b9f;
+}
+.account_index .top .left .info .tags span {
+	font-size: 24rpx;
+	color: #999;
+}
+.account_index .money {
+	font-size: 28rpx;
+	border-radius: 3px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 15px 0 10px 0;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.account_index .money .item {
+	text-align: center;
+}
+.account_index .money .item img {
+	width: 27px;
+	height: 27px;
+	margin-bottom: 5px;
+}
+.account_index .items {
+	border-radius: 3px;
+	margin-bottom: 30rpx;
+	background-color: #fff;
+}
+.account_index .items {
+	border-radius: 3px;
+	margin-bottom: 30rpx;
+	background-color: #fff;
+}
+.account_index .items:last-child {
+	margin-bottom: 0;
+}
+.account_index .items .item {
+	height: 110rpx;
+	line-height: 110rpx;
+	margin: 0 auto;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 0 30rpx;
+	overflow: hidden;
+	display: block;
+}
+.account_index .items .item:last-child {
+	border: none;
+}
+.account_index .items .item .left {
+	float: left;
+}
+.account_index .items .item .left i {
+	margin-right: 6px;
+  display: inline-block;
+}
+.account_index .items .item .right {
+	float: right;
+}
+.account_index .items .item .right i {
+	color: #999;
+	font-size: 24rpx;
+}
+.account_index .items .item .right span {
+	margin-right: 5px;
+  color: #999;
+  font-size: 28rpx;
+}
+.account_index .items .item.about {
+	text-align: center;
+	color: #999;
+	letter-spacing: 2px;
+  font-size: 24rpx;
+}

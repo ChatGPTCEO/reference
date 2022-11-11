@@ -1,0 +1,12 @@
+.rate-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rate-icon {
+    display: block;
+    width: 16rpx;
+    height: 16rpx;
+    margin-right: 2rpx;
+}

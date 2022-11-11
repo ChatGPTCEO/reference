@@ -1,0 +1,253 @@
+@import './mixins.scss';
+
+// flex布局
+.g-inflex {
+	@include inflex;
+}
+
+.g-inflex-x-c {
+	@include flex;
+	justify-content: center;
+}
+
+.g-inflex-y-c {
+	@include inflex;
+	align-items: center;
+}
+
+.g-inflex-xy-c {
+	@include flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.g-flex {
+	@include flex;
+}
+
+.g-flex-col {
+	@include flex(column);
+}
+
+.g-flex-x-c {
+	@include flex;
+	justify-content: center;
+}
+
+.g-flex-y-c {
+	@include flex;
+	align-items: center;
+}
+
+.g-flex-xy-c {
+	@include flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.g-flex-x-sa-y-c{
+  @include flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-flex-x-sb-y-c{
+  @include flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-flex-x-r {
+	flex-direction: row-reverse;
+}
+
+.g-flex-y-r {
+	flex-direction: column-reverse;
+}
+
+/* #ifndef APP-NVUE */
+// 此处为vue版本的简写，因为nvue不支持同时作用于两个类名的样式写法
+// nvue下只能写成class="g-flex-x g-flex-x-reverse的形式"
+.g-flex.g-flex-reverse,
+.g-flex-row.g-flex-reverse,
+.g-flex-x.g-flex-reverse {
+	flex-direction: row-reverse;
+}
+
+.g-flex-column.g-flex-reverse,
+.g-flex-y.g-flex-reverse {
+	flex-direction: column-reverse;
+}
+
+// 自动伸缩
+.g-flex-fill {
+	flex: 1 1 auto
+}
+
+// 边界自动伸缩
+.g-margin-top-auto,
+.g-m-t-auto {
+	margin-top: auto !important
+}
+
+.g-margin-right-auto,
+.g-m-r-auto {
+	margin-right: auto !important
+}
+
+.g-margin-bottom-auto,
+.g-m-b-auto {
+	margin-bottom: auto !important
+}
+
+.g-margin-left-auto,
+.g-m-l-auto {
+	margin-left: auto !important
+}
+
+.g-margin-center-auto,
+.g-m-c-auto {
+	margin-left: auto !important;
+	margin-right: auto !important
+}
+
+.g-margin-middle-auto,
+.g-m-m-auto {
+	margin-top: auto !important;
+	margin-bottom: auto !important
+}
+/* #endif */
+
+// 换行
+.g-f-wrap {
+	flex-wrap: wrap;
+}
+
+// 反向换行
+.g-f-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+// 主轴起点对齐
+.g-f-fs {
+	justify-content: flex-start
+}
+
+// 主轴中间对齐
+.g-f-c {
+	justify-content: center
+}
+
+// 主轴终点对齐
+.g-f-fe {
+	justify-content: flex-end
+}
+
+// 主轴等比间距
+.g-f-sb {
+	justify-content: space-between
+}
+
+// 主轴均分间距
+.g-f-sa {
+	justify-content: space-around
+}
+
+// 交叉轴起点对齐
+.g-f-y-fs {
+	align-items: flex-start
+}
+
+// 交叉轴中间对齐
+.g-f-y-c {
+	align-items: center
+}
+
+// 交叉轴终点对齐
+.g-f-y-fe {
+	align-items: flex-end
+}
+
+// 交叉轴第一行文字基线对齐
+.g-f-y-b {
+	align-items: baseline
+}
+
+// 交叉轴方向拉伸对齐
+.g-f-y-s {
+	align-items: stretch
+}
+
+
+// 以下属于项目(子元素)的类
+
+// 子元素交叉轴起点对齐
+.g-flex-self-start {
+	align-self: flex-start
+}
+
+// 子元素交叉轴居中对齐
+.g-flex-self-center {
+	align-self: center
+}
+
+// 子元素交叉轴终点对齐
+.g-flex-self-end {
+	align-self: flex-end
+}
+
+// 子元素交叉轴第一行文字基线对齐
+.g-flex-self-baseline {
+	align-self: baseline
+}
+
+// 子元素交叉轴方向拉伸对齐
+.g-flex-self-stretch {
+	align-self: stretch
+}
+
+// 多轴交叉时的对齐方式
+
+// 起点对齐
+.g-flex-content-start {
+	align-content: flex-start
+}
+
+// 居中对齐
+.g-flex-content-center {
+	align-content: center
+}
+
+// 终点对齐
+.g-flex-content-end {
+	align-content: flex-end
+}
+
+// 两端对齐
+.g-flex-content-between {
+	align-content: space-between
+}
+
+// 均分间距
+.g-flex-content-around {
+	align-content: space-around
+}
+
+// 全部居中对齐
+.g-flex-middle {
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	align-content: center
+}
+
+// 是否可以放大
+.g-flex-grow {
+	flex-grow: 1
+}
+
+// 是否可以缩小
+.g-flex-shrink {
+	flex-shrink: 1
+}
+

@@ -1,0 +1,39 @@
+
+page {
+  padding-bottom: 30rpx;
+}
+.luckbox {
+  margin-top: 30rpx;
+}
+.introduce .bd {
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+.flow .item {
+	margin-bottom: 10px;
+}
+.flow .item:last-child {
+	margin-bottom: 0;
+}
+.flow .item ._span:first-child {
+	margin-right: 12px;
+	background-color: #00B38A;
+	color: #fff;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+}
+.btn_box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.btn_box .luckbtn {
+  width: 48%;
+}
+

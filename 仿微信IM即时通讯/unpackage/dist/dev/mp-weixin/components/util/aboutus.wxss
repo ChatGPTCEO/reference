@@ -1,0 +1,6 @@
+
+.about-bottom{position: fixed; bottom: 12vh; width: 100%; left: 0;}
+.fullscreen>.screen-swiper{height: 100%;}
+.fullscreen{width: 100%; top: 0px; left: 0; bottom: 0; position: absolute;}
+.fullscreen.isfooter{bottom: 50px;}
+

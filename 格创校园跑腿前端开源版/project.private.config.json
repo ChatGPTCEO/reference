@@ -1,0 +1,330 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "原首页",
+          "pathName": "gc_school/pages/index/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=930",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "用户中心",
+          "pathName": "gc_school/pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "地址列表",
+          "pathName": "gc_school/pages/address/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "订单列表",
+          "pathName": "gc_school/pages/order/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "订单详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=338",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "抢单中心",
+          "pathName": "gc_school/pages/grab/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手市场",
+          "pathName": "gc_school/pages/second/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "gc_school/pages/search/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "添加二手",
+          "pathName": "gc_school/pages/addsecond/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的二手个人中心",
+          "pathName": "gc_school/pages/secondhand/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "推送",
+          "pathName": "gc_school/pages/ence_push/ence_push",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "注册",
+          "pathName": "gc_school/pages/register/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "食堂",
+          "pathName": "gc_school/pages/canteen/canteen",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的抢单",
+          "pathName": "gc_school/pages/mygrab/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订单详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "提现",
+          "pathName": "gc_school/pages/replay/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "添加二手",
+          "pathName": "gc_school/pages/addsecond/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手市场新",
+          "pathName": "gc_school/pages/secondhand/index",
+          "query": "s_id=52",
+          "scene": null
+        },
+        {
+          "name": "二手分类列表",
+          "pathName": "gc_school/pages/secondhand/cate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的二手新",
+          "pathName": "gc_school/pages/secondhand/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手市场收藏",
+          "pathName": "gc_school/pages/secondfav/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手市场足迹",
+          "pathName": "gc_school/pages/secondhand/footprint",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的关注",
+          "pathName": "gc_school/pages/follow/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的宝贝",
+          "pathName": "gc_school/pages/secondhand/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手详情新",
+          "pathName": "gc_school/pages/secondhand/detail",
+          "query": "id=40",
+          "scene": null
+        },
+        {
+          "name": "订单详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=586",
+          "scene": null
+        },
+        {
+          "name": "发布",
+          "pathName": "gc_school/pages/public/index",
+          "query": "type=4",
+          "scene": null
+        },
+        {
+          "name": "食堂超市",
+          "pathName": "gc_school/pages/public/index",
+          "query": "type=3",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "gc_school/pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "二手市场下单",
+          "pathName": "gc_school/pages/secondhand/buy",
+          "query": "id=67",
+          "scene": null
+        },
+        {
+          "name": "我的宝贝",
+          "pathName": "gc_school/pages/secondhand/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "gc_school/pages/secondhand/orderdetail",
+          "pathName": "gc_school/pages/secondhand/orderdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "失物招领",
+          "pathName": "gc_school/pages/lost/index",
+          "query": "s_id=52",
+          "scene": null
+        },
+        {
+          "name": "失物招领发布",
+          "pathName": "gc_school/pages/lost/post",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "gc_school/pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "失物招领搜索",
+          "pathName": "gc_school/pages/lost/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "gc_school/pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "原首页",
+          "pathName": "gc_school/pages/homes/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "论坛文章发布",
+          "pathName": "gc_school/pages/article/post",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "论坛列表",
+          "pathName": "gc_school/pages/article/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "auth页面",
+          "pathName": "gc_school/pages/auth/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "gc_school/pages/lost/detail",
+          "pathName": "gc_school/pages/lost/detail",
+          "query": "id=30",
+          "scene": null
+        },
+        {
+          "name": "圈子",
+          "pathName": "gc_school/pages/article/index",
+          "query": "s_id=48",
+          "scene": null
+        },
+        {
+          "name": "我的小店",
+          "pathName": "gc_school/pages/shop/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商家商品",
+          "pathName": "gc_school/pages/shop/goods",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "添加商家商品",
+          "pathName": "gc_school/pages/shop/addgoods",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商家分类",
+          "pathName": "gc_school/pages/shop/cate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商家订单列表",
+          "pathName": "gc_school/pages/shop/order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的小店新",
+          "pathName": "gc_school/pages/shop/my",
+          "query": "id=72",
+          "scene": null
+        },
+        {
+          "name": "商家分类列表",
+          "pathName": "gc_school/pages/canteen/canteen",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

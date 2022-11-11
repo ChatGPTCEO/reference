@@ -1,0 +1,121 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+    {
+      "path": "pages/community/index",
+			"style": {
+        "navigationStyle": "custom"
+			}
+    }, {
+      "path": "pages/community/components/cardDetail",
+			"style": {
+				"navigationBarTitleText": "Guard"
+			}
+    }, {
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "Guard",
+        "app-plus": {  
+          "titleNView": {  
+            "buttons": [{
+              "text": "\ue600",
+              "fontSrc": "/static/font/uni.ttf", 
+              "fontSize": "22px",
+              "width": "34px"
+            }, {
+              "text": "\ue7ac",
+              "fontSrc": "/static/font/uni.ttf", 
+              "fontSize": "22px",
+              "width": "26px"
+            }]
+          }  
+        }
+			}
+		}, {
+      "path": "pages/message/components/msgChart",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+    }, {
+			"path": "pages/mailList/index",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+        "app-plus": {  
+          "titleNView": {  
+            "buttons": [{
+              "text": "\ue600",
+              "fontSrc": "/static/font/uni.ttf", 
+              "fontSize": "22px",
+              "width": "34px"
+            }, {
+              "text": "\ue7ac",
+              "fontSrc": "/static/font/uni.ttf", 
+              "fontSize": "22px",
+              "width": "26px"
+            }]
+          }  
+        }  
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+      "path": "pages/mine/components/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+    }, {
+      "path": "pages/mine/components/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+    }, {
+      "path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"blurEffect": "extralight",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"fontSize": "12px",
+		"color": "#524e4e",
+		"selectedColor": "#4a6498",
+		"list": [
+			{
+				"pagePath": "pages/community/index",
+				"text": "社区",
+				"iconPath": "static/img/shequ-tab.png",
+				"selectedIconPath": "static/img/shequ-tab-active.png"
+			}, {
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "static/img/msg-tab.png",
+				"selectedIconPath": "static/img/msg-tab-active.png"
+			}, {
+				"pagePath": "pages/mailList/index",
+				"text": "通讯录",
+				"iconPath": "static/img/txl-tab.png",
+				"selectedIconPath": "static/img/txl-tab-active.png"
+			}, {
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/img/person-tab.png",
+				"selectedIconPath": "static/img/person-tab-active.png"
+			}
+		]
+	}
+}

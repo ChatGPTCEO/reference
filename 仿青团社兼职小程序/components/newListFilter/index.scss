@@ -1,0 +1,339 @@
+.filter-list {
+    padding: 32rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+
+.filter-list.label-filter {
+    border-radius: 32rpx 32rpx 0 0;
+}
+
+.filter-list.new-label {
+    background: transparent;
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+}
+
+.filter-title {
+    color: #808999;
+    font-size: 24rpx;
+}
+
+.filter-text {
+    position: relative;
+    border: 2rpx solid #eff2f4;
+    height: 56rpx;
+    border-radius: 8rpx;
+    color: #586173;
+    font-size: 24rpx;
+    padding: 0 32rpx 0 16rpx;
+    display: flex;
+    align-items: center;
+    margin-right: 16rpx;
+}
+
+.search-filter-box .filter-text {
+    margin-left: 16rpx;
+    margin-right: 0;
+}
+
+.filter-text.label {
+    background: #fff;
+    border: 2rpx solid #eff2f4;
+}
+
+.filter-box.label-box {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.label-box .filter-text {
+    margin-left: 0;
+}
+
+.filter-text.mr0 {
+    margin-right: 0;
+}
+
+.filter-text.select {
+    color: #00e699;
+    border-color: #00e699;
+}
+
+.filter-text:after {
+    content: '';
+    position: absolute;
+    right: 16rpx;
+    bottom: 16rpx;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #aeb2bb;
+    border-style: solid;
+    border-width: 0 0 8rpx 8rpx;
+}
+
+.filter-text.select:after {
+    border-color: transparent transparent #00e699;
+}
+
+.jobfilter-box {
+    background: #fff;
+    border-radius: 32rpx 32rpx 0 0;
+    padding: 48rpx 0 68rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobtype-list {
+    height: 80vh;
+}
+
+.jobfilter-list {
+    height: 1100rpx;
+    padding-bottom: 20rpx;
+}
+
+.jobfilter-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 32rpx;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.jobfilter-title .name {
+    color: #111e38;
+    font-size: 40rpx;
+    line-height: 56rpx;
+    font-weight: 700;
+}
+
+.jobfilter-title .close {
+    color: #808999;
+    padding: 0 10rpx;
+    font-size: 28rpx;
+    position: absolute;
+    right: 32rpx;
+    top: 8rpx;
+    line-height: 40rpx;
+}
+
+.jobfilter-context {
+    margin-top: 32rpx;
+    position: relative;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.jobfilter-left {
+    width: 226rpx;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.jobfilter-left .text,
+.jobfilter-right .text {
+    color: #808999;
+    margin-top: 16rpx;
+    line-height: 72rpx;
+    font-size: 28rpx;
+}
+
+.jobfilter-left .text.select,
+.jobfilter-right .text.select {
+    color: #01ca88;
+}
+
+.jobfilter-right {
+    position: absolute;
+    left: 226rpx;
+    right: 32rpx;
+    top: 0;
+    background: #f6f7fb;
+    border-radius: 24rpx;
+    height: 100%;
+    padding: 0 64rpx;
+    overflow-y: auto;
+}
+
+.jobfilter-item {
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #808999;
+    font-size: 28rpx;
+}
+
+.jobfilter-item.select {
+    color: #01ca88;
+}
+
+.jobfilter-subtitle {
+    color: #111e38;
+    font-size: 32rpx;
+    font-weight: 700;
+    line-height: 64rpx;
+    padding: 0 32rpx;
+}
+
+.jobfilter-dot-box {
+    padding: 0 0 0 32rpx;
+    margin: 14rpx 0 28rpx;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.jobfilter-dot-box.sex-select {
+    margin-bottom: 0;
+}
+
+.jobfilter-dot {
+    width: 216rpx;
+    height: 64rpx;
+    border-radius: 8rpx;
+    background: #f6f7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111e38;
+    font-size: 24rpx;
+    margin: 0 18rpx 20rpx 0;
+}
+
+.jobfilter-dot.select {
+    color: #00cf8a;
+    background: #fff;
+    border: 2rpx solid #00cf8a;
+}
+
+.jobfilter-btn-box {
+    height: 160rpx;
+    justify-content: space-between;
+    padding: 0 32rpx;
+    flex-shrink: 0;
+}
+
+.jobfilter-btn,
+.jobfilter-btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.jobfilter-btn {
+    height: 96rpx;
+    border-radius: 24rpx;
+    justify-content: center;
+    font-size: 32rpx;
+    color: #111e38;
+    font-weight: 700;
+}
+
+.sure-btn {
+    width: 440rpx;
+    background: #00e699;
+}
+
+.reset-btn {
+    width: 230rpx;
+    background: #f6f7fb;
+}
+
+.reset-btn .iconfont {
+    margin-right: 18rpx;
+}
+
+.index-filter {
+    margin: 0;
+    height: 100rpx;
+}
+
+.city-name {
+    display: flex;
+    align-items: center;
+    height: 56rpx;
+    margin-bottom: 32rpx;
+}
+
+.city-name .city {
+    color: #111e38;
+    font-size: 28rpx;
+    padding-left: 35rpx;
+}
+
+.city-name .city:before {
+    color: #fa5555;
+    font-family: iconfont !important;
+    font-size: 28rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\e666';
+    margin-right: 7rpx;
+}
+
+.city-name .change_city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120rpx;
+    height: 56rpx;
+    font-size: 24rpx;
+    font-weight: 700;
+    color: #01ca88;
+    background: #e5fcf4;
+    border-radius: 28rpx;
+    margin-left: 16rpx;
+}
+
+.city-name .change_city:before {
+    color: #01ca88;
+    font-family: iconfont !important;
+    font-size: 20rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\e654';
+    margin-right: 7rpx;
+}
+
+.school-rule,
+.school-rule-box {
+    display: flex;
+}
+
+.school-rule {
+    align-items: center;
+    height: 56rpx;
+    color: #586173;
+    font-size: 24rpx;
+    padding: 0 16rpx;
+    background: #f6f7fb;
+    border-radius: 8rpx;
+    margin-right: 16rpx;
+}
+
+.filter-text.school-text.select,
+.school-rule.active {
+    color: #00cf8a;
+    background: #e5fcf4;
+}
+
+.filter-text.school-text {
+    color: #586173;
+    background: #f6f7fb;
+    border: none;
+}

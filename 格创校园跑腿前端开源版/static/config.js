@@ -1,0 +1,1 @@
+module.exports = {name: '格创跑腿',uniacid: '3',url:'https://test.fkynet.net/api/'};

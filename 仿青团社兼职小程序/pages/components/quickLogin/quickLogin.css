@@ -1,0 +1,77 @@
+.container,
+.loginBackModel {
+    width: 100%;
+    height: 100%;
+}
+
+.loginBackModel {
+    position: fixed;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+}
+
+.LoginModel {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 560rpx;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    width: 560rpx;
+    height: 400rpx;
+    background: #fff;
+    border-radius: 8rpx;
+    padding-top: 48rpx;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.quickBtn {
+    background-color: #0c8;
+    margin-top: 32rpx;
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: 32rpx;
+    border-radius: 100rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+}
+
+.quickBtn button {
+    color: #fff;
+}
+
+.numberBtn,
+.quickBtn button {
+    font-size: 32rpx;
+    line-height: 90rpx;
+}
+
+.numberBtn {
+    width: 88%;
+    margin-left: 6%;
+    border-radius: 100rpx;
+    height: 90rpx;
+    background-color: transparent;
+    color: #0c8;
+    border: 2rpx solid #0c8;
+}
+
+.closeModel {
+    width: 100%;
+    text-align: center;
+    margin-top: 60rpx;
+}
+
+.closeBtn {
+    width: 80rpx;
+    height: 80rpx;
+}

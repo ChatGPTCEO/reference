@@ -1,0 +1,71 @@
+.featured-wrap {
+    padding: 0;
+}
+
+.common-list {
+    width: calc(100% - 32rpx);
+    padding-left: 32rpx;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    margin-top: 28rpx;
+    white-space: nowrap;
+    height: auto;
+    text-align: left;
+    line-height: 1;
+}
+
+.common-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.common-list-item {
+    display: inline-block !important;
+    width: 402rpx;
+    margin-right: 16rpx;
+    background: #fff;
+    padding: 32rpx;
+    position: relative;
+    border-radius: 16rpx;
+}
+
+.common-image {
+    display: block;
+    width: 336rpx;
+    height: 120rpx;
+    margin-top: 24rpx;
+}
+
+.common-title {
+    font-size: 32rpx;
+    color: #111e38;
+    font-weight: 500;
+}
+
+.common-desc {
+    color: #aeb2bb;
+    font-size: 24rpx;
+    margin-top: 12rpx;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.getWelfare {
+    margin-top: 20rpx;
+    font-size: 24rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #111e38;
+    width: 338rpx;
+    height: 64rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00e699;
+    border-radius: 16rpx;
+}

@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/account/login/index",
+    "pages/account/reg/index",
+    "pages/account/loginbind/index",
+    "pages/account/loginbindreg/index",
+    "pages/account/logincode/index",
+    "pages/account/loginpass/index",
+    "pages/account/regbind/index",
+    "pages/roster/index",
+    "pages/roster/message/index",
+    "pages/roster/add/index",
+    "pages/group/index",
+    "pages/group/message/index",
+    "pages/group/create/index",
+    "pages/profile/index",
+    "pages/contact/index",
+    "pages/conversation/index",
+    "pages/work/list/index",
+    "pages/work/detail/index",
+    "pages/work/sign/index",
+    "pages/components/prompt/index",
+    "pages/components/snav/index",
+    "pages/profile/about/index",
+    "pages/profile/userinfo/index",
+    "pages/profile/qrcode/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#9B9BA9",
+    "selectedColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/conversation/index",
+        "text": "对话",
+        "iconPath": "/static/pages/image/tab/recent.png",
+        "selectedIconPath": "/static/pages/image/tab/recent_h.png"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "text": "联系人",
+        "iconPath": "/static/pages/image/tab/contact.png",
+        "selectedIconPath": "/static/pages/image/tab/contact_h.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "设置",
+        "iconPath": "/static/pages/image/tab/setting.png",
+        "selectedIconPath": "/static/pages/image/tab/setting_h.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {
+    "prompt": "/pages/components/prompt/index",
+    "rostermsg": "/pages/components/rostermsg/index",
+    "snav": "/pages/components/snav/index"
+  }
+}

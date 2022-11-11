@@ -1,0 +1,15 @@
+{
+    "id": "solargod-solarBlog-mobile",
+    "name": "博客小程序和app",
+    "version": "1.0.0",
+    "description": "基于uniapp+springboot开发的博客小程序和app，包含PC端、微信小程序、App和后台系统。",
+    "keywords": [
+        "博客、微信小程序、App、uniapp、vue、springboot"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

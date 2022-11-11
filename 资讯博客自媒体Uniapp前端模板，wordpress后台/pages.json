@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/posts/posts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登陆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/registration/registration",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册账号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/forgetpass/forgetpass",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "忘记密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#AAAAAA",
+	    "selectedColor": "#262626",
+	    "borderStyle": "black",
+	    "backgroundColor": "#fff",
+	    "list": [
+	      {
+	        "text": "首页",
+	        "pagePath": "pages/index/index",
+	        "iconPath": "/static/images/info.png",
+	        "selectedIconPath": "/static/images/info_active.png"
+	      },
+	      {
+	        "text": "分类",
+	        "pagePath": "pages/category/category",
+	        "iconPath": "/static/images/topic.png",
+	        "selectedIconPath": "/static/images/topic_active.png"
+	      },
+	      {
+	        "text": "我的",
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "/static/images/my.png",
+	        "selectedIconPath": "/static/images/my_active.png"
+	      }
+	    ]
+	  }
+}

@@ -1,0 +1,147 @@
+
+.content {
+  background: #F1F1F1;
+  height: 100vh;
+
+  & > .content-title {
+
+    &>view{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &>view:nth-child(2){
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        &>text{
+          font-size: 38rpx;
+          white-space: nowrap;
+          overflow: hidden;
+          width: 100%;
+          text-overflow: ellipsis;
+
+          &:nth-child(2){
+            font-weight: bold;
+            color: #3F536E;
+            text-align: center;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.message {
+  background: #FFFFFF;
+
+  scroll-view {
+    height: 100%;
+  }
+}
+
+.sender-content {
+  width: 100vw;
+  min-height: 120rpx;
+  background: #ece6ea;
+  transition: all 0.1s ease-in-out;
+
+  .fun-box {
+    width: 100%;
+    height: 0rpx;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    background: #FFFFFF;
+  }
+
+  .show-fun-box {
+    height: 310rpx;
+    opacity: 100;
+  }
+
+  .sender {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rpx 10rpx;
+    width: 100vw;
+    min-height: 120rpx;
+    border-bottom: 1px solid #eeedee;
+
+    image {
+      width: 60rpx;
+      height: 60rpx;
+    }
+
+    & > view:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & > view:nth-child(2) {
+      width: 0;
+      flex: 1;
+      margin-left: 10rpx;
+
+      .inputScroll {
+        max-height: 280rpx;
+      }
+
+      .textArea-box {
+        background-color: #FFFFFF;
+        border-radius: 10rpx;
+        padding-left: 10rpx;
+        min-height: 70rpx;
+        max-height: 280rpx;
+        margin: 15rpx 0rpx;
+        display: flex;
+        align-items: center;
+
+        textarea {
+          width: calc(100% - 20upx);
+          height: 100%;
+        }
+      }
+
+      .voice_title {
+        text-align: center;
+        border-radius: 10rpx;
+        min-height: 70rpx;
+        line-height: 70rpx;
+      }
+
+    }
+
+    & > view:nth-child(3) {
+      display: flex;
+      margin-left: 5rpx;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20rpx;
+
+      .send {
+        width: 120rpx;
+        display: flex;
+        align-items: center;
+        margin-left: 10rpx;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      image {
+        margin: 0rpx 5rpx;
+      }
+
+      button {
+        width: 120rpx;
+        padding: 0px;
+        margin-top: 5rpx;
+      }
+
+    }
+  }
+}

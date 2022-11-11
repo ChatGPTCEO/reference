@@ -1,0 +1,51 @@
+@import url("@/static/weui.min.css");
+page {
+  padding-bottom: 60rpx;
+}
+.luckform .items {
+  margin-top: 30rpx;
+}
+.luckform .btnbox {
+  margin-top: 50rpx;
+}
+
+.weui-cell__bd {
+  text-align: right;
+}
+.weui-cell_select {
+  padding: 32rpx;
+}
+.weui-cell_select .weui-cell__bd {
+  padding-right: 42rpx;
+}
+.weui-cell::before {
+  right: 16px;
+}
+
+.item_avatar {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.item_avatar .avatar {
+  border-radius: 5px;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  vertical-align: middle;
+}
+
+.btnbox .logout {
+  margin-top: 20rpx;
+}
+
+.user_id {
+  text-align: center;
+  opacity: .5;
+  letter-spacing: 3px;
+  color: #999;
+  margin-top: 60rpx;
+  font-size: 28rpx;
+}
+.user_id span {
+  margin-right: 8rpx;
+}

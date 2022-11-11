@@ -1,0 +1,36 @@
+.footer {
+    position: fixed;
+    // position: sticky;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    // height: 98rpx;
+    background: #fff;
+    z-index: 99;
+	padding-top: 20rpx;
+    justify-content: space-around;
+	padding-bottom: constant(safe-area-inset-bottom);  ///兼容 IOS<11.2/
+	padding-bottom: env(safe-area-inset-bottom);  ///兼容 IOS>11.2/
+	border-top: 2rpx solid #F2f2f2f2;
+    .item {
+        font-size: 24rpx;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #A1A6B3;
+        flex-direction: column;
+        align-items: center;
+        &.cur {
+            color: #F02036;
+        }
+
+        .icon {
+            width: 50rpx;
+            height: 50rpx;
+        }
+    }
+}
+.aaa{
+    position:static;
+    position: sticky;
+    top: -10px;
+}

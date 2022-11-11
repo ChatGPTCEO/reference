@@ -1,0 +1,47 @@
+.simpleModel {
+    z-index: 999;
+}
+
+.simpleBack,
+.simpleModel {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.simpleBack,
+.simpleCont {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.simpleCont {
+    width: 622rpx;
+    height: 718rpx;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -311rpx;
+    margin-top: -359rpx;
+}
+
+.simpleCont image {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.iKnowit {
+    width: 352rpx;
+    height: 88rpx;
+    border-radius: 200rpx;
+    border: 2rpx solid #fff;
+    color: #fff;
+    line-height: 88rpx;
+    text-align: center;
+    float: left;
+    margin-left: 136rpx;
+    margin-top: -30%;
+    font-size: 32rpx;
+}

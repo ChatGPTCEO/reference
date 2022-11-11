@@ -1,0 +1,231 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+/*** nav中的后退 **/
+.back {
+  height: 64rpx;
+  width: 120rpx;
+}
+.back .back_kmg {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 12rpx;
+}
+.colorb {
+  color: #576b95;
+}
+.tc {
+  text-align: center;
+}
+.fs28 {
+  font-size: 28rpx;
+}
+.mr5 {
+  margin-right: 5rpx;
+}
+.mr10 {
+  margin-right: 10rpx;
+}
+.mr15 {
+  margin-right: 15rpx;
+}
+.mr20 {
+  margin-right: 20rpx;
+}
+.mt5 {
+  margin-top: 5rpx;
+}
+.mt10 {
+  margin-top: 10rpx;
+}
+.mt15 {
+  margin-top: 15rpx;
+}
+.mt20 {
+  margin-top: 20rpx;
+}
+.mt25 {
+  margin-top: 25rpx;
+}
+.mt30 {
+  margin-top: 30rpx;
+}
+.mt40 {
+  margin-top: 40rpx;
+}
+.mt50 {
+  margin-top: 50rpx;
+}
+.mt60 {
+  margin-top: 60rpx;
+}
+.mt70 {
+  margin-top: 70rpx;
+}
+.mt80 {
+  margin-top: 80rpx;
+}
+.mt90 {
+  margin-top: 90rpx;
+}
+.mt100 {
+  margin-top: 100rpx;
+}
+.fs24 {
+  font-size: 24rpx;
+}
+.fs26 {
+  font-size: 26rpx;
+}
+.fs28 {
+  font-size: 28rpx;
+}
+.fs30 {
+  font-size: 30rpx;
+}
+.fs32 {
+  font-size: 32rpx;
+}
+.fs34 {
+  font-size: 34rpx;
+}
+.fs36 {
+  font-size: 36rpx;
+}
+.fs38 {
+  font-size: 38rpx;
+}
+.fs40 {
+  font-size: 40rpx;
+}
+.fs42 {
+  font-size: 42rpx;
+}
+.fs44 {
+  font-size: 44rpx;
+}
+.fs46 {
+  font-size: 46rpx;
+}
+.fs48 {
+  font-size: 48rpx;
+}
+
+.prompt-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.5);
+}
+.prompt-content {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 80%;
+  max-width: 600rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  box-sizing: bordre-box;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+  background: #fff;
+}
+.prompt-title {
+  width: 100%;
+  padding: 20rpx;
+  /* text-align: center; */
+  font-size: 30rpx;
+  border-bottom: 1rpx solid #afafaf;
+}
+.prompt-input {
+  margin: 8%;
+  padding: 10rpx 15rpx;
+  width: 80%;
+  height: 55rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+}
+.prompt-btn-group {
+  display: flex;
+}
+.btn-item {
+  width: 35%;
+  margin-bottom: 20rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: white;
+  justify-content: space-around;
+  font-size: 30rpx;
+}
+.prompt-certain-btn {
+  color: white;
+  background-color: #179b16;
+}
+.prompt-cancel-btn {
+  border: 1rpx solid #afafaf;
+}
+.contentFontColor {
+  color: #868686;
+}
+
+/* components/navbar/index.wxss */
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  flex-shrink: 0;
+}
+.navbar-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 115px;
+  padding-right: 115px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.navbar-action-wrap {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  z-index: 11;
+  line-height: 1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navbar-action_item {
+  padding: 3px 0;
+  color: #333;
+}
+.navbar-action-group .last {
+  border-right: none;
+}
+.navbar .stitle {
+  font-size: 34rpx;
+}
+

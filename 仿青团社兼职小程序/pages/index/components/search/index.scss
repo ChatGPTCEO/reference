@@ -1,0 +1,120 @@
+.search-box,
+.search-box-container {
+    height: 88rpx;
+}
+
+.search-box {
+    display: flex;
+    padding: 0 32rpx 16rpx;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 35;
+}
+
+.search-box.fixed {
+    background: #fff;
+    position: fixed;
+    left: 0;
+}
+
+.search-box .position {
+    display: flex;
+    height: 72rpx;
+    align-items: center;
+}
+
+.search-box .position .iconlocation_fill1 {
+    font-size: 32rpx;
+    margin-right: 10rpx;
+}
+
+.search-box .position .city-box,
+.search-box .position .iconlocation_fill1,
+.search-box .search {
+    color: #fff;
+}
+
+.search-box.fixed .position .city-box,
+.search-box.fixed .position .iconlocation_fill1 {
+    color: #000;
+}
+
+.search-box .position .city-box {
+    font-size: 32rpx;
+    font-weight: 700;
+    max-width: 127rpx;
+}
+
+.search-box .search {
+    display: flex;
+    align-items: center;
+    height: 72rpx;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 36rpx;
+    font-size: 24rpx;
+    padding: 0 18rpx;
+    flex: 1;
+    margin: 0 32rpx;
+}
+
+.search-box.fixed .search {
+    color: #6c6c6c;
+    background: #f6f7fb;
+}
+
+.search-box .search .iconsearch_2 {
+    font-size: 32rpx;
+    margin: 0 18rpx 0 26rpx;
+}
+
+.search-box .sign {
+    min-width: 72rpx;
+    height: 72rpx;
+    background: url('https://qiniu-image.qtshe.com/newHomePage/sign.gif') no-repeat top;
+    background-size: 56rpx 56rpx;
+}
+
+.search-box .sign .sigin-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    padding: 0 16rpx;
+    height: 32rpx;
+    color: #fff;
+    font-size: 20rpx;
+    border-radius: 17rpx;
+    background: #fa5555;
+    margin-top: 40rpx;
+    position: relative;
+}
+
+.search-box .sigin-text .red-point {
+    width: 12rpx;
+    height: 12rpx;
+    border-radius: 50%;
+    background: #fa5555;
+    position: absolute;
+    right: 10rpx;
+    bottom: 58rpx;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.search-box .search .info {
+    max-width: 260rpx;
+}
+
+.login-mask {
+    width: 72rpx;
+    height: 72rpx;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 32rpx;
+}

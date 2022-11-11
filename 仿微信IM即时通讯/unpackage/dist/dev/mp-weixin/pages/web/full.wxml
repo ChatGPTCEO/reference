@@ -1,0 +1,1 @@
+<view><block wx:if="{{platform!='app'}}"><web-view name="whotalkwebview" webview-styles="{{webviewStyles}}" src="{{weburl}}"></web-view></block></view>

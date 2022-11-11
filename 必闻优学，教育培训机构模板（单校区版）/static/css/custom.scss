@@ -1,0 +1,203 @@
+// 这里是自定义的一些样式
+
+
+// 定义项目主色调
+.u-main-color {
+	color: $u-primary-color
+}
+
+.body-wrap {
+	min-height: auto;
+	background-color: #f3f4f6;
+	overflow-x: hidden;
+}
+
+// 空数据外包裹
+.empty-wrap {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+// 清除tabbar的间距
+.u-tabbar-item__text {
+	margin: 0!important;
+}
+
+// popup
+.popup-slot-wrap {
+	width: 100%;
+	padding: 32rpx 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	
+	.popup-title {
+		font-weight: bold;
+		font-size: 36rpx;
+		padding: 4rpx 30rpx;
+		// margin-bottom: 24rpx;
+	}
+	
+	.popup-body {
+		width: 650rpx;
+		padding: 24rpx;
+	}
+	.popup-footer {
+		width: 600rpx;
+		padding: 24rpx;;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+// 横向按钮组
+.btn-group-row-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.left-btn {
+		// margin-right: 20rpx;
+	}
+	
+	.left-btn,.right-btn {
+		width: 45%;
+	}
+}
+
+// 阴影
+.box-shadow {
+	box-shadow:  0rpx 0rpx 10rpx rgba(0, 0, 0, 0.12);
+}
+
+
+// uview1.0 css
+.u-font-xs {
+	font-size: 22rpx;
+}
+
+.u-font-sm {
+	font-size: 26rpx;
+}
+
+.u-font-md {
+	font-size: 28rpx;
+}
+
+.u-font-lg {
+	font-size: 30rpx;
+}
+
+.u-font-xl {
+	font-size: 34rpx;
+}
+
+.u-text-left {
+	text-align: left;
+}
+
+.u-text-center {
+	text-align: center;
+}
+
+.u-text-right {
+	text-align: right;
+}
+
+
+// 定义字体(rpx)单位
+@for $i from 10 through 40 {
+	.u-font-#{$i} {
+		font-size: $i + rpx;
+	}
+}
+
+// 定义字体图标(rpx)单位
+@for $i from 10 through 60 {
+	.u-iconfont-#{$i} {
+		font-size: $i + rpx;
+	}
+}
+
+// 定义内外边距，历遍1-80
+@for $i from 0 through 80 {
+	// 只要双数和能被5除尽的数
+	@if $i % 2 == 0 or $i % 5 == 0 {
+		// 得出：u-margin-30或者u-m-30
+		.u-margin-#{$i}, .u-m-#{$i} {
+			margin: $i + rpx!important;
+		}
+		
+		// 得出：u-padding-30或者u-p-30
+		.u-padding-#{$i}, .u-p-#{$i} {
+			padding: $i + rpx!important;
+		}
+		
+		@each $short, $long in l left, t top, r right, b bottom {
+			// 缩写版，结果如： u-m-l-30
+			// 定义外边距
+			.u-m-#{$short}-#{$i} {
+				margin-#{$long}: $i + rpx!important;
+			}
+			
+			// 定义内边距
+			.u-p-#{$short}-#{$i} {
+				padding-#{$long}: $i + rpx!important;
+			}
+			
+			// 完整版，结果如：u-margin-left-30
+			// 定义外边距
+			.u-margin-#{$long}-#{$i} {
+				margin-#{$long}: $i + rpx!important;
+			}
+			
+			// 定义内边距
+			.u-padding-#{$long}-#{$i} {
+				padding-#{$long}: $i + rpx!important;
+			}
+		}
+	}
+}
+
+
+// 通用样式
+
+// 工具栏
+.toolbar-wrap {
+		width: 710rpx;
+		position: fixed;
+		bottom: 0;
+		padding: 20rpx;
+		background-color: #FFFFFF;
+		border-top: 1px solid $u-border-color;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+		.left {
+			display: flex;
+			align-items: center;
+			width: 280rpx;
+			margin-right: 20rpx;
+			justify-content: center;
+			.like-btn {
+				margin-left: 20rpx;
+			}
+			.like-btn,.favorite-btn {
+				display: flex;
+				align-items: center;
+				color: $u-content-color;
+				font-size: $u-p2;
+			}
+		}
+		
+		.right {
+			width: 450rpx;
+		}
+	}
+	
+	
+	

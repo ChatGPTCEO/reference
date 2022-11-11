@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "群",
+  "navigationBarBackgroundColor": "#F3F4F7",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "go-easy-audio-player": "/components/GoEasyAudioPlayer/GoEasyAudioPlayer",
+    "custom-message": "/components/CustomMessage/CustomMessage"
+  }
+}

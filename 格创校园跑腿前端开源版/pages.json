@@ -1,0 +1,381 @@
+{
+	"pages": [
+		{
+			"path": "gc_school/pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "gc_school/pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "gc_school/pages/public/index",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "gc_school/pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "gc_school/pages/user/setting"
+			
+		},
+		{
+			"path": "gc_school/pages/user/balance"
+		},
+		{
+			"path": "gc_school/pages/user/accountlog"
+		},
+		{
+			"path": "gc_school/pages/user/reward"
+		},
+		{
+			"path": "gc_school/pages/user/fans"
+		},
+		{
+			"path": "gc_school/pages/user/follow"
+		},
+		{
+			"path": "gc_school/pages/register/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/auth/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/detail/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/mypublic/index",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		},
+		{
+			"path": "gc_school/pages/pay/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/mypay/index",
+			"style": {
+				"navigationBarTitleText": "我的充值"
+			}
+		},
+		{
+			"path": "gc_school/pages/address/index",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "gc_school/pages/address/addressPost",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "gc_school/pages/order/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/cupon/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/rank/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/grab/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/order/detail",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/mygrab/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/replay/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/replaylist/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/foold/foold",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/canteen/canteen",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/canteen/list",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/login/login",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/store/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/second/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/seconddetail/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/search/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/addsecond/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/mysecond/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/ence_push/ence_push",
+			"style": {
+				"navigationBarTitleText": "小神推",
+				"navigationBarBackgroundColor": "#7cb8fa"
+			}
+		},
+		{
+			"path": "gc_school/pages/vip/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/rule/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/privacy/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/url/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/help/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/webview/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "gc_school/pages/webview/indexs",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "gc_school/pages/secondhand/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/detail",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/cate",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/my",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondfav/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/footprint",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/follow/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/user",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/order/reason",
+			"style": {}
+		},
+		{
+			"path": "colorui/components/upload/upload",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/buy",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/orderdetail",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/sale",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/secondhand/mybuy",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/lost/index",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/lost/post",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/lost/detail",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/lost/search",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/lost/my",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/homes/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "gc_school/pages/secondhand/edit",
+			"style": {
+				"navigationBarTitleText": "编辑信息"
+			}
+		},
+		{
+			"path": "gc_school/pages/article/index",
+			"style": {}
+		},
+
+		{
+			"path": "gc_school/pages/article/shang",
+			"style": {}
+		},
+		
+		{
+			"path": "gc_school/pages/article/list",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/article/favorite",
+			"style": {}
+		},
+
+		
+		{
+			"path": "gc_school/pages/article/detail",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/article/my",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/article/post",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/order/proof",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "我的小店",
+				"navigationBarBackgroundColor": "#FFBA20"
+			}
+		},
+		{
+			"path": "gc_school/pages/shop/info",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/goods",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/addgoods",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/cate",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/order",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/my",
+			"style": {}
+		},
+		{
+			"path": "gc_school/pages/shop/recharge",
+			"style": {}
+		}
+	],
+	
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"sitemapLocation": "sitemap.json",
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"cu-custom": "@/colorui/components/cu-custom"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#deddd7",
+		"backgroundColor": "#f5f5f5",
+		"navigationStyle": "custom",
+		"enablePullDownRefresh": false
+	},
+	"subPackages": []
+}

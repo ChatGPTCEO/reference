@@ -1,0 +1,10 @@
+
+page{padding-bottom: 100rpx;}
+.commentname{position: fixed; bottom: 120rpx; left: 100rpx;}
+.commentname::after{content: ' '; width: 20rpx; height: 20rpx; position: absolute; left: 50%; margin-left: -10rpx; bottom: -10rpx; -webkit-transform: rotate(45deg); transform: rotate(45deg); background-color: #8799a3;}
+.foot.input input.solid-bottom{flex: 5;}
+.foot.input input.solid-bottom.hasval{flex: 4;}
+.comments .cu-item{min-height: 66rpx; height: auto !important; padding:10rpx 10rpx 10rpx 20rpx;}
+.comments .cu-item .text-sm{font-size: 26rpx;}
+.cu-card.dynamic>.cu-item .only-img{height: auto;}
+

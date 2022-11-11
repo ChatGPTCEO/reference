@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "default",
+  "usingComponents": {
+    "my-voice": "/components/self-voice/index"
+  }
+}

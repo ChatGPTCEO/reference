@@ -1,0 +1,1 @@
+<view class="mine _div"><view class="top _div"><image src="{{currentUser&&currentUser.avatar}}"></image><view class="name">{{currentUser&&currentUser.name}}</view></view><view class="bottom _div"><text>欢迎体验GoEasyIM</text><view data-event-opts="{{[['tap',[['logout',['$event']]]]]}}" class="logout" bindtap="__e">注销</view></view></view>

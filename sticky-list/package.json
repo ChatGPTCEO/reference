@@ -1,0 +1,15 @@
+{
+    "id": "sticky-list",
+    "name": "sticky-list",
+    "version": "1.0.1",
+    "description": "NVUE 滚动吸顶效果",
+    "keywords": [
+        "sticky-list"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}

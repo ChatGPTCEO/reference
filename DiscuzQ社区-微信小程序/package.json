@@ -1,0 +1,15 @@
+{
+    "id": "ZQ-DZQ20220522",
+    "name": "DiscuzQ社区-微信小程序",
+    "version": "v3.0.20220211",
+    "description": "使用 npm 方式构建 Discuz! Q 小程序",
+    "keywords": [
+        "微信小程序"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}

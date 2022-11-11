@@ -1,0 +1,1 @@
+<view class="container data-v-54abc50e"><view class="status-bar data-v-54abc50e"></view><view class="list data-v-54abc50e"><comment vue-id="40cbdaa6-1" list="{{list}}" data-event-opts="{{[['^comment',[['comment']]],['^support',[['support']]]]}}" bind:comment="__e" bind:support="__e" class="data-v-54abc50e" bind:__l="__l"></comment></view></view>

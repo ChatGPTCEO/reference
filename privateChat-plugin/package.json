@@ -1,0 +1,15 @@
+{
+    "id": "privateChat-plugin",
+    "displayName": "privateChat-plugin",
+    "version": "1.0.0",
+    "description": "小程序聊天插件",
+    "keywords": [
+        "私有"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

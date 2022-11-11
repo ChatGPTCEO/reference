@@ -1,0 +1,1 @@
+<view class="voice data-v-c221d022"><view class="voice-items data-v-c221d022"><block wx:for="{{7}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><view class="voice-item data-v-c221d022"></view></block></view><view class="voice-title data-v-c221d022">录音中...</view></view>

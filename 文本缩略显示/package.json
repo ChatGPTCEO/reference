@@ -1,0 +1,9 @@
+{
+    "id": "text-ellipsis",
+    "name": "文本缩略显示",
+    "version": "1.0.0",
+    "description": "此组件一般用于内容缩略显示和展开",
+    "keywords": [
+        "ellipsis"
+    ]
+}

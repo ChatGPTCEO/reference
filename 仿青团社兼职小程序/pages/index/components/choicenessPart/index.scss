@@ -1,0 +1,75 @@
+.choiceness-part-container {
+    width: 100%;
+    height: 162rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('https://qiniu-image.qtshe.com/optimizeIndex/ladder.png') no-repeat 0 100%;
+    background-size: 100% 114rpx;
+    margin-top: 172rpx;
+    position: relative;
+    z-index: 30;
+    padding: 0 32rpx;
+}
+
+.choiceness-part-container .scroll {
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    width: 100%;
+}
+
+.choiceness-part-container .scroll::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.choiceness-part-container .item {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    width: 120rpx;
+    height: 154rpx;
+}
+
+.choiceness-part-container .item .img,
+.formBox {
+    width: 96rpx;
+    height: 96rpx;
+}
+
+.formBox {
+    position: relative;
+    margin: 0 auto;
+}
+
+.choiceness-part-container .item .title {
+    font-size: 24rpx;
+    color: #101d37;
+    font-weight: 400 !important;
+}
+
+.choiceness-part-container .login-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.isSignTag {
+    position: absolute;
+    top: -3rpx;
+    right: -20rpx;
+    width: 60rpx;
+    height: 31rpx;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

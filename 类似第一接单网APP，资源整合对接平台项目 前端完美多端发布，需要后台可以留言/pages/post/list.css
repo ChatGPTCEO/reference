@@ -1,0 +1,92 @@
+.condition {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background-color: #fff;
+	z-index: 99;
+	position: fixed;
+	left: 0;
+  font-size: 28rpx;
+}
+.condition_blank {
+	height: 48px;
+}
+.condition .left_box {
+	float: left;
+}
+.condition .left_box .items {
+  margin-left: -12rpx;
+  display: flex;
+}
+.condition .left_box .items .item {
+  margin-left: 8px;
+}
+.condition .left_box .items .item.on {
+  color: #00B38A;
+}
+.condition .right_box {
+	float: right;
+}
+.condition .right_box .screen_switch.on {
+	color: #00B38A;
+}
+.condition .right_box .screen_switch span {
+	margin-left: 3px;
+}
+.condition .right_box .icon {
+  display: inline-block;
+}
+
+.screen_popup {
+	height: 100%;
+}
+.screen_popup .box {
+	height: calc(100% - 50px);
+	overflow-y: scroll;
+}
+.screen_popup .box .items {
+	padding: 28rpx 28rpx 36rpx 28rpx;
+}
+.screen_popup .items .item {
+	margin-top: 20px;
+}
+.screen_popup .items .item:first-child {
+	margin-top: 0;
+}
+.screen_popup .items .item .title {
+  letter-spacing: 1px;
+}
+.screen_popup .options {
+	margin-top: 10px;
+	margin-right: -6px;
+  margin-bottom: -6px;
+}
+.screen_popup .options span {
+	background-color: #eee;
+  font-size: 26rpx;
+  border-radius: 1px;
+  padding: 3px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  display: inline-block;
+  color: #666;
+}
+.screen_popup .options span.on {
+	background: #00B38A;
+	color: #fff;
+}
+.screen_popup .btns {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-shadow: 0 -1px 0 #ddd;
+	display: flex;
+}
+.screen_popup .btns .btn {
+	flex: 1;
+	text-align: center;
+}
+.screen_popup .btns .btn:last-child {
+	background-color: #00B38A;
+	color: #fff;
+}

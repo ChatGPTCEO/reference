@@ -1,0 +1,26 @@
+{
+    "name": "haschatapp",
+    "version": "1.0.3",
+    "private": true,
+    "scripts": [],
+    "dependencies": {
+        "@hyoga/uni-socket.io": "^3.0.4",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": [],
+    "id": "howcode-haschat",
+    "displayName": "HasChat聊天应用",
+    "description": "一款简单略好看的聊天应用，前后端全部开源",
+    "keywords": [
+        "socket.io",
+        "websocket",
+        "聊天",
+        "即时通讯"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

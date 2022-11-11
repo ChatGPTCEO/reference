@@ -1,0 +1,73 @@
+.mask {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.bean-winning {
+    width: 622rpx;
+    height: 738rpx;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -319rpx 0 0 -311rpx;
+    padding: 322rpx 32rpx 0;
+    text-align: center;
+    border-radius: 32rpx;
+    z-index: 21;
+    background: url('https://qiniu-image.qtshe.com/20200806indexWinningBg.png') no-repeat 100%/100%;
+    overflow: initial;
+}
+
+.close {
+    position: absolute;
+    top: -98rpx;
+    height: 56rpx;
+    width: 54rpx;
+    right: 0;
+    background: url('https://qiniu-image.qtshe.com/20191029indexWinningClose.png') no-repeat 100%/100%;
+}
+
+.title {
+    line-height: 72rpx;
+    font-size: 48rpx;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 12rpx;
+}
+
+.text {
+    line-height: 42rpx;
+    font-size: 28rpx;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.btn {
+    color: #3c3c3c;
+    font-size: 32rpx;
+    font-weight: 700;
+    text-align: center;
+    height: 88rpx;
+    width: 100%;
+    line-height: 88rpx;
+    background: #ffdc00;
+    margin-top: 64rpx;
+    border-radius: 12rpx;
+}
+
+.tip {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 24rpx;
+    margin-top: 16rpx;
+}
+
+.dot {
+    width: 12rpx;
+    height: 24rpx;
+    position: fixed;
+    z-index: 22;
+}

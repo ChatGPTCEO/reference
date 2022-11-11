@@ -1,0 +1,49 @@
+<template>
+  <view>
+    <map key='map' :show-location="true" :style="{'height':windowHeight+'px','width':windowWidth+'px'}"
+      :latitude="latitude" :longitude="longitude">
+    </map>
+    <!-- nvue下transition非常不稳定，经常失效，看了看其他插件也存在这个问题，目前没想到解决办法，请大佬指点，所以nvue下不建议开启自动复位 -->
+    <you-touchbox minTop="200" :auto="false" customStyle="background:red;border-top-left-radius:50rpx;border-top-right-radius:50rpx">
+    </you-touchbox>
+  </view>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        latitude: null,
+        longitude: null,
+        windowHeight: null,
+        windowWidth: null,
+        windowHeight: null,
+      }
+    },
+    onLoad(options) {
+      uni.getLocation({
+        type: 'gcj02',
+        isHighAccuracy: true, //高精度
+        geocode: true, //将位置解析成地址
+        success: (res) => {
+          this.latitude = res.latitude
+          this.longitude = res.longitude
+        }
+      })
+    },
+    onReady() {
+      // #ifdef APP-PLUS
+      this.map = plus.maps.create('map', {});
+      // #endif
+      let {
+        windowHeight,
+        windowWidth
+      } = uni.getSystemInfoSync();
+      this.windowHeight = windowHeight
+      this.windowWidth = windowWidth
+    }
+  }
+</script>
+
+<style lang="scss" scoped>
+</style>

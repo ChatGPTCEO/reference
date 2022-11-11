@@ -1,0 +1,128 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^i-(.*)": "@/components/i-$1/i-$1.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/friendList/friendList",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "聊天"
+      }
+    },
+    {
+      "path": "pages/index/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/index/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/contactList/contactList",
+      "style": {
+        "navigationBarTitleText": "通讯录"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pagesChat",
+      "pages": [
+        {
+          "path": "chatView/chatView",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "聊天頁面",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "groupList/groupList",
+          "style": {
+            "navigationBarTitleText": "创建群聊"
+          }
+        },
+        {
+          "path": "chatView/chatInfo",
+          "style": {
+            "navigationBarTitleText": "聊天信息"
+          }
+        }
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#19BE6B",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/friendList/friendList",
+        "iconPath": "/static/image/tabbar/wechat_hl.png",
+        "selectedIconPath": "/static/image/tabbar/wechat.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/contactList/contactList",
+        "iconPath": "/static/image/tabbar/contact.png",
+        "selectedIconPath": "/static/image/tabbar/contact-fill.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/tabbar/my.png",
+        "selectedIconPath": "static/image/tabbar/my_hl.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "condition": {
+    "current": 1,
+    "list": [
+      {
+        "name": "首页",
+        "path": "pages/friendList/friendList"
+      },
+      {
+        "name": "通讯录",
+        "path": "pages/contactList/contactList"
+      },
+      {
+        "name": "个人中心",
+        "path": "pages/my/my"
+      },
+      {
+        "name": "聊天頁面",
+        "path": "pagesChat/chatView/chatView",
+        "query": "nickName=游客00202&username=04051623-oqbgn"
+      },
+      {
+        "path": "pages/friendList/friendList",
+        "name": "聊天"
+      }
+    ]
+  }
+}

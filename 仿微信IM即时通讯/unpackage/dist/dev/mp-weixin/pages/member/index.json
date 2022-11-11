@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人名片",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "share": "/components/util/share"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "担保交易",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "customtop": "/components/customtop"
+  }
+}

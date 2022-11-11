@@ -1,0 +1,15 @@
+
+page{padding-bottom: 100rpx;}
+.splash{position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 999;}
+.splash image{width: 100%; height: 100%;}
+.splash .loader{position: absolute; left: 50%; top: 50%; width: 200rpx; margin-left: -100rpx; background: rgba(0,0,0,0.3); border-radius: 6rpx; margin-top: -42rpx;}
+.main-pages .mainpageitem{display: none;}
+.main-pages .mainpageitem.active{display: block;}
+.popcontainer{position: absolute; right: 20rpx; background: #2C405A; padding: 10rpx 20rpx; top: calc(90rpx + 25px);}
+.popcontainer .cu-item{background: none !important; color: #FFFFFF; min-height: 72rpx; padding:0 10rpx;}
+.popcontainer .cu-item::after{border-color: #666666 !important;}
+.popcontainer .cu-item text[class*=cuIcon]{font-size: 36rpx;}
+.popcontainer::after{width: 20rpx; height: 20rpx; background: #2C405A; content: ''; right: 16rpx; top: -8rpx; position: absolute; -webkit-transform: rotate(45deg); transform: rotate(45deg); border-radius: 4rpx;}
+.wp-ttapp .popcontainer, .wp-wxapp .popcontainer{right: auto; left: 20rpx;}
+.wp-ttapp .popcontainer::after, .wp-wxapp .popcontainer::after{right: auto; left: 16rpx;}
+

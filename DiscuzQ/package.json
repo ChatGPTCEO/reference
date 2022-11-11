@@ -1,0 +1,18 @@
+{
+    "id": "dzq-forum",
+    "displayName": "DiscuzQ",
+    "version": "1.1.5",
+    "description": "Discuz!Q生成多端小程序和APP。 基于DiscuzQ!3.0版本API，使用UNIAPP框架重构，目前已经做了登录和评论回复功能。",
+    "keywords": [
+        "discuz",
+        "discuzq",
+        "社区",
+        "论坛"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

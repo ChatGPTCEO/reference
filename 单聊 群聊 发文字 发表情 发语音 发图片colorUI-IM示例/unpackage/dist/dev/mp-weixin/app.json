@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/friend/friend",
+    "pages/chat/chat",
+    "pages/chat/width",
+    "pages/chat/customer",
+    "pages/chat/customer-service"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {},
+  "usingComponents": {
+    "friend-page": "/colorui/components/friend/page",
+    "my-page": "/colorui/components/my/page",
+    "messages": "/colorui/components/home/messages",
+    "friends": "/colorui/components/friend/friends",
+    "groups": "/colorui/components/friend/groups",
+    "random-chat-index": "/colorui/components/random-chat/index",
+    "cu-custom": "/colorui/components/cu-custom",
+    "cu-custom-width": "/colorui/components/cu-custom-width",
+    "chat-avatar": "/colorui/components/chat/avatar",
+    "chat-text": "/colorui/components/chat/text",
+    "chat-image": "/colorui/components/chat/image",
+    "chat-file": "/colorui/components/chat/file",
+    "chat-audio": "/colorui/components/chat/audio",
+    "chat-video": "/colorui/components/chat/video",
+    "chat-two-click-avatar": "/colorui/components/chat/two-click-avatar",
+    "chat-two-click-text": "/colorui/components/chat/two-click-text",
+    "chat-list": "/colorui/components/chat/list",
+    "chat-left": "/colorui/components/chat/left",
+    "chat-emoji": "/colorui/components/chat/emoji",
+    "chat-add-user-to-group": "/colorui/components/chat/add-user-to-group"
+  }
+}

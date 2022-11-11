@@ -1,0 +1,360 @@
+.container {
+    padding-top: 32rpx;
+    background: linear-gradient(180deg, #fff, #fff 250rpx, #f6f7fb 320rpx, #f6f7fb);
+    min-height: 100vh;
+    padding-bottom: 300rpx;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 32rpx;
+}
+
+.header,
+.swiper {
+    height: 386rpx;
+}
+
+.header-swiper-item {
+    height: 386rpx;
+    overflow: hidden;
+    padding: 0 32rpx;
+    box-sizing: border-box;
+}
+
+.swiper-item-pic {
+    width: 100%;
+    height: 386rpx;
+    border-radius: 18rpx;
+}
+
+.header-swiper-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 32rpx;
+    width: 686rpx;
+    height: 80rpx;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5));
+    border-radius: 0 0 18rpx 18rpx;
+}
+
+.swiper-index {
+    position: absolute;
+    width: 68rpx;
+    height: 36rpx;
+    background: hsla(0, 0%, 100%, 0.3);
+    border-radius: 18rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20rpx;
+    right: 64rpx;
+    bottom: 52rpx;
+}
+
+.info-box {
+    background: #fff;
+    height: 280rpx;
+    padding: 58rpx 32rpx 0;
+    border-radius: 0 0 24rpx 24rpx;
+    margin-top: -26rpx;
+    position: relative;
+    z-index: 25;
+}
+
+.name {
+    font-size: 44rpx;
+    line-height: 60rpx;
+    color: #111e38;
+    font-weight: 700;
+    margin-bottom: 14rpx;
+}
+
+.info,
+.name {
+    padding-left: 32rpx;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-top: 4rpx;
+    font-size: 28rpx;
+    height: 40rpx;
+    margin-bottom: 48rpx;
+}
+
+.info-image {
+    display: block;
+    width: 28rpx;
+    height: 28rpx;
+    margin-right: 8rpx;
+    color: #111e38;
+}
+
+.info-icon {
+    width: 112rpx;
+}
+
+.info-icon,
+.info-icon2 {
+    margin-left: 16rpx;
+    height: 40rpx;
+}
+
+.info-icon2 {
+    width: 144rpx;
+}
+
+.info-text {
+    margin-left: 16rpx;
+    position: relative;
+}
+
+.info-text::after {
+    position: absolute;
+    content: '';
+    height: 28rpx;
+    width: 2rpx;
+    background: #dadee6;
+    top: 50%;
+    margin-top: -14rpx;
+    left: -9rpx;
+}
+
+.company-title {
+    margin: 0 auto;
+}
+
+.company-title,
+.title-box {
+    font-size: 36rpx;
+    color: #111e38;
+    font-weight: 700;
+    width: 686rpx;
+}
+
+.title-box {
+    margin: 0 auto 16rpx;
+    height: 50rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-box-tips {
+    background: url('https://qiniu-image.qtshe.com/20201203_jobIcon5.png') no-repeat 50%;
+    background-size: 100% 100%;
+    width: 172rpx;
+    height: 42rpx;
+    line-height: 42rpx;
+    padding-left: 54rpx;
+    font-size: 24rpx;
+}
+
+.serve-image {
+    display: block;
+}
+
+.serve-box,
+.serve-image {
+    width: 686rpx;
+    margin: 0 auto 48rpx;
+    border-radius: 24rpx;
+}
+
+.serve-box {
+    background: #fff;
+    padding: 54rpx 32rpx;
+    box-sizing: border-box;
+}
+
+.serve-item {
+    align-items: center;
+    justify-content: flex-start;
+    height: 72rpx;
+    margin-bottom: 58rpx;
+}
+
+.serve-item,
+.serve-item-main {
+    display: flex;
+}
+
+.serve-item-main {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.serve-item-title {
+    color: #111e38;
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.serve-item-desc {
+    color: #808999;
+    font-size: 24rpx;
+}
+
+.assist-box {
+    height: 274rpx;
+    margin-bottom: 48rpx;
+}
+
+.assist-list {
+    height: 274rpx;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    padding-left: 32rpx;
+}
+
+.assist-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.assist-list-item {
+    display: inline-block;
+    width: 200rpx;
+    height: 274rpx;
+    border-radius: 24rpx;
+    margin-right: 16rpx;
+    background: #fff;
+    padding-top: 24rpx;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.assist-list-img {
+    display: block;
+    width: 96rpx;
+    height: 96rpx;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.assist-list-icon {
+    position: absolute;
+    width: 32rpx;
+    height: 32rpx;
+    right: 52rpx;
+    top: 88rpx;
+}
+
+.assist-list-title {
+    margin: 8rpx auto 4rpx;
+    text-align: center;
+    color: #111e38;
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.assist-list-desc {
+    color: #808999;
+    font-size: 24rpx;
+    text-align: center;
+    margin-bottom: 16rpx;
+}
+
+.assist-list-rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #fff;
+    padding: 28rpx 32rpx;
+    border-radius: 24rpx;
+    margin: 24rpx auto 0;
+    width: 686rpx;
+    position: relative;
+}
+
+.part {
+    display: flex;
+    margin-bottom: 16rpx;
+    line-height: 44rpx;
+}
+
+.part-title {
+    color: rgba(17, 30, 56, 0.52);
+    font-size: 28rpx;
+    width: 180rpx;
+    margin-right: 16rpx;
+}
+
+.part-desc {
+    flex: 1;
+    color: #111e38;
+    font-size: 28rpx;
+}
+
+.content-bottom {
+    display: flex;
+    width: 288rpx;
+    margin: 0 auto;
+    padding-top: 32rpx;
+    justify-content: center;
+    align-items: center;
+    height: 44rpx;
+    color: rgba(17, 30, 56, 0.52);
+    font-size: 24rpx;
+    position: relative;
+}
+
+.content-bottom image {
+    display: block;
+    width: 104rpx;
+    height: 28rpx;
+    margin-left: 8rpx;
+    margin-right: 8rpx;
+}
+
+.content-bottom::before {
+    left: -168rpx;
+}
+
+.content-bottom::after,
+.content-bottom::before {
+    position: absolute;
+    width: 152rpx;
+    height: 2rpx;
+    background: #f6f7fb;
+    content: '';
+    top: 36rpx;
+}
+
+.content-bottom::after {
+    right: -168rpx;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48rpx;
+    color: #01ca88;
+    font-size: 28rpx;
+    margin-top: 28rpx;
+}
+
+.content-mask {
+    position: absolute;
+    left: 0;
+    bottom: 160rpx;
+    height: 80rpx;
+    width: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff);
+}
+
+.margin-bottom-32 {
+    margin-bottom: 32rpx;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}

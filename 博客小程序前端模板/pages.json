@@ -1,0 +1,175 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/blogList/blogList",
+			"style": {
+				"navigationBarTitleText": "文章集",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sysList/sysList",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/blogDetail/blogDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sysDetail/sysDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sysType/sysType",
+			"style": {
+				"navigationBarTitleText": "分类目录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/addDemand/addDemand",
+			"style": {
+				"navigationBarTitleText": "专业定制",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "packageA/pages",
+		"name": "packageA",
+		"pages": [{
+			"path": "aboutMe/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "software/software",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "notFound/notFound",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "serviceProcess/serviceProcess",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "subjectBlogList/subjectBlogList",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "message/message",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "customList/customList",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	"tabBar": {
+		"color": "#191919",
+		"selectedColor": "#5af",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabberbar/index.png",
+				"selectedIconPath": "static/tabberbar/index-a.png"
+			},
+			{
+				"pagePath": "pages/rank/rank",
+				"text": "发现",
+				"iconPath": "static/tabberbar/search.png",
+				"selectedIconPath": "static/tabberbar/search-a.png"
+			},
+			{
+				"pagePath": "pages/sysType/sysType",
+				"text": "项目",
+				"iconPath": "static/tabberbar/project.png",
+				"selectedIconPath": "static/tabberbar/project-a.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabberbar/mine.png",
+				"selectedIconPath": "static/tabberbar/mine-a.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "旺柴之邦",
+		"navigationBarBackgroundColor": "#5af",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}

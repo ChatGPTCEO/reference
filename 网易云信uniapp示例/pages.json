@@ -1,0 +1,70 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+    "^jk-(.*)": "@/jk-ui/components/jk-$1/jk-$1.vue"
+  },
+  "condition": {
+    "current": 0,
+    "list": [
+      {
+        "name": "swiper",
+        "path": "pages/tabBar/message/message"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "pages/tabBar/index/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tabBar/message/message",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/chatting/chatting",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "pageOrientation": "portrait",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "网易云信uniapp",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6",
+    "mp-360": {
+      "navigationStyle": "custom"
+    }
+  },
+  "tabBar": {
+    "color": "#969999",
+    "selectedColor": "#3CC4FF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/jianzhike/img/tab-index-icon.png",
+        "selectedIconPath": "static/jianzhike/img/tab-index-active-icon.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/message/message",
+        "iconPath": "static/jianzhike/img/tab-message-icon.png",
+        "selectedIconPath": "static/jianzhike/img/tab-message-active-icon.png",
+        "text": "消息"
+      }
+    ]
+  }
+}

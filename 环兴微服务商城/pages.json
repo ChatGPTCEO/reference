@@ -1,0 +1,109 @@
+{
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home-selected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/category/index",
+			"iconPath": "static/image/category.png",
+			"selectedIconPath": "static/image/category-selected.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/shopping-cart/index",
+			"iconPath": "static/image/shopping-cart.png",
+			"selectedIconPath": "static/image/shopping-cart-selected.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/user/user-center/index",
+			"iconPath": "static/image/wode.png",
+			"selectedIconPath": "static/image/wode-selected.png",
+			"text": "我的"
+		}]
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index"
+		},
+		{
+			"path": "pages/shopping-cart/index"
+		},
+		{
+			"path": "pages/goods/goods-detail/index"
+		},
+		{
+			"path": "pages/goods/goods-list/index"
+		},
+		{
+			"path": "pages/category/index"
+		},
+		{
+			"path": "pages/login/index"
+		},
+		{
+			"path": "pages/user/user-info/index"
+		},
+		{
+			"path": "pages/user/user-center/index"
+		},
+		{
+			"path": "pages/order/order-confirm/index"
+		},
+		{
+			"path": "pages/order/order-list/index"
+		},
+		{
+			"path": "pages/order/order-detail/index"
+		},
+		{
+			"path": "pages/order/order-pay-result/index"
+		},
+		{
+			"path": "pages/order/order-pay/index"
+		},
+		{
+			"path": "pages/user/user-address/index"
+		},
+		{
+			"path": "pages/user/user-address/form/index"
+		},
+		{
+			"path": "pages/goods/goods-appraise/index"
+		},
+		{
+			"path": "pages/user/user-footprint/index"
+		},
+		{
+			"path": "pages/loot-info/loot-detail/index"
+		},
+		{
+			"path": "pages/loot-info/loot-list/index"
+		},
+		{
+			"path": "pages/loot-info/loot-result/index"
+		},
+		{
+			"path": "pages/loot-user/loot-user-list/index"
+		},
+		{
+			"path": "pages/loot-user/loot-user-detail/index"
+		}
+
+
+
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"mp-alipay": {
+			"transparentTitle": "always",
+			"titlePenetrate": "YES"
+		}
+	}
+
+}

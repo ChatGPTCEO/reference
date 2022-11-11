@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['twoAvatarClick']]]]}}" class="cu-avatar radius" style="{{'background-image:'+('url('+message.from.avatar+')')+';'}}" bindtap="__e"><block wx:if="{{!message.from.avatar}}"><text class="avatar-text text-ABC">{{message.from.name}}</text></block></view>

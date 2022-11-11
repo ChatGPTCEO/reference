@@ -1,0 +1,14 @@
+{
+  "extEnable": true,
+  "extAppid": "wx1ef0f9a016161b24",
+  "ext": {
+     "b2bId" : "1001"
+  },
+  "extPages": {
+          
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}  

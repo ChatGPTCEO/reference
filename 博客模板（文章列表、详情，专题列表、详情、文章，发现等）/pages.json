@@ -1,0 +1,66 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path":"pages/find/index",
+			"style":{
+				"navigationBarTitleText":"发现"
+			}
+		},
+		{
+			"path":"pages/article/detail",
+			"style":{
+				"navigationBarTitleText":"文章详情"
+			}
+		},
+		{
+			"path":"pages/article/subject",
+			"style":{
+				"navigationBarTitleText":"专题"
+			}
+		},
+		{
+			"path":"pages/article/index",
+			"style":{
+				"navigationBarTitleText":"专题详情"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "百城记事",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#999",
+		"selectedColor":"#FF5500",
+		"backgroundColor":"#FEFEFE",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index",
+				"text":"首页",
+				"iconPath":"static/img/tabbar/home.png",
+				"selectedIconPath":"static/img/tabbar/home-active.png"
+			},
+			{
+				"pagePath":"pages/article/subject",
+				"text":"专题",
+				"iconPath":"static/img/tabbar/subject.png",
+				"selectedIconPath":"static/img/tabbar/subject-active.png"
+			},
+			{
+				"pagePath":"pages/find/index",
+				"text":"发现",
+				"iconPath":"static/img/tabbar/cloud.png",
+				"selectedIconPath":"static/img/tabbar/cloud-active.png"
+			}
+		]
+	}
+}

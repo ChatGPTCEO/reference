@@ -1,0 +1,41 @@
+.inner-slide-box {
+    margin: 16rpx 0 32rpx;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.slide-list {
+    height: 132rpx;
+    padding: 0 32rpx;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slide-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.slide-list-item {
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 16rpx;
+}
+
+.slide-list-img,
+.slide-list-item {
+    width: 240rpx;
+    height: 132rpx;
+    border-radius: 16rpx;
+}
+
+.slide-list-item:last-child {
+    margin-right: 0;
+}

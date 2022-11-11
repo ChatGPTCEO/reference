@@ -1,0 +1,164 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+
+
+		"^st-(.*)": "@/test-ui/components/ST-$1/ST-$1.vue"
+
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/evaluate/one",
+			"style": {
+				"navigationBarTitleText": "评价1"
+			}
+		},
+		{
+			"path": "pages/evaluate/two",
+			"style": {
+				"navigationBarTitleText": "评价2"
+			}
+		},
+		{
+			"path": "pages/evaluate/six",
+			"style": {
+				"navigationBarTitleText": "评价6"
+			}
+		},
+		{
+			"path": "pages/evaluate/three",
+			"style": {
+				"navigationBarTitleText": "评价3"
+			}
+		},
+		{
+			"path": "pages/evaluate/four",
+			"style": {
+				"navigationBarTitleText": "评价4"
+			}
+		},
+		{
+			"path": "pages/evaluate/five",
+			"style": {
+				"navigationBarTitleText": "评价5"
+			}
+		},
+		{
+			"path": "pages/evaluation_list/a",
+			"style": {
+				"navigationBarTitleText": "列表1"
+			}
+		},
+		{
+			"path": "pages/evaluation_list/b",
+			"style": {
+				"navigationBarTitleText": "列表2"
+			}
+		},
+		{
+			"path": "pages/evaluation_list/c",
+			"style": {
+				"navigationBarTitleText": "列表3"
+			}
+		},
+
+
+		{
+			"path": "pages/order_details/a",
+			"style": {
+				"navigationBarTitleText": "详情1"
+			}
+		},
+		{
+			"path": "pages/order/a",
+			"style": {
+				"navigationBarTitleText": "列表2"
+			}
+		},
+
+		{
+			"path": "pages/payment/c",
+			"style": {
+				"navigationBarTitleText": "下单1"
+			}
+		},
+		{
+			"path": "pages/order/c",
+			"style": {
+				"navigationBarTitleText": "列表3"
+			}
+		},
+		{
+			"path": "pages/order_details/b",
+			"style": {
+				"navigationBarTitleText": "详情2"
+			}
+		},
+
+		{
+			"path": "pages/payment/a",
+			"style": {
+				"navigationBarTitleText": "下单2"
+		}
+		},
+		{
+			"path": "pages/order/b",
+			"style": {
+				"navigationBarTitleText": "列表1"
+			}
+		},
+		{
+			"path": "pages/payment/b",
+			"style": {
+				"navigationBarTitleText": "下单3"
+			}
+		},
+		{
+			"path": "pages/index/home2",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/order_details/b",
+			"style": {
+				"navigationBarTitleText": "商户详情"
+			}
+		}
+
+
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#343434",
+		"borderStyle": "white",
+		"backgroundColor": "#F7F7F7",
+		"fontSize": "14px",
+		"iconWidth": "25px",
+		"list": [{
+			"pagePath": "pages/index/home",
+			"iconPath":"./static/321.png",
+			"selectedIconPath":"static/321.png",
+			"text": "评价"
+		}, {
+			"pagePath": "pages/index/home2",
+			"iconPath":"./static/123.png",
+			"selectedIconPath":"static/123.png",
+			"text": "订单"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

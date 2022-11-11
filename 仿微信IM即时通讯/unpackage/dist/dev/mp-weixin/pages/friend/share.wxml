@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="45613282-1" isBack="{{true}}" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">{{data.title}}</view></cu-custom></view>

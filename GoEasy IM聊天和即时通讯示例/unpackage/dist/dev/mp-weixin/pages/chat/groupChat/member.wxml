@@ -1,0 +1,1 @@
+<view class="group-member"><view class="member"><block wx:for="{{users}}" wx:for-item="member" wx:for-index="key" wx:key="key"><image class="group-member__item" src="{{member.avatar}}"></image></block></view></view>

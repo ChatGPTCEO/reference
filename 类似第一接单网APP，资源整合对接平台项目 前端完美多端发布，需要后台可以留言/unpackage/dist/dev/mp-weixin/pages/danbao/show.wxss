@@ -1,0 +1,11 @@
+
+page {
+  padding-bottom: 60rpx;
+}
+.luckbox {
+  margin-top: 30rpx;
+}
+.flow .item {
+	margin-bottom: 10px;
+}
+

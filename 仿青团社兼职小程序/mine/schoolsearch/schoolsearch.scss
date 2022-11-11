@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 32rpx;
+}
+
+.search-box {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 2rpx solid #e5e5e5;
+    padding: 32rpx 0;
+}
+
+.search-item {
+    width: 686rpx;
+    border-radius: 16rpx;
+    height: 76rpx;
+    margin: 0 auto;
+    background: #eee url('https://qiniu-image.qtshe.com/search.png') no-repeat 32rpx;
+    background-size: 36rpx 36rpx;
+    padding-left: 80rpx;
+}
+
+.search-item input {
+    width: 580rpx;
+    border: none;
+    height: 76rpx;
+    padding: 0;
+    margin: 0;
+    font-size: 28rpx;
+}
+
+.school-list {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+.school-item {
+    width: calc(100% - 32rpx);
+    height: 88rpx;
+    padding-left: 96rpx;
+    background: url('https://qiniu-image.qtshe.com/search.png') no-repeat 32rpx;
+    background-size: 32rpx 32rpx;
+    font-size: 28rpx;
+    line-height: 88rpx;
+    border-bottom: 2rpx solid #eee;
+    margin-left: 32rpx;
+}
+
+.school-item:last-child {
+    border: none;
+}

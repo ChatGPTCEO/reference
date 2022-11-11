@@ -1,0 +1,8 @@
+{
+        "count":5,
+        "require":true,
+        "piclist":[
+            "asd.jpg",
+            "uploads/a.png"
+        ]
+    }

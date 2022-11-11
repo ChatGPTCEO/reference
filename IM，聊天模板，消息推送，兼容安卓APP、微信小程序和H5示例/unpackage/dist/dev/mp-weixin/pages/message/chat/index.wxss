@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-a3add5c8 {
+  height: 100vh;
+  overflow: hidden;
+}
+.status_bar.data-v-a3add5c8,
+.container.data-v-a3add5c8,
+.header.data-v-a3add5c8,
+.emoji.data-v-a3add5c8,
+.file.data-v-a3add5c8 {
+  background-color: #F3F3F3;
+}
+.header.data-v-a3add5c8 {
+  border-bottom: 2rpx solid #EEE;
+}
+.header .center.data-v-a3add5c8 {
+  font-weight: bold;
+}
+.map.data-v-a3add5c8 {
+  width: 60%;
+  height: 300rpx;
+  background-color: #FFF !important;
+}
+.map.data-v-a3add5c8::before {
+  border-right: 30rpx solid #FFF !important;
+}
+.map .title.data-v-a3add5c8 {
+  height: 80rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.map .box.data-v-a3add5c8 {
+  width: 100%;
+  height: 170rpx;
+  margin-top: 10rpx;
+}
+.emoji.data-v-a3add5c8 {
+  height: 400rpx;
+  padding: 0 0 20rpx 20rpx;
+  position: relative;
+}
+.emoji .list.data-v-a3add5c8 {
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx 0;
+  overflow-y: auto;
+}
+.emoji .list .item.data-v-a3add5c8 {
+  float: left;
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: calc(100% / 12);
+  margin-right: 20rpx;
+}
+.file.data-v-a3add5c8 {
+  padding: 30rpx 20rpx;
+}
+.file .list.data-v-a3add5c8 {
+  overflow: hidden;
+  padding-left: 10rpx;
+  justify-content: flex-start;
+}
+.file .item.data-v-a3add5c8 {
+  float: left;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 10rpx;
+  margin-right: 40rpx;
+  background-color: #FFF;
+}
+.file .item .icon.data-v-a3add5c8 {
+  width: 50rpx;
+}
+.file .item .text.data-v-a3add5c8 {
+  font-size: 24rpx;
+  margin-top: 4rpx;
+}
+.oper.data-v-a3add5c8 {
+  height: 110rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  border-top: 2rpx solid #EEE;
+  border-bottom: 2rpx solid #EEE;
+}
+.oper .input.data-v-a3add5c8 {
+  height: 68rpx;
+  line-height: 68rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  width: calc(100% - 120rpx - 20rpx - 40rpx - 60rpx);
+}
+.oper .icon.data-v-a3add5c8 {
+  width: 60rpx;
+  height: 60rpx;
+}
+.oper .btn.data-v-a3add5c8 {
+  color: #fff;
+  width: 90rpx;
+  height: 52rpx;
+  font-size: 24rpx;
+  line-height: 52rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  background-color: #2BA245;
+}
+.scroll.data-v-a3add5c8 {
+  overflow-y: auto;
+  transition: all 0.1s ease;
+  height: calc(100vh - 88rpx - 110rpx - 25px);
+  height: calc(100vh - 88rpx - 25px);
+}
+.scroll .item-space.data-v-a3add5c8 {
+  height: 30rpx;
+}
+.scroll .time.data-v-a3add5c8 {
+  color: #666;
+  font-size: 24rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.scroll .cancel.data-v-a3add5c8 {
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.scroll .cancel .text.data-v-a3add5c8 {
+  color: #999;
+  font-size: 24rpx;
+}
+.scroll .item.data-v-a3add5c8 {
+  margin: 0 30rpx 30rpx;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scroll .item .face.data-v-a3add5c8 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.scroll .item .content.data-v-a3add5c8 {
+  color: #000;
+  font-size: 32rpx;
+  min-height: 80rpx;
+  border-radius: 10rpx;
+  padding: 20rpx 24rpx;
+  background-color: #fff;
+  word-break: break-all;
+  word-wrap: break-word;
+  max-width: calc(100% - 100rpx - 120rpx);
+  position: relative;
+}
+.scroll .item .content.data-v-a3add5c8::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 30rpx solid #FFF;
+  border-top: 20rpx solid transparent;
+  border-bottom: 20rpx solid transparent;
+  position: absolute;
+  top: 24rpx;
+}
+.scroll .item .content .voice-icon.data-v-a3add5c8 {
+  width: 32rpx;
+  height: 40rpx;
+  margin-right: 180rpx;
+  margin-bottom: -8rpx;
+}
+.scroll .item.left .face.data-v-a3add5c8 {
+  margin-right: 30rpx;
+}
+.scroll .item.left .content.data-v-a3add5c8::before {
+  left: -20rpx;
+}
+.scroll .item.right.data-v-a3add5c8 {
+  flex-direction: row-reverse;
+}
+.scroll .item.right .face.data-v-a3add5c8 {
+  margin-left: 30rpx;
+}
+.scroll .item.right .content.data-v-a3add5c8 {
+  background-color: #A0EA6F;
+}
+.scroll .item.right .content.data-v-a3add5c8::before {
+  right: -20rpx;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  border-right: 30rpx solid #A0EA6F;
+}
+.scroll .item.right .content .voice-icon.data-v-a3add5c8 {
+  margin-right: 0;
+  margin-left: 180rpx;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.scroll #bottom.data-v-a3add5c8 {
+  height: 0;
+}
+

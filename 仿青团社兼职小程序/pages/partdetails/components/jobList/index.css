@@ -1,0 +1,58 @@
+.common-tab-header {
+    display: flex;
+    margin: 48rpx 32rpx 24rpx;
+    height: 96rpx;
+}
+
+.common-tab-header-item {
+    color: rgba(17, 30, 56, 0.52);
+    font-size: 36rpx;
+    font-weight: 400;
+    margin-right: 64rpx;
+    overflow: visible;
+    height: 98rpx;
+    line-height: 98rpx;
+}
+
+.common-tab-header-item.active {
+    font-weight: 600;
+    color: #111e38;
+    position: relative;
+}
+
+.common-tab-header-item.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8rpx;
+    background: #00e699;
+    border-radius: 4rpx;
+    left: 0;
+    bottom: 0;
+}
+
+.recommond-blank {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100rpx 0 136rpx;
+    color: #aeb2bb;
+    font-size: 24rpx;
+    font-weight: 400;
+}
+
+.recommond-blank-pic {
+    display: block;
+    width: 520rpx;
+    height: 360rpx;
+    margin-bottom: 32rpx;
+}
+
+.jobList-common-title {
+    color: #111e38;
+    font-size: 36rpx;
+    font-weight: 700;
+    line-height: 50rpx;
+    padding: 48rpx 0 24rpx 32rpx;
+}

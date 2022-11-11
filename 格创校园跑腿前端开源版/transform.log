@@ -1,0 +1,149 @@
+miniprogram-to-uniapp v2 转换日志
+
+工具版本：v2.0.11
+转换模式：HBuilder X
+是否合并css：是
+项目 '跑腿_小程序' 开始转换...
+sourceFolder = /Users/liuqi/Documents/格创/跑腿/跑腿_小程序
+搜索到614个文件，耗时：6ms
+
+
+[Error]这个页面的js的结构写法无法解析   fileKey: utils/push_sdk
+
+[Error]这个页面的js的结构写法无法解析   fileKey: utils/push_sdk
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+还真有数组啊。。。 isCustom
+还真有数组啊。。。 isBack
+write pages.json success!
+write manifest.json success!
+write main.js success!
+
+
+统计信息：
+
+vue文件数量: 82
+支付api数量: 6
+登录api数量: 9
+
+恭喜你，转换完成！
+用时: 49.659s
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+注：如有疑问，请添加QQ群(780359397、361784059、603659851)或https://github.com/zhangdaren/miniprogram-to-uniapp进行反馈！
+
+
+hbxExecutableProgram  /Applications/HBuilderX.app/Contents/MacOS/HBuilderX
+stdout: 
+stderr: [patch] check FrameWorks Dir
+[patch] found FrameWorks
+initSingleFile: "/Users/liuqi/Library/Application Support/HBuilder X/.lock"
+read size: 96  instanceinfoII size: 96
+checkProcessRunning:[ 16811 ] time(input): "0816:55:402022" (get): "0816:55:402022"
+

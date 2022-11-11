@@ -1,0 +1,8 @@
+
+page{background: #FFFFFF;}
+.cu-item.center{align-items: center;}
+.cu-item .dashed{border:4rpx dashed #AAAAAA; width: 112rpx; height: 112rpx; text-align: center; font-size: 36rpx; border-radius: 6rpx;}
+.cu-item .dashed [class*="cuIcon-"]{margin-top: 0; line-height: 104rpx !important;}
+.cu-list.grid>.cu-item .cu-avatar{position: relative;}
+.cu-list.grid>.cu-item .cu-avatar .cu-tag{width: 32rpx; font-size: 20rpx; margin-top: 0; margin-left: 0; top: -10rpx; right: -10rpx; left: auto; position: absolute; padding: 0; line-height: 32rpx;}
+

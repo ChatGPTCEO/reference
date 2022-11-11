@@ -1,0 +1,12 @@
+
+.member{
+	padding: 20rpx;
+}
+.group-member__item{
+	width: 96rpx;
+	height: 96rpx;
+	border-radius: 48rpx;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+}
+

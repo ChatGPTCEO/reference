@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "w-compress": "/components/common/w-compress",
+    "loading": "/components/common/loading13"
+  }
+}

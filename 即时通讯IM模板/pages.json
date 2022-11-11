@@ -1,0 +1,110 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/chat/list",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"subNVues":[{
+						"id": "menu",
+						"path": "platform/app-plus/subNVue/menu.nvue",
+						"type": "popup",
+						"style": {
+							"position": "absolute",
+							"mask": "rgba(0, 0, 0, .1)",
+							"top": "0px",
+							"left": "0px",
+							"right": "0px",
+							"bottom": "0px",
+							"zindex": 2000,
+							"background": "transparent"
+						}
+					}]
+				}
+			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		}, {
+			"path": "pages/user/signIn",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"navigationStyle": "custom"
+			}
+		}, {
+      "path" : "pages/user/signUp",
+      "style" : {
+        "navigationBarTitleText": "用户注册",
+        "navigationStyle": "custom"
+      }
+    }, {
+			"path": "pages/user/me",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/addressBook/index",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"subNVues":[{
+						"id": "menu",
+						"path": "platform/app-plus/subNVue/menu.nvue",
+						"type": "popup",
+						"style": {
+							"position": "absolute",
+							"mask": "rgba(0, 0, 0, .1)",
+							"top": "0px",
+							"left": "0px",
+							"right": "0px",
+							"bottom": "0px",
+							"zindex": 2000,
+							"background": "transparent"
+						}
+					}]
+				}
+			}
+		}
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "IM",
+		"navigationBarBackgroundColor": "#F7F7F7",
+		"backgroundColor": "#f5f5f5"
+	},
+	"tabBar": {
+    "color": "#666666",
+    "selectedColor": "#1441B8",
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "list": [
+      {
+        "pagePath": "pages/chat/list",
+        "iconPath": "static/tab/chat.png",
+        "selectedIconPath": "static/tab/chat-active.png",
+        "text": "消息"
+      }, {
+        "pagePath": "pages/addressBook/index",
+        "iconPath": "static/tab/address-book.png",
+        "selectedIconPath": "static/tab/address-book-active.png",
+        "text": "通讯录"
+      }, {
+        "pagePath": "pages/user/me",
+        "iconPath": "static/tab/user.png",
+        "selectedIconPath": "static/tab/user-active.png",
+        "text": "用户中心"
+      }
+    ]
+  }
+}

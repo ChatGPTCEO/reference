@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/course/list",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/course/detail",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/teacher/detail",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/game/list",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/game/detail",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/game/signup",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/schedule/list",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/user/msg/list",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/user/score",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "必闻优学",
+		"navigationBarBackgroundColor": "#FFBE59",
+		"backgroundColor": "#f3f4f6"
+	}
+}

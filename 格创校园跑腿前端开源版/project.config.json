@@ -1,0 +1,136 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": false,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.21.2",
+  "appid": "touristappid",
+  "projectname": "%E6%A0%A1%E5%9B%AD%E8%B7%91%E8%85%BF%E5%A4%9A%E5%AD%A6%E6%A0%A1",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "原首页",
+          "pathName": "gc_school/pages/index/index",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=333",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "用户中心",
+          "pathName": "gc_school/pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "地址列表",
+          "pathName": "gc_school/pages/address/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "订单列表",
+          "pathName": "gc_school/pages/order/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "订单详情",
+          "pathName": "gc_school/pages/order/detail",
+          "query": "id=338",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "抢单中心",
+          "pathName": "gc_school/pages/grab/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的小店",
+          "pathName": "gc_school/pages/shop/my",
+          "query": "id=72",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "圈子详情",
+          "pathName": "gc_school/pages/article/detail",
+          "query": "id=76",
+          "scene": null
+        }
+      ]
+    },
+    "miniprogramRoot":"/unpackage/dist/dev/mp-weixin"
+  }
+}

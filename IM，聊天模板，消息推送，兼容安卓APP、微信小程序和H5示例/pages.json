@@ -1,0 +1,131 @@
+{
+	"pages": [
+		{
+			"path": "pages/login"
+		},
+		{
+			"path": "pages/web"
+		},
+		{	// 消息
+			"path": "pages/message/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 我的
+			"path": "pages/mine/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 通讯录
+			"path": "pages/contacts/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 聊天
+			"path": "pages/message/chat/index",
+			"style": {
+				"navigationStyle":"default",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 群聊
+			"path": "pages/message/group/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 创建群聊
+			"path": "pages/message/group/create",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 群聊
+			"path": "pages/message/group/detail",
+			"style": {
+				"navigationStyle":"default",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "\ue645",
+								"fontSrc": "/static/font/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},
+		{	// 设置群聊
+			"path": "pages/message/group/set",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{	// 群成员
+			"path": "pages/message/group/member",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#365B53",
+		"backgroundColor": "#FEFEFE",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "./static/img/tabbar/message.png",
+				"selectedIconPath": "static/img/tabbar/message_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/message/group/index",
+				"iconPath": "./static/img/tabbar/group.png",
+				"selectedIconPath": "static/img/tabbar/group_active.png",
+				"text": "群聊"
+			},
+			{
+				"pagePath": "pages/contacts/index",
+				"iconPath": "./static/img/tabbar/book.png",
+				"selectedIconPath": "static/img/tabbar/book_active.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "./static/img/tabbar/mine.png",
+				"selectedIconPath": "static/img/tabbar/mine_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

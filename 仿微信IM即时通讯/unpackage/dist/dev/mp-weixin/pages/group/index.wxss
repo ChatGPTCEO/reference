@@ -1,0 +1,3 @@
+
+.cu-list.menu-avatar:not(.special-content)>.cu-item.arrow .content{width: calc(100% - 48px - 30px - 60px);}
+

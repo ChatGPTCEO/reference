@@ -1,0 +1,20 @@
+{
+	"pages": [{
+		"path": "pages/list/list",
+		"style": {
+			"enablePullDownRefresh": true,
+			"navigationBarTitleText": "首页"
+		}
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": ""
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

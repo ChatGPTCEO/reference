@@ -1,0 +1,393 @@
+.card-box {
+    padding: 28rpx 0;
+    position: relative;
+    overflow: visible;
+}
+
+.cardpdleft {
+    padding-left: 32rpx;
+}
+
+.qaTopImg {
+    position: relative;
+    left: 32rpx;
+    width: 198rpx;
+    height: 28rpx;
+}
+
+.login-mask {
+    width: 686rpx;
+    height: 300rpx;
+    position: absolute;
+    top: 5rpx;
+    left: 5rpx;
+    z-index: 999;
+}
+
+.qaTitle {
+    margin-top: 28rpx;
+    font-size: 32rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #fff;
+}
+
+.point {
+    margin-bottom: 16rpx;
+}
+
+.percentText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionsTitleWidth {
+    width: 436rpx;
+}
+
+.card-box .top-ques-box {
+    width: 436rpx;
+    display: flex;
+    margin-top: 25rpx;
+    position: relative;
+}
+
+.optionsWidth {
+    max-width: 100rpx;
+}
+
+.top-ques-box .item {
+    flex: 1;
+    position: relative;
+    font-size: 28rpx;
+    height: 72rpx;
+    line-height: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-ques-box .item-text {
+    max-width: 190rpx;
+    line-height: normal;
+}
+
+.top-ques-box .item:nth-child(1) {
+    background: url('https://qiniu-image.qtshe.com/featured/optionLeft.png') no-repeat 50%;
+    background-size: contain;
+    color: #000;
+}
+
+.top-ques-box .item:nth-child(2) {
+    background: url('https://qiniu-image.qtshe.com/featured/optionRight.png') no-repeat 50%;
+    background-size: contain;
+    color: #000;
+}
+
+.card-bottom {
+    position: relative;
+    top: 15rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-top .card-bottom {
+    padding: 26rpx 0 32rpx;
+}
+
+.image-list {
+    overflow: hidden;
+    margin-right: 12rpx;
+}
+
+.image-list-image {
+    display: block;
+    float: left;
+    width: 48rpx;
+    height: 48rpx;
+    border-radius: 50%;
+    border: 1rpx solid #fff;
+    margin-left: -8rpx;
+}
+
+.image-list-image:nth-child(1) {
+    margin-left: 0;
+}
+
+.num-if {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.num-if .num {
+    color: #fff;
+    font-size: 24rpx;
+}
+
+.awardTag {
+    display: table-cell;
+    vertical-align: bottom;
+    justify-content: center;
+    padding-left: 10rpx;
+    font-size: 20rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #000;
+    height: 50rpx;
+    line-height: 40rpx;
+    width: 202rpx;
+    position: absolute;
+    right: -10rpx;
+    top: 24rpx;
+    background: url('https://qiniu-image.qtshe.com/featured/canGetAward.png') no-repeat;
+    background-size: 202rpx 50rpx;
+    text-align: center;
+}
+
+.awardTag,
+.awardTag-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.awardTag-text {
+    font-size: 32rpx;
+    font-weight: 600;
+    padding: 0 8rpx;
+    line-height: 44rpx;
+}
+
+.textWidth-text {
+    padding-left: 8rpx;
+}
+
+.textWidth-image {
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 14rpx;
+}
+
+.textWidth {
+    font-size: 24rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.progressLeft {
+    height: 8rpx;
+    background: #fcff00;
+    border-radius: 4rpx 2rpx 2rpx 4rpx;
+}
+
+.progressItem {
+    width: 440rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressRight {
+    height: 8rpx;
+    background: #00ff95;
+    border-radius: 2rpx 4rpx 4rpx 2rpx;
+    margin-left: 10rpx;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@-webkit-keyframes scaleButton {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.06);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleButton {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.06);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes scaleButtonRight {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.06);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleButtonRight {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.06);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes action_translateX {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes action_translateX {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes action_scale {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes action_scale {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.round-conner {
+    -webkit-animation: 'scaleButton' 1s ease-in-out 0s 1 alternate forwards;
+}
+
+.round-conner,
+.round-connerRight {
+    height: 10rpx;
+    border-radius: 15rpx;
+    padding: 0 20rpx !important;
+}
+
+.round-connerRight {
+    -webkit-animation: 'scaleButtonRight' 1s ease-in-out 0s 1 alternate forwards;
+}
+
+.fadeIn {
+    -webkit-animation: 'fade' 1s ease-in-out 0s 1 alternate forwards;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,12 @@
+.index-search {
+	padding: 20rpx;
+	background-color: #ffffff;
+	position: fixed;
+	width: calc(100vw - 40rpx);
+	height: 64rpx;
+	z-index: 999;
+}
+
+.index-search-bg {
+	height: 108rpx;
+}

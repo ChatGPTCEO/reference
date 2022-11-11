@@ -1,0 +1,118 @@
+.pop-up.show .pop-box {
+    transform: translate(0, 0);
+}
+
+.pop-up.hide .pop-box {
+    transform: translate(0, 100%);
+}
+
+.pop-up .pop-up-mask {
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 998;
+}
+
+.pop-box,
+.pop-up .pop-up-mask {
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+.pop-box {
+    background: #fff;
+    border-radius: 44rpx 44rpx 0 0;
+    padding: 48rpx 32rpx 32rpx;
+    bottom: 0;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.pb {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 32rpx);
+}
+
+.pop-box .pop-box-title {
+    font-size: 40rpx;
+    font-weight: 700;
+    color: #000;
+}
+
+.pop-box .pop-box-close {
+    position: absolute;
+    right: 32rpx;
+    top: 32rpx;
+    color: #9c9c9c;
+    font-size: 48rpx;
+}
+
+.pop-box-select {
+    margin-top: 48rpx;
+    height: 108rpx;
+    border-radius: 16rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f6f7fb url('https://qiniu-image.qtshe.com/wechatpay.png') no-repeat 32rpx;
+    padding-left: 96rpx;
+    background-size: 40rpx 40rpx;
+    color: #000;
+    font-size: 32rpx;
+    font-weight: 700;
+    padding-right: 34rpx;
+}
+
+.pop-box-icon {
+    font-size: 28rpx;
+    color: #00ca88;
+}
+
+.pop-box-tips {
+    color: #9c9c9c;
+    font-size: 28rpx;
+    margin-top: 48rpx;
+}
+
+.pop-box-tips-red {
+    color: #fa5555;
+    font-weight: 700;
+}
+
+.pop-box-button {
+    height: 96rpx;
+    background: #fa5555;
+    font-size: 24rpx;
+    justify-content: center;
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 500;
+    border-radius: 24rpx;
+    margin-top: 64rpx;
+}
+
+.pop-box-agreement,
+.pop-box-button {
+    display: flex;
+    align-items: center;
+}
+
+.pop-box-agreement {
+    justify-content: flex-start;
+    margin-top: 48rpx;
+    color: #aeb2bb;
+    font-size: 24rpx;
+}
+
+.pop-box-agreement-icon {
+    width: 28rpx;
+    height: 28rpx;
+    display: block;
+    margin-right: 16rpx;
+}
+
+.pop-box-agreement-text {
+    color: #111e38;
+    font-size: 24rpx;
+}

@@ -1,0 +1,9 @@
+
+.avatar{height: 180rpx; width: 180rpx; border: 10rpx solid #FFFFFF;}
+.head{position: relative;}
+.head .cuIcon-camera{position: absolute; top: 230rpx; left: 50%; margin-left: 56rpx;}
+.agreement .cu-bar .content{width: calc(100% - 200rpx);}
+.agreement-text{max-height: 40vh; font-size: 32rpx; line-height: 50rpx; text-indent: 64rpx; text-align: left;}
+.quick-item{padding-top: 30rpx;}
+.quick-item .png{width: 100rpx; height: 100rpx;}
+

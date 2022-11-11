@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "u--form": "/node-modules/uview-ui/components/u--form/u--form",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-code": "/node-modules/uview-ui/components/u-code/u-code",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "customtop": "/components/customtop"
+  }
+}

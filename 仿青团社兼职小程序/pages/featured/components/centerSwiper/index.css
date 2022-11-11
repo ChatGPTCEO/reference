@@ -1,0 +1,75 @@
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-box,
+.swiper-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-box {
+    height: 140rpx !important;
+    box-sizing: border-box;
+    transform: translateY(0);
+}
+
+.swiperMargin {
+    margin-top: 16rpx;
+}
+
+.swiper-items {
+    padding: 0 32rpx;
+    box-sizing: border-box;
+}
+
+.slide-image {
+    height: 140rpx;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 16rpx;
+}
+
+.slide-title {
+    top: 28rpx;
+    font-size: 36rpx;
+    color: #fff;
+    font-weight: 600;
+    max-width: 323rpx;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.slide-title,
+.swiper-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-dot {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    bottom: 8rpx;
+}
+
+.swiper-square {
+    width: 6rpx;
+    height: 6rpx;
+    background: hsla(0, 0%, 100%, 0.5);
+    border-radius: 50%;
+}
+
+.swiper-square,
+.swiper-square.active {
+    transition: width 0.2s linear;
+    margin: 0 4rpx;
+}
+
+.swiper-square.active {
+    background: #fff;
+}

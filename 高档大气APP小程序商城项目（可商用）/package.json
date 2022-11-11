@@ -1,0 +1,15 @@
+{
+    "id": "BC-HTV-FREE",
+    "name": "高档大气APP小程序商城项目（可商用）",
+    "version": "V1.0.0",
+    "description": "项目包含商城，文章，短视频若能",
+    "keywords": [
+        "商城APP，商城小程序，商城项目"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fafafa;
+    padding-bottom: 32rpx;
+}
+
+.user-headimg {
+    width: 100%;
+    height: 224rpx;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-headimg image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-top: 20rpx;
+}
+
+.user-headimg text {
+    color: #0c8;
+    font-size: 24rpx;
+    width: 100%;
+    height: 40rpx;
+    text-align: center;
+}
+
+.resume-tips {
+    width: 100%;
+    height: 76rpx;
+    line-height: 76rpx;
+    font-size: 24rpx;
+    color: #9c9c9c;
+    padding: 0 32rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info {
+    position: relative;
+}
+
+.info-item,
+.user-info {
+    width: 100%;
+    overflow: hidden;
+}
+
+.info-item {
+    height: 100rpx;
+    border-bottom: 2rpx solid #f3f4f5;
+    background: #fff url('https://qiniu-image.qtshe.com/20190516icon_cell_more@2x.png') no-repeat 686rpx;
+    background-size: 36rpx 36rpx;
+    line-height: 98rpx;
+    font-size: 28rpx;
+    display: flex;
+    padding: 0 72rpx 0 36rpx;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.info-item.active {
+    background: #fff;
+}
+
+.info-item input {
+    height: 100rpx;
+    line-height: 100rpx;
+    border: none;
+    width: 400rpx;
+    padding: 0;
+    text-align: right;
+}
+
+.education-info {
+    width: 100%;
+    padding: 32rpx;
+    border-bottom: 2rpx solid #f3f4f5;
+    background: #fff url('https://qiniu-image.qtshe.com/20190516icon_cell_more@2x.png') no-repeat 686rpx;
+    background-size: 36rpx 36rpx;
+}
+
+.education-detail {
+    width: 620rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-name {
+    width: 100%;
+    font-size: 32rpx;
+    color: #3c3c3c;
+    font-weight: 600;
+    margin-bottom: 16rpx;
+}
+
+.education-year {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28rpx;
+    color: #9c9c9c;
+}
+
+.education-year text:nth-of-type(1) {
+    margin-right: 32rpx;
+}
+
+.save-btn {
+    width: 686rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 32rpx;
+    background: #0c8;
+    border-radius: 8rpx;
+    margin: 32rpx;
+}

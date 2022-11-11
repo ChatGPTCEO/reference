@@ -1,0 +1,125 @@
+{
+	"pages": [
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索结果页"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "产业资讯"
+			}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/trade/index",
+			"style": {
+				"navigationBarTitleText": "求购大厅"
+			}
+		},
+		{
+			"path": "pages/trade/detail",
+			"style": {
+				"navigationBarTitleText": "求购信息详情"
+			}
+		},
+		{
+			"path": "pages/trade/create",
+			"style": {
+				"navigationBarTitleText": "我要求购"
+			}
+		},
+	
+		{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "找产品"
+			}
+		},
+		{
+			"path": "pages/product/detail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		
+		
+		{
+			"path": "pages/store/index",
+			"style": {
+				"navigationBarTitleText": "找商家"
+			}
+		},
+		{
+			"path": "pages/store/detail",
+			"style": {
+				"navigationBarTitleText": "商家店铺"
+			}
+		},
+		{
+			"path": "pages/store/apply",
+			"style": {
+				"navigationBarTitleText": "免费入驻"
+			}
+		},
+		{
+			"path": "pages/brand/index",
+			"style": {
+				"navigationBarTitleText": "品牌商家"
+			}
+		},
+		{
+			"path": "pages/member/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F7F8FA"
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+		"com-(.*)":"@/components/common/$1.vue",
+		"sub-(.*)":"@/components/sub/$1.vue",
+		"dialog-(.*)":"@/components/dialog/$1.vue",
+		"plugin-(.*)-(.*)":"@/pages/components/$1/$2.vue",
+		"upload-(.*)":"@/components/upload/$1.vue"
+	  }
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

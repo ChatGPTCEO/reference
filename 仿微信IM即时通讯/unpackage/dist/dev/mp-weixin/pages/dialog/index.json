@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会话",
+  "navigationStyle": "default",
+  "softinputMode": "adjustPan",
+  "usingComponents": {
+    "superface": "/components/util/superface",
+    "msglist": "/components/util/msglist"
+  }
+}

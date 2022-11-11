@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "群资料",
+  "usingComponents": {
+    "share": "/components/util/share"
+  }
+}

@@ -1,0 +1,4 @@
+
+.sharemodal{z-index: 999; background: rgba(0, 0, 0, 0.8);}
+.sharemodal .center{vertical-align: middle; display: inline-block; text-align: left; line-height: 70rpx;}
+

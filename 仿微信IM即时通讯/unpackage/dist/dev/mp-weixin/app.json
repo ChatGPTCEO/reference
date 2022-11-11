@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/scan",
+    "pages/auth/index",
+    "pages/friend/apply",
+    "pages/friend/news",
+    "pages/friend/recommend",
+    "pages/friend/share",
+    "pages/member/index",
+    "pages/member/account",
+    "pages/member/group",
+    "pages/member/collection",
+    "pages/member/scancode",
+    "pages/member/setting",
+    "pages/bind/mobile",
+    "pages/dialog/index",
+    "pages/dialog/share",
+    "pages/trtc/voice",
+    "pages/group/index",
+    "pages/group/detail",
+    "pages/group/create",
+    "pages/group/join",
+    "pages/group/members",
+    "pages/group/profile",
+    "pages/group/mine",
+    "pages/album/index",
+    "pages/album/friend",
+    "pages/album/detail",
+    "pages/album/post",
+    "pages/credit/index",
+    "pages/credit/pay",
+    "pages/credit/cash",
+    "pages/credit/exchange",
+    "pages/credit/payment",
+    "pages/credit/transfer",
+    "pages/search/index",
+    "pages/player/index",
+    "pages/web/index",
+    "pages/web/full",
+    "pages/redpacket/post",
+    "pages/redpacket/detail",
+    "pages/ranking/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Whotalk",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取用户当前位置，用于筛选浏览附近的信息"
+    }
+  },
+  "usingComponents": {
+    "swaload": "/components/util/swaload",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

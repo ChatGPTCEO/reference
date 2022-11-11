@@ -1,0 +1,15 @@
+{
+    "id": "luyi-user-center-orange",
+    "name": "橙色个人中心产品静态模板",
+    "version": "0.1",
+    "description": "橙色风格带产品列表的个人中心页面模板",
+    "keywords": [
+        "个人中心,模板"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    }
+}

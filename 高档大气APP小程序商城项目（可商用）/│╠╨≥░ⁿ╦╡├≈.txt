@@ -1,0 +1,6 @@
+
+此包为uniapp前端APP，已经适配微信小程序。彼岸有客标准版程序包为后端源代码。
+此包可做商用，无版权限制。
+部署教程在包内，附教程视频
+后端下载地址：https://www.createbei.com/pc/#/download
+教程地址：https://ke.qq.com/course/3677674?tuin=d1eaf0d3

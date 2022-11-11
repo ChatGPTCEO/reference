@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/search",
+    "pages/index/out",
+    "pages/post/list",
+    "pages/post/show",
+    "pages/post/create",
+    "pages/post/edit",
+    "pages/post/top",
+    "pages/account/index",
+    "pages/account/login_password",
+    "pages/account/login",
+    "pages/account/register",
+    "pages/account/publish",
+    "pages/account/user_info",
+    "pages/account/user_password",
+    "pages/account/user_contact",
+    "pages/account/gold",
+    "pages/account/gold_pay",
+    "pages/account/wallet",
+    "pages/account/wallet_pay",
+    "pages/account/wallet_withdraw",
+    "pages/account/wallet_log",
+    "pages/account/vip",
+    "pages/account/my_publish",
+    "pages/account/contact_log",
+    "pages/account/user_invite",
+    "pages/account/danbao",
+    "pages/danbao/index",
+    "pages/danbao/create",
+    "pages/danbao/show",
+    "pages/article/show",
+    "pages/qun/list",
+    "pages/qun/create",
+    "pages/message/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/foot_icon_index.png",
+        "selectedIconPath": "static/images/foot_icon_index_on.png"
+      },
+      {
+        "pagePath": "pages/account/publish",
+        "text": "发布",
+        "iconPath": "static/images/foot_icon_publish.png",
+        "selectedIconPath": "static/images/foot_icon_publish_on.png"
+      },
+      {
+        "pagePath": "pages/account/index",
+        "text": "我的",
+        "iconPath": "static/images/foot_icon_account.png",
+        "selectedIconPath": "static/images/foot_icon_account_on.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

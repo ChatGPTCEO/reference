@@ -1,0 +1,101 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/object/index",
+			"style": {
+				"navigationBarTitleText": "专题"
+			}
+		},{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},{
+			"path": "pages/mine/heart",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		},{
+			"path": "pages/mine/foot",
+			"style": {
+				"navigationBarTitleText": "足迹"
+			}
+		},{
+			"path": "pages/mine/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/object/objectList",
+			"style": {
+				"navigationBarTitleText": "专题列表"
+			}
+		},{
+			"path": "pages/mine/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "反馈"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle":"custom",
+		"navigationBarTitleText": "问博",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#3D3D3D",
+		"selectedColor": "#39CCCC",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/index.png",
+				"selectedIconPath": "static/tab/index_tab.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/object/index",
+				"iconPath": "static/tab/object.png",
+				"selectedIconPath": "static/tab/object_tab.png",
+				"text": "专题"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "./static/tab/mine.png",
+				"selectedIconPath": "./static/tab/mine_tab.png",
+				"text": "我的"
+			}
+		]
+	}
+}

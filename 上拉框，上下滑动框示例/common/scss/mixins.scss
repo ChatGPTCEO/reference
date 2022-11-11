@@ -1,0 +1,51 @@
+// scss混入，为了少写几行#ifndef
+@mixin flex($direction: row) {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: $direction;
+}
+
+@mixin flex-y-c {
+	@include flex;
+  align-items: center;
+}
+@mixin flex-y-e {
+	@include flex;
+  align-items: flex-end;
+}
+
+@mixin flex-xy-c {
+	@include flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-sb {
+	@include flex;
+  justify-content: space-between;
+}
+
+@mixin flex-x-sb-y-c {
+	@include flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin inflex($direction: row) {
+	/* #ifndef APP-NVUE */
+	display: inline-flex;
+	/* #endif */
+	flex-direction: $direction;
+}
+
+@mixin inflex-y-c($direction: row) {
+	@include inflex;
+  align-items: center;
+}
+
+@mixin inflex-xy-c($direction: row) {
+	@include inflex;
+  justify-content: center;
+  align-items: center;
+}

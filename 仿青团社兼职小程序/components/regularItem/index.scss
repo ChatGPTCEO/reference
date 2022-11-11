@@ -1,0 +1,766 @@
+.exposure_normal {
+    background-color: #fff;
+}
+
+.exposure_hasBg {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 750rpx 240rpx;
+}
+
+.exposure_job1 {
+    border-radius: 24rpx;
+    margin: 0 16rpx;
+}
+
+.partJob_left_item_new1 {
+    min-height: 144rpx;
+    padding: 24rpx;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 16rpx;
+    display: flex;
+    border-radius: 24rpx;
+}
+
+.nomarginbottom {
+    margin: 0 auto;
+    border-bottom: 8rpx solid #f6f7fb;
+}
+
+.partJob_left_item_new1.hasTag {
+    min-height: 177rpx;
+}
+
+.partJob_left_item_new1.hasImage {
+    padding-left: 24rpx;
+    min-height: 176rpx;
+}
+
+.partJob_left_item_new1.hasImage .partJob_img_new,
+.partJob_left_item_new1.hasImage .partJob_left_item_video {
+    display: block;
+}
+
+.partJob_left_item_new1.hasImage .partJob_left {
+    margin-top: -4rpx;
+}
+
+.partJob_left {
+    border-radius: 2rpx;
+    overflow: initial;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partJob_left,
+.title-wrap {
+    width: 100%;
+    display: flex;
+}
+
+.title-wrap {
+    justify-content: space-between;
+}
+
+.topsTilte {
+    font-size: 32rpx;
+    color: #3c3c3c;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.partJob_left_item_new1 .jobtitle {
+    color: #101d37;
+    font-size: 32rpx;
+    max-width: 460rpx;
+    float: left;
+    text-align: left;
+}
+
+.partJob_left_item_new1.hasImage .jobtitle {
+    max-width: 344rpx;
+}
+
+.partJob_right {
+    color: #fa5555;
+    font-size: 32rpx;
+    line-height: normal;
+    font-weight: 700;
+    letter-spacing: 1.5rpx;
+}
+
+.gateway-line,
+.message-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rpx;
+    max-width: 700rpx;
+    min-height: 44rpx;
+}
+
+.partJob_left_item_new1.hasImage .gateway-line,
+.partJob_left_item_new1.hasImage .message-line {
+    max-width: 526rpx;
+}
+
+.gateway-line .gateway-left,
+.message-line .left {
+    flex: 1;
+}
+
+.gateway-left {
+    display: flex;
+    align-items: center;
+    font-size: 24rpx;
+    color: #808999;
+}
+
+.gateway-left .gateway-icon {
+    width: 32rpx;
+    height: 32rpx;
+    flex-shrink: 0;
+    margin-right: 8rpx;
+}
+
+.gateway-left .gateway-icon.size24 {
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.gateway-left .word-line {
+    color: #111e38;
+    font-weight: 700;
+}
+
+.gateway-left .word-station {
+    color: #808999;
+}
+
+.gateway-right {
+    max-width: 130rpx;
+    color: #808999;
+    font-size: 24rpx;
+    margin-left: 16rpx;
+}
+
+.address {
+    color: #9c9c9c;
+    font-size: 24rpx;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 4rpx;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.address,
+.disdance {
+    white-space: nowrap;
+}
+
+.message-line .class-desc {
+    font-size: 24rpx;
+    color: rgba(250, 85, 85, 0.71);
+}
+
+.address-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.address-main .address-detail {
+    flex-grow: 1;
+    width: 0;
+}
+
+.address-main .address-detail,
+.address-tag {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.address-tag {
+    background: url('https://qiniu-image.qtshe.com/20201202_tagbg.png') no-repeat top;
+    background-size: 100% 100%;
+    width: 172rpx;
+    height: 44rpx;
+    padding-left: 52rpx;
+    line-height: 44rpx;
+    color: #111e38;
+    font-size: 24rpx;
+    font-weight: 600;
+    margin-left: 8rpx;
+    flex-shrink: 0;
+    padding-right: 8rpx;
+}
+
+.distText {
+    padding-left: 10rpx;
+}
+
+.index-addText {
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+}
+
+.listPartNoMg {
+    width: 686rpx;
+    margin: 0 auto 28rpx;
+}
+
+.partListImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 8rpx;
+}
+
+.partJob_img_new {
+    flex-shrink: 0;
+    width: 144rpx;
+    height: 144rpx;
+    display: none;
+    margin-right: 16rpx;
+    position: relative;
+}
+
+.partJob_img_new .main_img {
+    width: 144rpx;
+    height: 144rpx;
+    border-radius: 8rpx;
+}
+
+.partJob_img_new .host_bao,
+.partJob_img_new .host_hot {
+    position: absolute;
+    width: 36rpx;
+    height: 28rpx;
+    top: 12rpx;
+    left: 12rpx;
+}
+
+.partJob_left_item_video {
+    flex-shrink: 0;
+    width: 144rpx;
+    height: 144rpx;
+    border-radius: 8rpx;
+    margin-right: 16rpx;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.partJob_left_item_video_icon {
+    position: absolute;
+    width: 42rpx;
+    height: 42rpx;
+    left: 50%;
+    top: 50%;
+    margin-left: -21rpx;
+    margin-top: -21rpx;
+}
+
+.anchor-item {
+    width: 626rpx;
+    align-items: center;
+}
+
+.anchor-item,
+.loin-item {
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 2rpx solid #eff2f4;
+    padding: 0 !important;
+}
+
+.loin-item {
+    width: 560rpx;
+    height: 176rpx;
+}
+
+.loin-item .jobtitle {
+    max-width: 350rpx;
+}
+
+.loin-item.hasImage .jobtitle {
+    max-width: 180rpx;
+}
+
+.fresh-button {
+    width: 400rpx;
+    height: 88rpx;
+    border-radius: 44rpx;
+    color: #111e38;
+    font-size: 24rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32rpx auto;
+    background: #fff;
+}
+
+.fresh-button image {
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 8rpx;
+}
+
+.anchor-inner-title {
+    font-size: 28rpx;
+    line-height: normal;
+    color: #111e38;
+    padding: 16rpx 0 32rpx;
+    text-align: center;
+}
+
+.success-list {
+    padding: 32rpx 0;
+    border-bottom: 1rpx solid #d3d3d3;
+    border-radius: 0;
+    margin: 0;
+}
+
+.normal-list-tag-box {
+    margin-top: 12rpx;
+    height: 40rpx;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.normal-list-tag,
+.normal-list-tag-box {
+    display: flex;
+    align-items: center;
+}
+
+.normal-list-tag {
+    height: 100%;
+    border: 2rpx solid #eceef4;
+    border-radius: 8rpx;
+    color: #838a97;
+    font-size: 24rpx;
+    justify-content: center;
+    margin-right: 8rpx;
+    padding: 0 16rpx;
+    flex-shrink: 0;
+}
+
+.normal-list-tag.service {
+    height: 26rpx;
+    padding: 0 4rpx;
+    border-radius: 4rpx;
+    font-size: 16rpx;
+    margin-top: 2rpx;
+    line-height: normal;
+}
+
+.iconimage {
+    margin-right: 4rpx;
+    width: 24rpx;
+    height: 24rpx;
+    flex-shrink: 0;
+}
+
+.hot-list-new {
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+}
+
+.hot-list-new::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.hot-list-item-box {
+    display: inline-block;
+    width: 156rpx;
+    height: 128rpx;
+    margin-right: 10rpx;
+    vertical-align: top;
+}
+
+.partJob_left .comment {
+    font-size: 22rpx;
+    line-height: 34rpx;
+    color: #aeb2bb;
+    border-top: 2rpx solid #eff2f4;
+    margin-top: 12rpx;
+    padding-top: 12rpx;
+}
+
+.regular-item {
+    width: 718rpx;
+    border-radius: 24rpx;
+    padding: 24rpx 32rpx;
+    background: #fff;
+    position: relative;
+    margin: 0 16rpx 16rpx;
+}
+
+.regular-item image,
+.regular-item view {
+    z-index: 20;
+}
+
+.regular-desc {
+    display: flex;
+    align-items: center;
+    color: #808999;
+    font-size: 20rpx;
+    height: 28rpx;
+    margin-bottom: 12rpx;
+    position: relative;
+}
+
+.regular-desc image {
+    width: 20rpx;
+    height: 20rpx;
+    margin-right: 10rpx;
+    flex-shrink: 0;
+}
+
+.regular-gradient {
+    width: 180rpx;
+    height: 180rpx;
+    position: absolute;
+    border-top-left-radius: 24rpx;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.regular-item.mb44 {
+    margin-bottom: 44rpx;
+}
+
+.regular-item .regular-title-box {
+    display: flex;
+    height: 48rpx;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16rpx;
+    position: relative;
+}
+
+.regular-item .regular-title {
+    color: #111e38;
+    font-size: 32rpx;
+    font-weight: 700;
+    max-width: 432rpx;
+}
+
+.regular-item .regular-salary {
+    color: #fa5555;
+    font-size: 32rpx;
+    font-weight: 700;
+}
+
+.regular-item .regular-salary text {
+    font-size: 24rpx;
+}
+
+.regular-item .regular-tag-list {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 40rpx;
+    align-items: center;
+    margin-bottom: 16rpx;
+    margin-top: -8rpx;
+}
+
+.regular-item .regular-tag-list .regular-tag-item {
+    flex-shrink: 0;
+    height: 36rpx;
+    color: #606978;
+    padding: 0 12rpx;
+    border-radius: 8rpx;
+    font-size: 20rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8rpx;
+}
+
+.regular-item .regular-tag-list .regular-tag-item.normal {
+    background: #f6f7fb;
+    margin-top: 4rpx;
+}
+
+.regular-item .regular-tag-list .regular-tag-item.special {
+    width: 150rpx;
+    height: 40rpx;
+    color: #111e38;
+    justify-content: normal;
+    padding-left: 46rpx;
+    background-repeat: no-repeat;
+    background-size: 150rpx 40rpx;
+}
+
+.regular-item .regular-tag-list .regular-tag-item .regular-tag-content {
+    max-width: 120rpx;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.regular-address {
+    display: flex;
+    font-size: 24rpx;
+    height: 40rpx;
+    align-items: center;
+    margin-bottom: 16rpx;
+    position: relative;
+}
+
+.regular-address .icon_jl {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+    flex-shrink: 0;
+}
+
+.regular-address .icon_jl.icon_gate {
+    background: #f6f7fb;
+    border-radius: 50%;
+    background-size: 32rpx 32rpx !important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.regular-address .regular-disdance {
+    color: #111e38;
+    padding-right: 8rpx;
+}
+
+.regular-address .regular-addText {
+    color: #808999;
+}
+
+.regular-company {
+    height: 56rpx;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -8rpx;
+}
+
+.regular-company,
+.regular-company .regular-company-inner {
+    display: flex;
+    align-items: center;
+}
+
+.regular-company .regular-company-inner {
+    height: 40rpx;
+}
+
+.regular-company .regular-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164rpx;
+    height: 56rpx;
+    color: #00ca88;
+    font-size: 24rpx;
+    font-weight: 700;
+    background: #e5fcf4;
+    border-radius: 16rpx 0 0 16rpx;
+    margin-right: -32rpx;
+}
+
+.regular-company .regular-header {
+    width: 40rpx;
+    height: 40rpx;
+    position: relative;
+    margin-right: 20rpx;
+    border-radius: 50%;
+    border: 2rpx solid #f6f7fb;
+    box-sizing: content-box !important;
+}
+
+.regular-company .regular-header .icon_jl {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.regular-company .icon_corner {
+    width: 20rpx;
+    height: 20rpx;
+    margin-left: 8rpx;
+}
+
+.regular-company .regular-word {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #1277ff;
+    color: #fff;
+    font-size: 20rpx;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regular-company .regular-word.orange {
+    background: #ff8000;
+}
+
+.regular-company .regular-company-name {
+    color: #111e38;
+    font-size: 24rpx;
+    max-width: 400rpx;
+}
+
+.regular-rank {
+    padding-top: 8rpx;
+}
+
+.regular-rank-item {
+    display: flex;
+    align-items: center;
+    width: 652rpx;
+    height: 56rpx;
+    margin-top: 16rpx;
+    border-radius: 16rpx 8rpx 8rpx 16rpx;
+}
+
+.regular-rank-item .regular-rank-icon {
+    width: 24rpx;
+    height: 24rpx;
+    margin: 0 8rpx 0 16rpx;
+    flex-shrink: 0;
+}
+
+.regular-rank-item .regular-rank-des {
+    color: #111e38;
+    font-size: 24rpx;
+}
+
+.regular-status {
+    width: 654rpx;
+    height: 68rpx;
+    border-radius: 16rpx;
+    position: relative;
+    margin-top: 16rpx;
+}
+
+.regular-status .regular-browse {
+    width: 654rpx;
+    height: 56rpx;
+    border-radius: 16rpx;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #111e38;
+    font-size: 24rpx;
+    background-size: 24rpx 24rpx;
+    background-position: 16rpx;
+    background-color: #f6f7fb;
+    background-repeat: no-repeat;
+    padding-left: 48rpx;
+    display: flex;
+    align-items: center;
+}
+
+.regular-status .regular-btn {
+    position: absolute;
+    width: 192rpx;
+    height: 68rpx;
+    bottom: 0;
+    right: -32rpx;
+}
+
+.regular-ranking {
+    position: absolute;
+    height: 56rpx;
+    left: 16rpx;
+    top: -28rpx;
+}
+
+.regular-ranking .regular-num {
+    width: 56rpx;
+    height: 56rpx;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.regular-ranking .regular-num,
+.regular-ranking .regular-num-des {
+    color: #fff;
+    font-size: 24rpx;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.regular-ranking .regular-num-des {
+    height: 40rpx;
+    border-radius: 0 26rpx 26rpx 0;
+    margin: 8rpx 0 0 32rpx;
+    padding-left: 32rpx;
+}
+
+.regular-item:nth-of-type(1) .regular-num {
+    background: url('https://qiniu-image.qtshe.com/recommend/ranking1.png') no-repeat 50%;
+    background-size: 56rpx 56rpx;
+}
+
+.regular-item:nth-of-type(2) .regular-num {
+    background: url('https://qiniu-image.qtshe.com/recommend/ranking2.png') no-repeat 50%;
+    background-size: 56rpx 56rpx;
+}
+
+.regular-item:nth-of-type(3) .regular-num {
+    background: url('https://qiniu-image.qtshe.com/recommend/ranking3.png') no-repeat 50%;
+    background-size: 56rpx 56rpx;
+}
+
+.regular-item:nth-of-type(4) .regular-ranking,
+.regular-item:nth-of-type(5) .regular-ranking {
+    height: 48rpx;
+    top: -24rpx;
+}
+
+.regular-item:nth-of-type(4) .regular-num,
+.regular-item:nth-of-type(5) .regular-num {
+    width: 48rpx;
+    height: 48rpx;
+    background: url('https://qiniu-image.qtshe.com/recommend/ranking4.png') no-repeat 50%;
+    background-size: 48rpx 48rpx;
+}
+
+.regular-item:nth-of-type(1) .regular-num-des {
+    width: 148rpx;
+    background: #fa5555;
+}
+
+.regular-item:nth-of-type(2) .regular-num-des {
+    width: 120rpx;
+    background: #8496b3;
+}
+
+.regular-item:nth-of-type(3) .regular-num-des {
+    width: 120rpx;
+    background: #e89686;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

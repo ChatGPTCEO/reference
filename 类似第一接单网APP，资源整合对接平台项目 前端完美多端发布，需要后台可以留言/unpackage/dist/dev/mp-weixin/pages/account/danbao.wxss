@@ -1,0 +1,68 @@
+
+.my_publish_list {
+	margin-top: 30rpx;
+}
+.items {
+	margin: 0 auto;
+	margin-bottom: 40rpx;
+}
+.items .item {
+	background-color: #fff;
+	margin-top: 30rpx;
+	border-radius: 3px;
+	overflow: hidden;
+	padding: 30rpx;
+	position: relative;
+}
+.items .item .title {}
+.items .item .tips {
+  position: absolute;
+	width: 50px;
+	height: 22px;
+	line-height: 22px;
+  background: #f4645f;
+  border-radius: 13px 0px 0px 13px;
+  font-size: 24rpx;
+  color: #fff;
+  text-align: center;
+  right: 0;
+}
+.items .item.item_tips .title {
+	max-width: 86%;
+}
+.items .item .type {
+	color: #999;
+	font-size: 24rpx;
+	margin-bottom: -10rpx;
+	overflow: hidden;
+	border-top: 1px solid #f5f5f5;
+	letter-spacing: 1px;
+	padding: 30rpx 0;
+	margin-top: 30rpx;
+}
+.items .item .type-item {
+	margin-bottom: 10rpx;
+	display: block;
+	width: 100%;
+}
+.items .item .type-item.status .icon {
+	margin-left: 6rpx;
+}
+.items .item .foot_info {
+	padding-top: 30rpx;
+	border-top: 1px solid #f5f5f5;
+	font-size: 28rpx;
+	overflow: hidden;
+}
+.items .item .foot_info .btns {
+	float: right;
+}
+.items .item .foot_info .btns .a {
+	margin-left: 5px;
+  color: #666;
+}
+.items .item .foot_info .btns .split_line {
+	margin-left: 5px;
+	color: #666;
+}
+

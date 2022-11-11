@@ -1,0 +1,82 @@
+@keyframes fade {
+	from {opacity: 1.0;}
+	50% {opacity: 0.4;}
+	to {opacity: 1.0;}
+}
+
+@-webkit-keyframes fade {
+	from {opacity: 1.0;}
+	50% {opacity: 0.4;}
+	to {opacity: 1.0;}
+}
+
+/* reset */
+image.normal>img{position: inherit;}
+[class*="cuIcon-"].text-xl{font-size: 36upx;}
+.cu-list.menu-avatar>.cu-item .cu-avatar.xl ~ .content{left: 188upx;}
+.cu-list.menu>.cu-item .content>image{margin-top: -2upx;}
+.comment .cu-item .content{overflow: hidden;}
+/*  #ifdef  H5  */
+.uni-page-head__title{user-select: none;}
+/*  #endif  */
+
+/* append */
+.grid.col-8>view{width: 12.5%;}
+.text-xxxl{font-size: 48upx;}
+.text-muted{color: #e0e0e0;}
+.text-darkblue{color: #41519a;}
+.text-darkgold{color: #cfa86f;}
+.text-warp{white-space: normal; word-wrap: break-word;}
+.text-limegreen, .line-limegreen, .lines-limegreen{color: #05c160;}
+.bg-limegreen{background-color: #05c160; color: #FFFFFF;}
+.bg-limegreen.light{color: #05c160; background-color: #ddffe2;}
+.flex-quadruple{flex: 4;}
+.flex-fives{flex: 5;}
+.cu-list.menu-avatar>.cu-item.arrow{padding-right: 60upx; position: relative;}
+.cu-list.menu-avatar:not(.special-content)>.cu-item.arrow .content{width: calc(100% - 48px - 30px - 60px - 35px);}
+.cu-list.menu-avatar>.cu-item.arrow:before{position: absolute; top: 0; right: 30upx; bottom: 0; display: block; margin: auto; width: 30upx; height: 30upx; color: #8799a3; content: "\e6a3"; text-align: center; font-size: 34upx; font-family: cuIcon; line-height: 30upx;}
+.round-only-left{
+	border-radius: 5000upx 0 0 5000upx;
+}
+.round-only-right{
+	border-radius: 0 5000upx 5000upx 0;
+}
+
+/* common */
+.unvisible{visibility: hidden !important;}
+.hidden, .noaf::after, .nobf::before{display: none !important;}
+.nobg{background: none !important;}
+.noshadow{box-shadow:none !important;}
+.text-empty{text-align: center; color: #AAAAAA; line-height: 240upx;}
+.cu-custom .action.right{position: absolute; right: 0;}
+.head .cover image, .head .cover video{width: 100% !important;}
+.cu-modal-bg{position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.playing{animation: fade 600ms infinite; -webkit-animation: fade 600ms infinite;}
+.dynamic .text-content.richtext{max-height: none !important; white-space: pre-wrap;}
+
+/* video */
+.chat-video{display: block !important; background: url(@/static/images/poster.jpg) no-repeat center center; background-size: contain;}
+.chat-video .only-img{width: auto; min-width: 400upx; height: auto; max-height: 280upx; border-radius: 6upx; overflow: hidden;}
+.chat-video .bg-video{position: relative;}
+.chat-video .bg-video::after{content: "\e7c8"; font-family: "cuIcon"; font-size: 120upx; color: #fbbd08; position: absolute; left: 50%; top: 50%; width: 120upx; height: 120upx; text-align: center; line-height: 120upx; margin-left: -60upx; margin-top: -60upx;}
+
+/* indexex */
+.indexes {position: relative;}
+.indexes .cu-item{height: 100upx !important;}
+.indexes .cu-item::after, .dialoglist .cu-item::after{border-color: #EBEBEB !important;}
+.indexes .cu-item .content{left: 112upx !important;}
+.indexBar {position: fixed; right: 0px;	bottom: 100upx;	padding: 20upx; display: flex; align-items: center;}
+.indexBar .indexBar-box {width: 40upx;	height: auto;	background: #fff;	display: flex;	flex-direction: column;	box-shadow: 0 0 20upx rgba(0, 0, 0, 0.1); border-radius: 10upx;}
+.indexBar-item {flex: 1;width: 40upx;height: 40upx;display: flex;align-items: center;justify-content: center;font-size: 24upx;color: #888;}
+movable-view.indexBar-item {width: 40upx;height: 40upx; z-index: 9;	position: relative;}
+movable-view.indexBar-item::before {content: ""; display: block; position: absolute; left: 0; top: 10upx; height: 20upx; width: 4upx; background-color: #f37b1d;}
+.indexToast {position: fixed; top: 0; right: 80upx; bottom: 0; background: rgba(0, 0, 0, 0.5); width: 100upx; height: 100upx; border-radius: 10upx;	margin: auto; color: #fff; line-height: 100upx;	text-align: center;	font-size: 48upx;}
+
+/* dialog */
+
+/* album */
+
+/* popupover */
+.popupover{position: fixed; left: 0; top: 0; width: 100%; height: 100%; display: none; z-index: 998;}
+.popupover.active{display: block;}
+.popupover-bg{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}

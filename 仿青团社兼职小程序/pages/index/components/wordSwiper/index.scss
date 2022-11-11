@@ -1,0 +1,60 @@
+.top-swiper-box {
+    display: flex;
+    height: 100rpx;
+    padding-left: 32rpx;
+    align-items: center;
+    position: relative;
+    z-index: 30;
+}
+
+.top-swiper-box .logo {
+    width: 68rpx;
+    height: 68rpx;
+    margin-right: 12rpx;
+}
+
+.swiper-text-scroll {
+    width: 600rpx;
+    height: 100rpx;
+}
+
+.cantMove {
+    width: 95%;
+    height: 100rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.preventIndexDown {
+    z-index: 0;
+}
+
+.swiper-info-box {
+    display: flex;
+    height: 100rpx;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.swiper-info-box .title {
+    font-size: 32rpx;
+    line-height: normal;
+    color: #fff;
+    font-weight: 700;
+    max-width: 600rpx;
+}
+
+.swiper-info-box .sub-title {
+    color: #fff;
+    font-size: 20rpx;
+    line-height: 20rpx;
+    padding-top: 8rpx;
+    max-width: 600rpx;
+}

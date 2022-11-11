@@ -1,0 +1,16 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/index/index",
+			"style":{
+				"navigationBarTitleText":"自定义复选/单选框"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "UNIAPP 源码分享-河浪",
+		"navigationBarBackgroundColor": "#42b983",
+		"backgroundColor": "#f3f3f3"
+	}
+}

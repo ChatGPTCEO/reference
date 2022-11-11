@@ -1,0 +1,40 @@
+
+page {
+	display: flex;
+	height: 100%;
+	font-size: 28upx;
+	line-height: 1.8;
+	background: $uni-bg-color;
+	color: #222528;
+}
+
+content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-bg-color {
+	background-color: #fd6801;
+}
+
+.main-bg-hover-color {
+	background-color: #b64900;
+}
+
+.main-text-color {
+	background-color: #fd6801;
+}
+
+.main-border-color {
+	border-color: #f1f1f1;
+}

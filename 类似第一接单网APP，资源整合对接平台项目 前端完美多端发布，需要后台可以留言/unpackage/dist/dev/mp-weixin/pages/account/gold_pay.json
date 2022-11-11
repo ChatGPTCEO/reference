@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "充值金币",
+  "usingComponents": {
+    "customtop": "/components/customtop"
+  }
+}

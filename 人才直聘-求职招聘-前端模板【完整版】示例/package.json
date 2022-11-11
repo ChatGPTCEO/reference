@@ -1,0 +1,87 @@
+{
+	"id": "yh-job",
+	"displayName": "人才直聘-求职招聘-前端模板",
+	"version": "1.0.1",
+	"description": "人才直聘前端模板，项目前端，包括招聘角色和求职角色，完善下即可用于实际项目中，网络请求、接口调用、公共方法等都有，也可以当做基础框架使用",
+	"keywords": [
+        "求职",
+        "招聘",
+        "人才招聘"
+    ],
+	"dcloudext": {
+		"category": ["前端页面模板","uni-app前端项目模板"],
+		"sale": {
+			"regular": {
+				"price": "0.00"
+			},
+			"sourcecode": {
+				"price": "0.00"
+			}
+		},
+		"contact": {
+			"qq": "941060982"
+		},
+		"declaration": {
+			"ads": "无",
+			"data": "无",
+			"permissions": "无"
+        },
+        "npmurl": ""
+	},
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "",
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dcloudio/uni-template-login/issues"
+	},
+	"homepage": "https://github.com/dcloudio/uni-template-login#readme",
+	"dependencies": {
+		"qrcode": "^1.3.3"
+    },
+    "uni_modules": {
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "Vue": {
+                    "vue2": "u",
+                    "vue3": "u"
+                },
+                "App": {
+                    "app-vue": "u",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "u",
+                    "IE": "u",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "u",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                }
+            }
+        }
+    }
+}

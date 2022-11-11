@@ -1,0 +1,1 @@
+<view><view class="{{['swaloading','flex','justify-center','align-center','bg-'+bgColor]}}" style="{{(hasTopbar?'top:'+CustomBar+'px;height:calc(100% - '+CustomBar+'px)':'')}}"><view class="text-empty"><view class="cu-load loading load-cuIcon">加载中</view></view></view></view>

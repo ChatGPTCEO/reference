@@ -1,0 +1,162 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [
+		// 登录
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// 首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationBarTitleText": "",
+				// "navigationStyle": "custom"
+			}
+		},
+		//快讯
+		{
+			"path": "pages/index/indexxq",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationBarTitleText": "",
+				// "navigationStyle": "custom"
+			}
+		},
+		//宣传详情indexxq2
+		{
+			"path": "pages/index/indexxq2",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "navigationBarTitleText": "",
+				// "navigationStyle": "custom"
+			}
+		},
+		// 恢复动作
+		{
+			"path": "pages/action/actionindex",
+			"style": {
+				"navigationBarTitleText": "恢复动作"
+			}
+		},
+		//恢复动作详情
+		{
+		"path": "pages/action/actionxq",
+		"style": {
+			"navigationBarTitleText": "动作详情"
+		}
+			
+		},
+		//伤圈
+		{
+			"path": "pages/circle/circleindex",
+			"style": {
+				"navigationBarTitleText": "伤圈",
+				"enablePullDownRefresh":true
+			}
+		},
+		//分类伤圈
+		{
+			"path": "pages/circle/circlelei",
+			"style": {
+				"navigationBarTitleText": "伤圈"				
+			}
+		},
+		//详情circlenxq
+		{
+			"path": "pages/circle/circlenxq",
+			"style": {
+				"navigationBarTitleText": "伤圈详情"				
+			}
+		},
+		//发帖
+		{
+			"path": "pages/circle/addtie",
+			"style": {
+				"navigationBarTitleText": "伤圈"				
+			}
+		},
+		//标签
+		{
+			"path": "pages/circle/lebel",
+			"style": {
+				"navigationBarTitleText": "伤圈标签"				
+			}
+		},
+		
+		// 我的
+		{
+			"path": "pages/my/myindex",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#8FBFFC",
+				"navigationBarTextStyle": "white" //文字颜色
+			}
+		},
+		//修改信息
+		{
+			"path": "pages/my/updatexx",
+			"style": {
+				"navigationBarTitleText": "修改资料"				
+			}
+		},
+		//我的帖子mytie
+		{
+			"path": "pages/my/mytie",
+			"style": {
+				"navigationBarTitleText": "我的伤圈"				
+			}
+		},
+		//我的收藏mytie
+		{
+			"path": "pages/my/mysoucang",
+			"style": {
+				"navigationBarTitleText": "我的收藏"				
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF"
+	},
+
+	"tabBar": {
+		"color": "#666", //文字颜色
+		"selectedColor": "#22A7FF", //选中是文字颜色
+		"backgroundColor": "#f9f9f9", //背景颜色
+		"borderStyle": "white", //tabbar 上边框的颜色， 仅支持 black / white
+		"list": [{
+				"pagePath": "pages/index/index", //页面路径，必须在 pages 中先定义
+				"iconPath": "static/uview/example/home1.png", //图片路径
+				"selectedIconPath": "static/uview/example/home2.png", //选中时的图片路径
+				"text": "首页" //tab 上按钮文字
+			},
+			{
+				"pagePath": "pages/action/actionindex",
+				"iconPath": "static/uview/example/dong1.png",
+				"selectedIconPath": "static/uview/example/dong2.png",
+				"text": "恢复动作"
+			},
+			{
+				"pagePath": "pages/circle/circleindex",
+				"iconPath": "static/uview/example/quan1.png",
+				"selectedIconPath": "static/uview/example/quan2.png",
+				"text": "伤圈"
+			},
+			{
+				"pagePath": "pages/my/myindex",
+				"iconPath": "static/uview/example/my1.png",
+				"selectedIconPath": "static/uview/example/my2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
+

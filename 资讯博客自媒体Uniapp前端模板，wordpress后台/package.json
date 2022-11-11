@@ -1,0 +1,18 @@
+{
+    "id": "bobob-wanziopen",
+    "name": "资讯博客自媒体Uniapp前端模板，wordpress后台",
+    "version": "1.0.6",
+    "description": "使用wordpress后台，结合uniapp前端代码，开发自己的博客多端平台",
+    "keywords": [
+        "wordpress",
+        "资讯",
+        "博客",
+        "自媒体"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+.loading {
+    width: 100%;
+    height: 70rpx;
+    text-align: center;
+}
+
+.loading .flexcenter {
+    width: 130rpx;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 70rpx;
+}
+
+.loading .flexcenter image {
+    width: 36rpx;
+    height: 36rpx;
+    float: left;
+    margin-top: 17rpx;
+}
+
+.loading .loadtips {
+    font-size: 22rpx;
+    color: #999;
+    float: left;
+    margin-left: 20rpx;
+}
+
+.is-end {
+    font-size: 22rpx;
+    color: #999;
+    text-align: center;
+    line-height: 70rpx;
+}

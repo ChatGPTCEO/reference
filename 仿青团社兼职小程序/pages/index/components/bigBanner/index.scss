@@ -1,0 +1,44 @@
+.big-banner-box {
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.big-banner,
+.big-banner-box {
+    width: 100%;
+    height: 560rpx;
+}
+
+.big-banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-dot {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    position: absolute;
+    top: 456rpx;
+    left: 50%;
+    background: #ccc;
+    border-radius: 2rpx;
+    transform: translateX(-50%);
+}
+
+.swiper-square {
+    width: 26rpx;
+    height: 4rpx;
+    background: hsla(0, 0%, 100%, 0.5);
+    border-radius: 2rpx;
+    transition: width 0.2s linear;
+}
+
+.swiper-square.active {
+    background: #fff;
+    transition: width 0.2s linear;
+}

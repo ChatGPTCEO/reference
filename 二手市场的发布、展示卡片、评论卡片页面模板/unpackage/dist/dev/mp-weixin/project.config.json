@@ -18,7 +18,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.27.0",
+  "libVersion": "2.27.2",
   "appid": "touristappid",
   "projectname": "二手市场的发布、展示卡片、评论卡片页面模板",
   "condition": {},

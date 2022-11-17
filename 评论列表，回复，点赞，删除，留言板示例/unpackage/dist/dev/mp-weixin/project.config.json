@@ -18,7 +18,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.27.0",
+  "libVersion": "2.27.2",
   "appid": "touristappid",
   "projectname": "评论列表，回复，点赞，删除，留言板示例",
   "condition": {},

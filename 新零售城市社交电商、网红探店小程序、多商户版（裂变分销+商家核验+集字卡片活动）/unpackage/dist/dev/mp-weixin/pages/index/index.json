@@ -1,0 +1,18 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "struggler-uniapp-add-tip": "/components/struggler-uniapp-add-tip/struggler-uniapp-add-tip",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "advance-item": "/components/advance-item/advance-item",
+    "goods-item": "/components/goods-item/goods-item",
+    "arrow": "/components/index/arrow",
+    "member": "/components/index/member",
+    "bottom-buy": "/components/index/bottom-buy"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "推广订单",
+  "navigationBarBackgroundColor": "#ffdd00",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

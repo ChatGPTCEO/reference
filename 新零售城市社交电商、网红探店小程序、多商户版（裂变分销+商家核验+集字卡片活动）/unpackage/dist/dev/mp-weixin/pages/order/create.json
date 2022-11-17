@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "navigationBarBackgroundColor": "#ffdd00",
+  "usingComponents": {
+    "advance-item": "/components/advance-item/advance-item",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "coupon-item": "/components/coupon-item/coupon-item",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select"
+  }
+}

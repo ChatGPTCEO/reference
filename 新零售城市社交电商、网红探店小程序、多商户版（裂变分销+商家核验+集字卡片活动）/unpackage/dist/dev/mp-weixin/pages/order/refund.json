@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "alert-box": "/components/alert/index"
+  }
+}

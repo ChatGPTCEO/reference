@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推广人排行",
+  "navigationBarBackgroundColor": "#ffdd00",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

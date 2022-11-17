@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "账号管理",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

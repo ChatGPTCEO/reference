@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "全民疯抢",
+  "navigationBarBackgroundColor": "#FFDD00",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "activity-item": "/components/activity-item/activity-item",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

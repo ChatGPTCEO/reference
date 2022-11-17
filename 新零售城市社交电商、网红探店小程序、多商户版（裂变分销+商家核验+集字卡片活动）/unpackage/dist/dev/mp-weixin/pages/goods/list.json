@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "navigationBarBackgroundColor": "#FFDD00",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "arrow": "/components/index/arrow",
+    "member": "/components/index/member",
+    "bottom-buy": "/components/index/bottom-buy"
+  }
+}

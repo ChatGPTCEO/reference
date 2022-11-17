@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的优惠券",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "coupon-item": "/components/coupon-item/coupon-item",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

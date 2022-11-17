@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "秒杀商品",
+  "navigationBarBackgroundColor": "#ffdd00",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

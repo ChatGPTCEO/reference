@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-count-down": "/node-modules/uview-ui/components/u-count-down/u-count-down",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse",
+    "comment-item": "/components/comment-item/comment-item",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "goods-item": "/components/goods-item/goods-item",
+    "echone-sku": "/components/echone-sku/echone-sku",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "coupon-item": "/components/coupon-item/coupon-item",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "qrcode-poster": "/components/qrcode-poster/qrcode-poster"
+  }
+}

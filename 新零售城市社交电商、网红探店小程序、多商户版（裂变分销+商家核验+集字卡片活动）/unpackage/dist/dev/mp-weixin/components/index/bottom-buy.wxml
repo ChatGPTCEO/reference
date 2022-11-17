@@ -1,0 +1,1 @@
+<view class="text-white bg-red rounded-36  d-flex a-center j-center font-member data-v-dbd62c08" style="width:140rpx;height:60rpx;"><slot></slot></view>

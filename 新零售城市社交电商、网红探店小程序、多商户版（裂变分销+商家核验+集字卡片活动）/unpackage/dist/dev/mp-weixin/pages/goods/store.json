@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "店铺",
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-alert-tips": "/node-modules/uview-ui/components/u-alert-tips/u-alert-tips",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "advance-item": "/components/advance-item/advance-item"
+  }
+}

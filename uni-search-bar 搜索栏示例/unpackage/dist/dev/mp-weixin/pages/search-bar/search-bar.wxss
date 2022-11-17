@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-result {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.search-result-text {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.example-body {
+  display: block;
+  padding: 0px;
+}
+.uni-mt-10 {
+  margin-top: 10px;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的抽奖",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "advance-item": "/components/advance-item/advance-item",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

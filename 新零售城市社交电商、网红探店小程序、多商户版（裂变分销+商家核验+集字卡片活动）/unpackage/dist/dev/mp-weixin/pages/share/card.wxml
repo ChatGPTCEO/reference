@@ -1,0 +1,1 @@
+<view><view class="card-box"><image class="image" src="{{cardInfo.poster}}" mode="aspectFill"></image></view><view class="card-button"><u-button vue-id="939530a6-1" type="warning" custom-style="{{({color:'#333'})}}" size="medium" data-event-opts="{{[['^click',[['savePosterPath']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">保存海报</u-button></view></view>

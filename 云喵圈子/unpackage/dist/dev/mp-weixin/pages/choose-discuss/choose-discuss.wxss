@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.dis-wrap.data-v-6be77786 {
+  margin: 30rpx;
+}
+.dis-wrap .dis-prefix-icon.data-v-6be77786 {
+  color: #999;
+  font-weight: bold;
+  margin: 0 20rpx;
+}
+.discuss-item.data-v-6be77786 {
+  margin: 30rpx;
+  font-weight: bold;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "专题",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

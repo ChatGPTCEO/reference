@@ -1,0 +1,1 @@
+<view><view class="body" style="{{'margin-top:'+(topHeight+'px')+';'}}"><city-select bind:selectCity="__e" vue-id="2e27276e-1" data-event-opts="{{[['^selectCity',[['selectCity']]]]}}" bind:__l="__l"></city-select></view></view>

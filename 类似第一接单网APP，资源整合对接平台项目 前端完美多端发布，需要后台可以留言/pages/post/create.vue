@@ -16,7 +16,7 @@
             <view class="weui-cell__bd">
               <input name="title" class="weui-input" type="text" placeholder="项目名+单价+结算周期" value="" />
             </view>
-          </view> 
+          </view>
         </view>
 
         <!-- 数据属性 start -->

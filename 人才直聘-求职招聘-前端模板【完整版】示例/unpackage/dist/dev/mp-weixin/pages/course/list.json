@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "课程列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-swiper": "/components/m-swiper/m-swiper2",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzb-course": "/components/yzb/yzb-course",
+    "m-ad": "/components/m-ad/m-ad",
+    "yzbfilter-dropdown": "/components/yzb/yzb-filterDropdown"
+  }
+}

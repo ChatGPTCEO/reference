@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.post-title.data-v-3c0a1cb7 {
+  margin: 20rpx 0;
+}
+.icon text.data-v-3c0a1cb7 {
+  font-size: 12px;
+  color: #999;
+  margin-right: 20rpx;
+}
+/*关注*/
+.user-item.data-v-3c0a1cb7 {
+  padding: 30rpx;
+  display: flex;
+}
+.user-item .avatar.data-v-3c0a1cb7 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 10rpx;
+  border-radius: 50%;
+}
+.user-item .btn.data-v-3c0a1cb7 {
+  border: 1px solid #F5F5F5;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  margin-left: auto;
+  margin-right: 30rpx;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: 10rpx 20rpx;
+}
+/*底部操作*/
+.p-footer.data-v-3c0a1cb7 {
+  margin: 30rpx;
+  display: flex;
+  font-size: 24rpx;
+  color: #616161;
+}
+.p-footer .p-item.data-v-3c0a1cb7 {
+  display: flex;
+  align-items: center;
+}
+.p-footer .p-item .icon.data-v-3c0a1cb7 {
+  margin-right: 10rpx;
+}
+.p-footer .p-item.data-v-3c0a1cb7:nth-child(2) {
+  margin: 0 auto;
+}
+.p-footer .p-item .iconfont.data-v-3c0a1cb7 {
+  margin-right: 10rpx;
+}
+/*评论列表*/
+.comment-box.data-v-3c0a1cb7 {
+  background-color: #ffffff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.comment-box > .title.data-v-3c0a1cb7 {
+  margin-bottom: 20rpx;
+}
+.comment-item.data-v-3c0a1cb7 {
+  display: flex;
+  padding: 20rpx;
+}
+.comment-item.data-v-3c0a1cb7:active {
+  background-color: #f5f5f5;
+}
+.comment-item .c-content.data-v-3c0a1cb7 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.comment-item .c-content .time.data-v-3c0a1cb7 {
+  color: #999;
+  font-size: 10px;
+}
+.comment-item .c-content .user.data-v-3c0a1cb7 {
+  display: flex;
+}
+.comment-item .c-content .user .thumbs.data-v-3c0a1cb7 {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  color: #bfbfbf;
+}
+.comment-item .c-content .user .thumbs .num.data-v-3c0a1cb7 {
+  margin-right: 10rpx;
+}
+.comment-item .avatar.data-v-3c0a1cb7 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.sub-comment-item.data-v-3c0a1cb7 {
+  margin-left: 100rpx;
+  padding: 20rpx;
+}
+.sub-comment-item.data-v-3c0a1cb7:active {
+  background-color: #f5f5f5;
+}
+.sub-comment-item .user.data-v-3c0a1cb7 {
+  display: flex;
+  align-items: center;
+}
+.sub-comment-item .user .name.data-v-3c0a1cb7 {
+  color: #616161;
+}
+.sub-comment-item .user .avatar.data-v-3c0a1cb7 {
+  margin-right: 10rpx;
+}
+.sub-comment-item .user .u-head.data-v-3c0a1cb7 {
+  flex: 1;
+  display: flex;
+}
+.sub-comment-item .user .u-head .thumbs.data-v-3c0a1cb7 {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  color: #bfbfbf;
+}
+.sub-comment-item .user .u-head .thumbs .num.data-v-3c0a1cb7 {
+  margin-right: 10rpx;
+}
+.sub-comment-item .reply .time.data-v-3c0a1cb7 {
+  margin-left: auto;
+  font-size: 20rpx;
+  color: #999;
+}
+.sub-comment-item .reply .name.data-v-3c0a1cb7 {
+  display: inline-block;
+  color: #2b85e4;
+  font-weight: 600;
+}
+/* 评论tool */
+.comment-tool.data-v-3c0a1cb7 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20rpx;
+  background-color: #fff;
+  display: flex;
+  z-index: 999;
+}
+.comment-tool textarea.data-v-3c0a1cb7 {
+  background-color: #f5f5f5;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  min-height: 40rpx;
+}
+.comment-tool .u-btn.data-v-3c0a1cb7 {
+  margin-left: 10rpx;
+}
+.topic-info.data-v-3c0a1cb7 {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  background-color: #f5f5f5;
+  margin: 30rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.topic-info .cover.data-v-3c0a1cb7 {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+.topic-info .center.data-v-3c0a1cb7 {
+  flex: 1;
+}
+.topic-info .center .count-txt.data-v-3c0a1cb7 {
+  color: #999;
+}
+.topic-info .right.data-v-3c0a1cb7 {
+  margin-left: 20rpx;
+  background-color: #758d71;
+  padding: 10rpx 30rpx;
+  border-radius: 50rpx;
+  color: #fff;
+}
+.share-wrap.data-v-3c0a1cb7 {
+  display: flex;
+  padding: 30rpx;
+  width: 60%;
+  margin: 0 auto;
+}
+.share-wrap .share-item.data-v-3c0a1cb7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.share-wrap .share-item.data-v-3c0a1cb7:nth-child(1) {
+  margin-right: auto;
+}
+.share-wrap .share-item image.data-v-3c0a1cb7 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.share-wrap .share-item text.data-v-3c0a1cb7 {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.canvas-box.data-v-3c0a1cb7 {
+  height: 560px;
+  position: relative;
+}
+.canvas-box .footer.data-v-3c0a1cb7 {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+  right: 20rpx;
+}
+.vote-box.data-v-3c0a1cb7 {
+  background-color: #f5f5f5;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin: 20rpx;
+}
+.vote-box .title.data-v-3c0a1cb7 {
+  font-weight: bold;
+}
+.vote-box .expire-time.data-v-3c0a1cb7 {
+  font-size: 24rpx;
+  margin: 20rpx 0;
+}
+.vote-box .vote-item.data-v-3c0a1cb7 {
+  font-size: 24rpx;
+  font-weight: bold;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  border: 1px solid #999;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.vote-box .vote-item.data-v-3c0a1cb7:last-child {
+  margin-bottom: 0;
+}
+.vote-box .active.data-v-3c0a1cb7 {
+  background-color: #333;
+  color: #fff;
+}
+.expire-box.data-v-3c0a1cb7 {
+  background-color: #999;
+  color: #fff;
+  font-size: 24rpx;
+  display: inline-block;
+  padding: 0 20rpx;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+video.data-v-3c0a1cb7 {
+  width: 100%;
+}
+.post-text.data-v-3c0a1cb7 {
+  display: block;
+  font-family: "黑体";
+  padding: 30rpx;
+  white-space: pre-wrap;
+}
+.indicator-num.data-v-3c0a1cb7 {
+  padding: 2px 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 100px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indicator-num__text.data-v-3c0a1cb7 {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.post-content-wrap.data-v-3c0a1cb7 {
+  padding: 30rpx;
+}
+.post-content-wrap .discuss-item.data-v-3c0a1cb7 {
+  display: inline-block;
+  color: #2b85e4;
+  margin-right: 20rpx;
+}
+

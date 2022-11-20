@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.list {
+  padding: 20rpx;
+}
+.list .item {
+  padding: 15rpx 0;
+  border-bottom: 1rpx solid #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.list .img image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+}
+.list .middle {
+  box-sizing: border-box;
+  padding: 20rpx;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list .middle .title {
+  line-height: 1.4;
+  font-weight: bold;
+  font-size: 28rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.list .middle .name {
+  color: #666666;
+}
+.list .middle .info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.list .middle .info .time {
+  color: #666666;
+}
+.list .middle .info .number {
+  color: #FF822B;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "公司入驻",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "yzb-select-input": "/components/yzb/yzb-select-input"
+  }
+}

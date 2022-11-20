@@ -1,0 +1,23 @@
+page.data-v-6b2455c4 {
+  background-color: #ededed;
+}
+.time.data-v-6b2455c4 {
+  text-align: center;
+  color: #39CCCC;
+  padding: 30rpx 0 20rpx 0;
+}
+.box.data-v-6b2455c4 {
+  padding: 30rpx;
+  background-color: #fff;
+  border-radius: 6rpx;
+}
+.box .box-title.data-v-6b2455c4 {
+  text-align: left;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.box .box-content.data-v-6b2455c4 {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+

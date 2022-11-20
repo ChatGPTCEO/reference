@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "创建圈子",
+  "usingComponents": {
+    "q-field": "/components/q-field/q-field",
+    "q-button": "/components/q-button/q-button"
+  }
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.u-numberbox.data-v-10802338 {
+  display: inline-flex;
+  align-items: center;
+}
+.u-number-input.data-v-10802338 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 6rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-icon-plus.data-v-10802338,
+.u-icon-minus.data-v-10802338 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.u-icon-disabled.data-v-10802338 {
+  color: #c8c9cc !important;
+  background: #f7f8fa !important;
+}
+.u-input-disabled.data-v-10802338 {
+  color: #c8c9cc !important;
+  background-color: #f2f3f5 !important;
+}
+

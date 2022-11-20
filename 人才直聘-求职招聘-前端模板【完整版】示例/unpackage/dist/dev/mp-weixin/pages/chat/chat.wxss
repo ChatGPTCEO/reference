@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top .bg {
+  background-color: #12ae85;
+  height: 120rpx;
+  width: 100%;
+}
+.top .v-grid {
+  padding: 0 0 15rpx 0;
+  margin-top: -100rpx;
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 24rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+  margin-bottom: 30rpx;
+}
+.top .image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.top .grid-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rpx 0;
+}
+.top .grid-dot {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.top .yzb {
+  font-size: 85rpx;
+  color: #12ae85;
+  height: 125rpx;
+}
+.loading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.loading text {
+  color: #666666;
+}
+.nodata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 32rpx;
+  margin-top: 250rpx;
+}
+

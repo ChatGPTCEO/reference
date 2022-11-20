@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-page-view {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  height: 100vw;
+}
+.m-page-view__loading {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.m-page-view__loading .dialog-box {
+  width: 100rpx;
+  height: 100rpx;
+  padding: 50rpx;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10rpx;
+}
+.m-page-view__loading .dialog-box image {
+  width: 100%;
+  height: 100%;
+}
+.m-page-view__fail {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.m-page-view__fail .dialog-box {
+  margin-top: 200rpx;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
+.m-page-view__fail .dialog-box image {
+  width: 100%;
+  height: 100%;
+}
+.m-page-view__fail .tip {
+  color: #8f8f8f;
+  padding: 50rpx;
+}
+

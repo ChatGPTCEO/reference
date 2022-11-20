@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "usingComponents": {
+    "yzb-terms": "/components/yzb/yzb-terms",
+    "yzb-about": "/components/yzb/yzb-about"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "技能知识详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yzb-back-top": "/components/yzb/yzb-back-top"
+  }
+}

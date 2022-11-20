@@ -1,0 +1,1 @@
+<view class="content"><view class="protocol-content padding-20"><rich-text style="word-wrap:break-word;word-break:break-all;" nodes="{{terms.content}}"></rich-text></view></view>

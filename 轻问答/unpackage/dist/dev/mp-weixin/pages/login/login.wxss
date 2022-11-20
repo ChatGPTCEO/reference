@@ -1,0 +1,42 @@
+.Qin-question-login.data-v-b237504c {
+  background-color: #fff;
+  padding: 60rpx;
+}
+.Qin-question-login .login_title.data-v-b237504c {
+  font-size: 40rpx;
+  text-align: center;
+}
+.Qin-question-login > input.data-v-b237504c {
+  height: 80rpx;
+  background-color: #f9f9f9;
+  margin: 40rpx 0;
+  padding-left: 20rpx;
+}
+.Qin-question-login .login_btn.data-v-b237504c {
+  margin: 50rpx 0;
+  background-color: #00965e;
+  height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 35rpx;
+  line-height: 80rpx;
+}
+.Qin-question-login .login_phone_code.data-v-b237504c {
+  display: flex;
+  align-items: center;
+}
+.Qin-question-login .login_phone_code > input.data-v-b237504c {
+  flex: 1;
+  height: 80rpx;
+  background-color: #f9f9f9;
+  padding-left: 20rpx;
+}
+.Qin-question-login .login_phone_code .login_code.data-v-b237504c {
+  width: 200rpx;
+  background-color: rgba(0, 150, 94, 0.1);
+  text-align: center;
+  color: #00965e;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+

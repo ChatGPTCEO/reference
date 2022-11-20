@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.user-block.data-v-de36cdd2 {
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.user-block.data-v-de36cdd2:last-child {
+  margin-bottom: 0;
+}
+.user-block .title.data-v-de36cdd2 {
+  font-weight: 600;
+}
+

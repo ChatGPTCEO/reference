@@ -1,1 +1,0 @@
-worker.onMessage(function (res) {});

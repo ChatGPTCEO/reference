@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page{
+	padding: 20rpx;
+	background-color: #e9ecef;
+	box-sizing: border-box;
+}
+

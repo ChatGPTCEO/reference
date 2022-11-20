@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.body {
+  margin-bottom: 100rpx;
+  padding: 20rpx;
+}
+.body .title {
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.body .title .name {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.body .title .info {
+  padding: 10rpx 0;
+}
+.body .title .info text {
+  font-size: 28rpx;
+  padding: 5rpx 10rpx;
+  margin-right: 15rpx;
+  border-radius: 5rpx;
+}
+.body .title .info .label-type {
+  background-color: #EBEEF5;
+  color: #666666;
+}
+.body .title .info .label {
+  border: 1rpx solid #FF822B;
+  color: #FF822B;
+}
+.body .title .info .label-close {
+  border: 1rpx solid #999999;
+  color: #999999;
+}
+.body .item {
+  width: 100%;
+  padding: 15rpx 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.body .item text:first-child {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.body .item text:nth-child(2) {
+  font-size: 32rpx;
+  color: #FF822B;
+}
+.body .desc {
+  display: flex;
+  flex-direction: column;
+  padding: 15rpx 0;
+}
+.body .desc .desc-title {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.body .desc .desc-content {
+  padding: 10rpx 0;
+  color: #666666;
+}
+.body .sign-up {
+  padding: 20rpx 0;
+  border-top: 1rpx solid #f8f8f8;
+}
+.body .sign-up .sign-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.body .sign-up .sign-title text:first-child {
+  padding: 30rpx 0;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.body .sign-up .sign-title text:last-child {
+  padding: 30rpx 0;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.body .sign-up .sign-list {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.body .sign-up .sign-list .sign-item {
+  padding: 10rpx 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.body .sign-up .sign-list .sign-item .head image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  border: 1rpx solid #f8f8f8;
+}
+.body .sign-up .sign-list .sign-item .right {
+  padding: 0 20rpx;
+  width: 100%;
+}
+.body .sign-up .sign-list .sign-item .right .nickname {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.body .sign-up .sign-list .sign-item .right .create-time {
+  color: #666666;
+}
+.body .sign-up .sign-list .sign-item .right .height-line {
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #cccccc;
+  margin: 0 15rpx;
+}
+.body .sign-up .sign-list .sign-item .right .applys {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #666666;
+}
+.body .sign-up .sign-list .sign-item .space-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  width: 100%;
+  padding: 15rpx 0;
+  background-color: #ffffff;
+  border-top: 1rpx solid #EBEEF5;
+}
+.bottom .edit {
+  background-color: #f4f4f4;
+  width: 30%;
+}
+.bottom .open-close {
+  background-color: #12ae85;
+  color: #ffffff;
+  width: 62%;
+}
+.bottom .close {
+  background-color: #f4f4f4;
+  width: 62%;
+}
+.bottom button::after {
+  border: none;
+}
+

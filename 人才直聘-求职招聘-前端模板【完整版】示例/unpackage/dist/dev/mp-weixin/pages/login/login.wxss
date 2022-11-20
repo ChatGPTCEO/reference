@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 微信授权 */
+.wx-auth {
+  width: 100%;
+}
+.wx-auth .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 450rpx;
+}
+.wx-auth .header image {
+  width: 260rpx;
+  height: 260rpx;
+}
+.wx-auth .content2 {
+  padding: 30rpx 80rpx;
+}
+.wx-auth .content2 text {
+  display: block;
+  color: #666666;
+  margin-top: 40rpx;
+}
+.wx-auth .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wx-auth .btn-auth {
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  font-size: 35rpx;
+  width: 90%;
+  background-color: #12ae85;
+  color: #ffffff;
+}
+.wx-auth .btn-get-phone {
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  font-size: 35rpx;
+  width: 90%;
+  background-color: #12ae85;
+  color: #ffffff;
+}
+.wx-auth .cancel-login {
+  border-radius: 15rpx;
+  margin: 70rpx 20rpx 50rpx 50rpx;
+  font-size: 35rpx;
+  background-color: #eeeeee;
+  width: 30%;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20rpx;
+}
+.bottom .other-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom .other-login .title {
+  color: #666666;
+}
+.bottom .other-login .yzb-shoujisel {
+  font-size: 100rpx;
+  color: #12ae85;
+}
+.bottom .agreement {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bottom .agreement .agreement2 {
+  font-size: 28rpx;
+  color: #9B9B9B;
+}
+.bottom .agreement .agreement-text {
+  text-decoration: underline;
+  color: #12ae85;
+  padding: 0 10rpx;
+  font-size: 28rpx;
+}
+

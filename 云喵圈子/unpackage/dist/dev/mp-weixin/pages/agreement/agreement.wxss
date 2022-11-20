@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.title.data-v-1a454adc {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+.rich-text.data-v-1a454adc {
+  line-height: 2;
+  color: #616161;
+}
+

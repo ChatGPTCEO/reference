@@ -1,0 +1,23 @@
+.search-wrap {
+  margin: 0 30rpx 0 10rpx;
+  flex: 1;
+}
+.u-body-item {
+  font-size: 32rpx;
+  color: #333;
+  padding: 20rpx;
+}
+.u-body-item image {
+  width: 180rpx;
+  flex: 0 0 180rpx;
+  height: 150rpx;
+  border-radius: 6rpx;
+  margin-right: 12rpx;
+}
+.height {
+  height: 88rpx;
+}
+.toptem {
+  padding: 20rpx 0;
+}
+

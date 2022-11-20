@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "q-topic-list": "/components/q-topic-list/q-topic-list",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

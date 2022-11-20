@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "rboy-upload-sfz": "/components/Rboy-upload-sfz/Rboy-upload-sfz"
+  }
+}

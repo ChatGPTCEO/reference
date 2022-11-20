@@ -1,0 +1,1 @@
+<view><block wx:for="{{contentArr}}" wx:for-item="content" wx:for-index="index" wx:key="index"><view><rich-text nodes="{{content}}"></rich-text><block wx:if="{{videoArr[index]!==null}}"><video style="{{'width:'+(width)+';'}}" src="{{videoArr[index]}}" controls="{{true}}"></video></block></view></block></view>

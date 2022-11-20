@@ -1,0 +1,9 @@
+.button.data-v-3c5dacd0 {
+  background-image: linear-gradient(45deg, #2BC3C8, #84E7B9);
+  margin-top: 60rpx;
+  color: #FFFFFF;
+}
+.desctip.data-v-3c5dacd0 {
+  letter-spacing: 2rpx;
+}
+

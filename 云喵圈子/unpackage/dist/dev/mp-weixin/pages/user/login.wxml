@@ -1,0 +1,1 @@
+<view class="login"><text class="txt1">申请获取以下权限</text><text class="txt2">获取你的公开信息（昵称、头像等）</text><q-button bind:click="__e" vue-id="3d36e1e8-1" data-event-opts="{{[['^click',[['login']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">授权登录</q-button></view>

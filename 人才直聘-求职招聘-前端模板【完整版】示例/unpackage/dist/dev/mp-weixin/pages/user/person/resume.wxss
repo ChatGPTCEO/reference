@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-2b5c639c {
+  display: flex;
+}
+.text-title.data-v-2b5c639c {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.text-sub-title.data-v-2b5c639c {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.item-content.data-v-2b5c639c {
+  color: #333;
+}
+.content.data-v-2b5c639c {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.base-info .name.data-v-2b5c639c {
+  font-size: 44rpx;
+  font-weight: bold;
+}
+.base-info .yzb-bianji2.data-v-2b5c639c {
+  color: #000000;
+}
+.base-info .header.data-v-2b5c639c {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.base-info .phone.data-v-2b5c639c {
+  color: #333333;
+}
+.base-info .phone .yzb-dianhua1.data-v-2b5c639c {
+  margin-left: 10rpx;
+  color: #12ae85;
+}
+.yzb-jia1.data-v-2b5c639c {
+  color: #333333;
+  font-weight: bold;
+  font-size: 44rpx;
+}
+.skill-item.data-v-2b5c639c {
+  padding: 20rpx;
+  flex-wrap: wrap;
+  display: flex;
+}
+.skill-item .skill-item-item.data-v-2b5c639c {
+  position: relative;
+  margin-right: 20rpx;
+}
+.skill-item .item.data-v-2b5c639c {
+  font-size: 24rpx;
+  padding: 12rpx 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+.skill-item .del.data-v-2b5c639c {
+  color: #dd524d;
+  position: relative;
+  top: 0;
+}
+.skill-item .img_delete.data-v-2b5c639c {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: rgba(234, 178, 178, 0.5);
+  position: absolute;
+  right: -8rpx;
+  top: -18rpx;
+  z-index: 10;
+  align-items: center;
+}
+.skill-item .text-blue.data-v-2b5c639c {
+  color: #12ae85;
+  border: 1rpx solid #EBEEF5;
+  background-color: #EBEEF5;
+  color: #666666;
+}
+.skill-item .text-normal.data-v-2b5c639c {
+  color: #666666;
+  border: 1rpx solid #EBEEF5;
+}
+.edu-exp.data-v-2b5c639c {
+  margin-bottom: 100rpx;
+}
+

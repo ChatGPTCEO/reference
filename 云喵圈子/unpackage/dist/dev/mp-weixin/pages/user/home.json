@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "q-topic-list": "/components/q-topic-list/q-topic-list",
+    "q-post-list": "/components/q-post-list/q-post-list"
+  }
+}

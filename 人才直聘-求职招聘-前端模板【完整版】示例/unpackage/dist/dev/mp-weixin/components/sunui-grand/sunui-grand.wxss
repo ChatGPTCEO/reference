@@ -1,0 +1,30 @@
+
+.sunui-grand-hide-bg {
+	background-color: #e9ecef;
+	padding: 4%;
+	padding-bottom: 0;
+	position: relative;
+}
+.sunui-grand-show-bg {
+	background-color: #e9ecef;
+	padding: 4%;
+}
+.sunui-grand-summary {
+	overflow: hidden;
+	text-overflow: clip;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+.sunui-grand-show-btn {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	text-align: center;
+	background-image: linear-gradient(-180deg, rgba(233, 236, 239, 0) 0%, #fff 80%);
+	padding-top: 3rem;
+}
+.sunui-grand-hide-btn {
+	text-align: right;
+}
+

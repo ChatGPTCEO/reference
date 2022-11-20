@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+input.data-v-02711320 {
+  width: 90%;
+}
+.input-group.data-v-02711320 {
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  margin-bottom: 120rpx;
+}
+.input-row.data-v-02711320 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15rpx 10rpx;
+  box-sizing: border-box;
+}
+.input-row .input-row-item.data-v-02711320 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input-row .input-row-item input.data-v-02711320 {
+  text-align: right;
+}
+.yzb-next.data-v-02711320 {
+  color: #999999;
+  text-align: center;
+  margin-top: 5rpx;
+}
+.input-row .title.data-v-02711320 {
+  width: 25%;
+  padding: 20rpx 0;
+  padding-left: 20rpx;
+  line-height: 50rpx;
+}
+.border-bottom-1px.data-v-02711320 {
+  position: relative;
+}
+.border-bottom-1px.data-v-02711320::after {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 20rpx;
+  height: 1rpx;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #e2e2e2;
+}
+.header.data-v-02711320 {
+  display: flex;
+  flex-direction: column;
+}
+.header .tip.data-v-02711320 {
+  font-size: 24rpx;
+  color: #666666;
+  margin-left: 20rpx;
+}
+.head-img.data-v-02711320 {
+  margin-right: 15rpx;
+}
+.head-img image.data-v-02711320 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+radio-group.data-v-02711320 {
+  margin-right: 10rpx;
+}
+.radio.data-v-02711320 {
+  margin-left: 20rpx;
+}
+.super-title.data-v-02711320 {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.input-column.data-v-02711320 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30rpx 20rpx 10rpx 20rpx;
+}
+.input-column .title.data-v-02711320 {
+  margin-left: 10rpx;
+}
+.input-column .input-item.data-v-02711320 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-column .picker.data-v-02711320 {
+  padding: 30rpx 0;
+  margin-left: 10rpx;
+}
+.input-column .picker picker.data-v-02711320 {
+  font-size: 32rpx;
+  width: 100%;
+}
+.text-blue.data-v-02711320 {
+  color: #12ae85;
+  border: 1rpx solid #12ae85;
+  background-color: #12ae85;
+  color: #ffffff;
+}
+.text-normal.data-v-02711320 {
+  color: #666666;
+  border: 1rpx solid #EBEEF5;
+}
+.skill-item.data-v-02711320 {
+  padding: 20rpx;
+  flex-wrap: wrap;
+  display: flex;
+}
+.skill-item text.data-v-02711320 {
+  font-size: 24rpx;
+  padding: 12rpx 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+.content.data-v-02711320 {
+  background: #ffffff;
+}
+.btn-row.data-v-02711320 {
+  position: fixed;
+  z-index: 999;
+  bottom: 0rpx;
+  padding: 20rpx 0;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.btn-row .btn-delete.data-v-02711320 {
+  background-color: #f4f4f4;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+  color: #333333;
+  width: 30%;
+}
+.btn-row .btn-save.data-v-02711320 {
+  background-color: #12ae85;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+}
+.btn-row .width-55.data-v-02711320 {
+  width: 55%;
+}
+.btn-row .width-90.data-v-02711320 {
+  width: 90%;
+}
+.module-image.data-v-02711320 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 0;
+}
+.module-image view.data-v-02711320 {
+  display: flex;
+}
+.release_img.data-v-02711320 {
+  width: 220rpx;
+  height: 220rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.release_img_dottedLine.data-v-02711320 {
+  border: 1px dashed #8a8a8a;
+}
+.release_img text.data-v-02711320 {
+  font-size: 50rpx;
+}
+.release_img2.data-v-02711320 {
+  width: 700rpx;
+  height: 450rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.image_view.data-v-02711320 {
+  position: relative;
+}
+.image_view2.data-v-02711320 {
+  position: relative;
+  width: 94%;
+  margin: 0 3%;
+}
+.img_delete.data-v-02711320 {
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 50%;
+  background: rgba(234, 178, 178, 0.5);
+  position: absolute;
+  right: -15rpx;
+  top: -15rpx;
+  z-index: 10;
+}
+.release-bottom.data-v-02711320 {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+

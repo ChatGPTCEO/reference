@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "公司列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-company": "/components/m-company/m-company",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-swiper": "/components/m-swiper/m-swiper",
+    "m-ad": "/components/m-ad/m-ad"
+  }
+}

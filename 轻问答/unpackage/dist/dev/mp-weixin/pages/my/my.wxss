@@ -1,0 +1,45 @@
+.Qin-question-my.data-v-0be17cc6 {
+  background-color: #fff;
+  padding: 60rpx;
+}
+.Qin-question-my .qin_header.data-v-0be17cc6 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.Qin-question-my .qin_header > ._img.data-v-0be17cc6 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.Qin-question-my .qin_header > text.data-v-0be17cc6 {
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.Qin-question-my .qin_content.data-v-0be17cc6 {
+  margin-top: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Qin-question-my .qin_content > view.data-v-0be17cc6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Qin-question-my .qin_content > view .count_num.data-v-0be17cc6 {
+  font-weight: bold;
+  font-size: 35rpx;
+  color: #00965e;
+}
+.Qin-question-my .qin_logout.data-v-0be17cc6 {
+  margin-top: 120rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00965e;
+}
+

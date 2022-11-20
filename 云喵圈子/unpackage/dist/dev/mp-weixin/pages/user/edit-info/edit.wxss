@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.c-wrap.data-v-6f5d16ba {
+  padding: 20rpx;
+  background-color: #ffffff;
+}
+.bind-mobile.data-v-6f5d16ba {
+  display: flex;
+}
+/* 标签 */
+.tag-box.data-v-6f5d16ba {
+  display: unset;
+}
+.tag-box .tag.data-v-6f5d16ba {
+  padding: 10rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #ffebe5;
+  white-space: nowrap;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(2n) {
+  background-color: #ecf9f2;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(3n) {
+  background-color: #fff7e5;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(5n) {
+  background-color: #b3e0ff;
+}
+.cell-item.data-v-6f5d16ba {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.cell-item .left.data-v-6f5d16ba {
+  margin-right: 20rpx;
+  white-space: nowrap;
+}
+.cell-item .right.data-v-6f5d16ba {
+  margin-left: auto;
+  color: #616161;
+  display: flex;
+  align-items: center;
+}
+.cell-item .right text.data-v-6f5d16ba {
+  margin-right: 10rpx;
+}
+

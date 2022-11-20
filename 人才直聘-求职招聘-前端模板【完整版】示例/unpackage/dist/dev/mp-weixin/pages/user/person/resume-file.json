@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "附件简历",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "lsj-upload": "/uni_modules/lsj-upload/components/lsj-upload/lsj-upload"
+  }
+}

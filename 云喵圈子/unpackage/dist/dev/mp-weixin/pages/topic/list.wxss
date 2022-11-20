@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.u-search-box.data-v-6a7d3892 {
+  padding: 30rpx 20rpx;
+}
+.swiper.data-v-6a7d3892 {
+  height: calc(100vh - 80rpx);
+}
+.grid-text.data-v-6a7d3892 {
+  margin-top: 20rpx;
+  font-size: 12px;
+  display: inline-block;
+  width: 200rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

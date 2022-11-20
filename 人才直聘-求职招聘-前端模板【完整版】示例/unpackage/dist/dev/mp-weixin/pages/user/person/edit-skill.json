@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加个人优势",
+  "usingComponents": {
+    "m-textarea": "/components/m-textarea/m-textarea"
+  }
+}

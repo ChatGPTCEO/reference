@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.swiper-box.data-v-160b8d32 {
+  margin-bottom: 20rpx;
+}
+

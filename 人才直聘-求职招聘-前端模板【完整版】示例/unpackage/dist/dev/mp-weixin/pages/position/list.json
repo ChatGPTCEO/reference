@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "岗位列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-swiper": "/components/m-swiper/m-swiper",
+    "yzb-position": "/components/yzb/yzb-position",
+    "m-ad": "/components/m-ad/m-ad",
+    "yzbfilter-dropdown": "/components/yzb/yzb-filterDropdown"
+  }
+}

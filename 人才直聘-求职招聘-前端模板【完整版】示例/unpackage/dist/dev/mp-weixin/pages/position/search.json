@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "职位搜索",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "m-position": "/components/m-position/m-position",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-swiper": "/components/m-swiper/m-swiper",
+    "m-ad": "/components/m-ad/m-ad"
+  }
+}

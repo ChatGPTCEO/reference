@@ -1,0 +1,30 @@
+.u-tips.data-v-6f495b00 {
+  font-size: 26rpx;
+  text-align: center;
+  padding: 34rpx 0;
+  line-height: 1;
+  color: #909399;
+}
+.u-action-sheet-item.data-v-6f495b00 {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  padding: 34rpx 0;
+  flex-direction: column;
+}
+.u-action-sheet-item__subtext.data-v-6f495b00 {
+  font-size: 24rpx;
+  color: #909399;
+  margin-top: 20rpx;
+}
+.u-gab.data-v-6f495b00 {
+  height: 12rpx;
+  background-color: #eaeaec;
+}
+.u-actionsheet-cancel.data-v-6f495b00 {
+  color: #303133;
+}
+

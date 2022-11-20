@@ -1,0 +1,16 @@
+.qin-questions-ranking .ranking-header.data-v-7cc07174 {
+  display: flex;
+  background-color: #fff;
+  padding: 40rpx;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40rpx;
+}
+.qin-questions-ranking .ranking-header > text.data-v-7cc07174 {
+  padding-bottom: 10rpx;
+}
+.qin-questions-ranking .ranking-header text.data-v-7cc07174:first-of-type {
+  border-bottom: 8rpx solid #00965e;
+  font-weight: bold;
+}
+

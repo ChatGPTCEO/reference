@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "职位选择",
+  "usingComponents": {
+    "yzb-classification": "/components/yzb/yzb-classification"
+  }
+}

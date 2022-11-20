@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.discuss-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #FFFFFF;
+}
+.title {
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.title .arrow-down {
+  margin-left: auto;
+}
+.desc {
+  font-size: 12px;
+  color: #616161;
+}
+.count {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20rpx;
+}
+.count text:nth-child(1) {
+  margin-right: 20rpx;
+}
+

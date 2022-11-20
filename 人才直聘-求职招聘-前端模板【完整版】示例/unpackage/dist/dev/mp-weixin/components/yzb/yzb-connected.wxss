@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-position .item {
+  background-color: #ffffff;
+  padding: 30rpx 20rpx;
+  border-bottom: 3rpx solid #f8f8f8;
+}
+.m-position .job .title .left {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.m-position .job .title .right {
+  color: #f0ad4e;
+  font-weight: bold;
+}
+.m-position .job .company {
+  color: #666666;
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m-position .job .company .height-line {
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #cccccc;
+  margin: 0 15rpx;
+}
+.m-position .job .desc {
+  margin-top: 15rpx;
+}
+.m-position .job .desc text {
+  font-size: 28rpx;
+  padding: 5rpx 10rpx;
+  margin-right: 15rpx;
+  background-color: #EBEEF5;
+  border-radius: 5rpx;
+  color: #666666;
+}
+.m-position .job .user {
+  margin-top: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.m-position .job .user image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+.m-position .job .user .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28rpx;
+}
+.m-position .job .user .left .name {
+  margin: 0 20rpx;
+}
+.m-position .job .user .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #666666;
+  font-size: 28rpx;
+}
+.m-position .job .user .right .area {
+  margin-right: 15rpx;
+}
+.m-position .job .user .right .yzb-shanchu {
+  font-size: 40rpx;
+  color: #dd524d;
+}
+.m-position .resume .title .left {
+  display: flex;
+  flex-direction: column;
+}
+.m-position .resume .title .left .name {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.m-position .resume .title .left .yzb-yirenzheng1 {
+  font-weight: bold;
+  font-size: 34rpx;
+  color: #4cd964;
+  margin-right: 10rpx;
+}
+.m-position .resume .title .left .name-read {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #666666;
+}
+.m-position .resume .title .left .read-status {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  color: #ff201f;
+}
+.m-position .resume .title .left .yzb-nan {
+  color: #12ae85;
+  font-weight: bold;
+  font-size: 34rpx;
+  margin-left: 10rpx;
+}
+.m-position .resume .title .left .yzb-nv {
+  color: #ff6a6a;
+  font-weight: bold;
+  font-size: 34rpx;
+  margin-left: 10rpx;
+}
+.m-position .resume .title .left .skill {
+  color: #666666;
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m-position .resume .title .left .skill .height-line {
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #cccccc;
+  margin: 0 15rpx;
+}
+.m-position .resume .title .right {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.m-position .resume .company {
+  color: #666666;
+  margin-top: 15rpx;
+  font-size: 28rpx;
+}
+.m-position .resume .company .left {
+  margin-right: 15rpx;
+}
+.m-position .resume .exp {
+  line-height: 1.2;
+}
+.m-position .resume .exp .exp-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.2;
+}
+.m-position .resume .exp .exp-item .top-icon {
+  margin-right: 10rpx;
+  margin-top: 3rpx;
+}
+.m-position .resume .exp .exp-item-read {
+  color: #666666;
+}
+.m-position .resume .desc {
+  margin-top: 15rpx;
+  flex-wrap: wrap;
+}
+.m-position .resume .desc text {
+  font-size: 28rpx;
+  padding: 5rpx 10rpx;
+  margin-right: 15rpx;
+  background-color: #EBEEF5;
+  border-radius: 5rpx;
+  color: #666666;
+}
+.m-position .resume .position {
+  margin-top: 15rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #666666;
+}
+.m-position .resume .position .title {
+  font-size: 32rpx;
+  color: #FF822B;
+}
+.m-position .resume .position .title-read {
+  font-size: 32rpx;
+  color: #666666;
+}
+.m-position .resume .user {
+  margin-top: 35rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.m-position .resume .user image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.m-position .resume .user .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28rpx;
+}
+.m-position .resume .user .left .name {
+  margin: 0 20rpx;
+}
+.m-position .resume .user .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #666666;
+  font-size: 28rpx;
+}
+.m-position .resume .user .right .area {
+  margin-right: 15rpx;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+

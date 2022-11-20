@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "系统消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "uni-list-chat": "/uni_modules/uni-list/components/uni-list-chat/uni-list-chat"
+  }
+}

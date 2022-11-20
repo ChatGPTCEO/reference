@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper-box.data-v-062becde {
+  width: 100%;
+  height: 350rpx;
+  background: #fff;
+}
+.swiper.data-v-062becde {
+  height: 350rpx;
+}
+.swiper-item.data-v-062becde {
+  width: 100%;
+  height: 350rpx;
+}
+.dtos.data-v-062becde {
+  display: flex;
+  position: relative;
+  bottom: 0rpx;
+  margin: 0 auto;
+  justify-content: center;
+}
+.dtos .dto.data-v-062becde {
+  width: 14rpx;
+  height: 14rpx;
+  border-radius: 500rpx;
+  background: #e5e5e5;
+  margin: 0 7rpx;
+  transition: width 0.5s;
+}
+.dtos .dto-active.data-v-062becde {
+  background: #c2c2c2;
+  width: 26rpx;
+}
+

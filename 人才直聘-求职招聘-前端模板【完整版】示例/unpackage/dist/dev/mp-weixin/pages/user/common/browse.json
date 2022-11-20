@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "浏览记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzb-browse": "/components/yzb/yzb-browse"
+  }
+}

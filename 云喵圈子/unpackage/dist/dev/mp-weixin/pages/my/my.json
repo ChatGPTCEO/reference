@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "q-button": "/components/q-button/q-button",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "q-tabbar": "/components/q-tabbar/q-tabbar"
+  }
+}

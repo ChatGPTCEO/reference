@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.body {
+  margin-bottom: 100rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.body .name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.body .name text:first-child {
+  font-weight: bold;
+  font-size: 32rpx;
+  padding: 10rpx 0;
+}
+.body .name text:nth-child(2) {
+  color: #FF822B;
+}
+.body .title {
+  display: flex;
+  flex-direction: column;
+}
+.body .title text:first-child {
+  font-weight: bold;
+  font-size: 30rpx;
+  padding: 10rpx 0;
+  color: #333333;
+}
+.body .title text:last-child {
+  color: #666666;
+  line-height: 1.4;
+}
+.body .time {
+  padding: 10rpx 0;
+  font-size: 30rpx;
+  color: #FF822B;
+}
+.body .teacher {
+  font-size: 30rpx;
+  color: #FF822B;
+}
+.body .address {
+  font-size: 30rpx;
+  color: #FF822B;
+}
+.body .detail {
+  font-size: 30rpx;
+  color: #666666;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1rpx solid #EBEEF5;
+}
+.share-pro {
+  z-index: 1000;
+  display: flex;
+  line-height: 1;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  /* 显示或关闭内容时动画 */
+}
+.share-pro .share-pro-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.share-pro .share-pro-dialog {
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 310rpx;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.share-pro .share-pro-dialog .yzb-shanchu {
+  font-size: 40rpx;
+}
+.share-pro .share-pro-dialog .close-btn {
+  position: absolute;
+  top: 0rpx;
+  right: 29rpx;
+  padding: 20rpx 15rpx;
+}
+.share-pro .share-pro-dialog .share-pro-title {
+  padding: 28rpx 41rpx;
+  font-size: 28rpx;
+  color: #1c1c1c;
+  background-color: #f7f7f7;
+}
+.share-pro .share-pro-dialog .share-pro-body {
+  display: flex;
+  font-size: 28rpx;
+  height: 100%;
+  color: #1c1c1c;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item .btn-share {
+  background: #ffff;
+  border: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item .share-icon {
+  font-size: 70rpx;
+  color: #42ae3c;
+  text-align: center;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item:nth-child(2) .share-icon {
+  color: #ff5f33;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item .yzb {
+  font-size: 60rpx;
+  line-height: 90rpx;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item .yzb-weixinhaoyou {
+  color: #4cd964;
+}
+.share-pro .share-pro-dialog .share-pro-body .share-item .yzb-Photo-share {
+  color: #dd524d;
+}
+.share-pro .open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  transition: all 0.3s ease-out;
+}
+.share-pro .close {
+  -webkit-transform: translateY(310rpx);
+          transform: translateY(310rpx);
+  transition: all 0.3s ease-out;
+}
+

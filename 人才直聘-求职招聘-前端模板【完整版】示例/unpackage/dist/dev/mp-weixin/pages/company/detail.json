@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "公司详情",
+  "usingComponents": {
+    "sunui-grand": "/components/sunui-grand/sunui-grand",
+    "m-swiper": "/components/m-swiper/m-swiper2",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "sun-ui-grand": "/components/sunui-grand/sunui-grand",
+    "yzb-position": "/components/yzb/yzb-position"
+  }
+}

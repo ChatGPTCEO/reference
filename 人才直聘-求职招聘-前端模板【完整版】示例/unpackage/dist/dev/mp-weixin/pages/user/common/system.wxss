@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.system {
+  width: 94.5%;
+  height: 100rpx;
+}
+.btn {
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  font-size: 35rpx;
+  width: 90%;
+  background-color: #dd524d;
+  color: #ffffff;
+}
+.list {
+  width: 100%;
+  border-bottom: solid 26rpx #f1f1f1;
+}
+.list .li {
+  width: 96%;
+  height: 100rpx;
+  padding: 0 2%;
+  border-bottom: solid 1rpx #e7e7e7;
+  display: flex;
+  align-items: center;
+}
+.list .li.noborder {
+  border-bottom: 0;
+}
+.list .li .icon {
+  flex-shrink: 0;
+  width: 50rpx;
+  height: 50rpx;
+}
+.list .li .icon image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.list .li .text {
+  padding-left: 30rpx;
+  width: 100%;
+  color: #666;
+}
+.list .li .text2 {
+  width: 40%;
+  color: #666;
+  text-align: right;
+}
+.list .li .to {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.list .li .icon-next {
+  font-size: 34rpx;
+  color: #999999;
+  margin-left: 15rpx;
+}
+

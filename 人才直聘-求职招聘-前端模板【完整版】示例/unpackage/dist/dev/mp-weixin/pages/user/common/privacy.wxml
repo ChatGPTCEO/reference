@@ -1,0 +1,1 @@
+<view class="content"><yzb-terms vue-id="3b26d4b2-1" terms="{{terms}}" bind:__l="__l"></yzb-terms></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "city-select": "/components/yzb/yzb-city-select"
+  }
+}

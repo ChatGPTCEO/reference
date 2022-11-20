@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* @import "./main.css"; */
+page {
+  background-color: #f1f1f1;
+  font-size: 28rpx;
+  color: #333333;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+.round {
+  border-radius: 10rpx;
+  padding: 6rpx 15rpx;
+}
+.flex {
+  display: flex;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-start {
+  align-items: flex-start;
+}
+.padding-top-sm {
+  padding-top: 20rpx;
+}
+.padding-top {
+  padding-top: 20rpx;
+}
+.padding-right {
+  padding-right: 20rpx;
+}
+.margin-left {
+  margin-left: 20rpx;
+}
+.margin-top {
+  margin-top: 20rpx;
+}
+.bg-cyan {
+  background-color: #12ae85;
+  color: #ffffff;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-row-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-row-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-dh-char {
+  background-color: #f9f9f9;
+  /* width: 750rpx; */
+  height: 110rpx;
+  padding: 0 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.center-box {
+  width: 720rpx;
+  padding-left: 25rpx;
+}
+.my-neirong {
+  font-size: 26rpx;
+  color: #6d6d6d;
+}
+.my-neirong-sm {
+  font-size: 23rpx;
+  color: #838383;
+}
+.hui-box {
+  width: 750rpx;
+  height: 100%;
+}
+.dh-input {
+  width: 76%;
+  height: 65rpx;
+  border-radius: 30rpx;
+  padding-left: 15rpx;
+  background-color: #ffffff;
+  font-size: 30rpx;
+}
+.box-normal {
+  width: 750rpx;
+  height: 180px;
+  background-color: #ffffff;
+}
+.tb-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tb-text view {
+  font-size: 65rpx;
+}
+.tb-text text {
+  font-size: 25rpx;
+  color: #737373;
+  margin-top: 10rpx;
+}
+.chat-img {
+  border-radius: 50%;
+  width: 70rpx;
+  height: 70rpx;
+  background-color: #f7f7f7;
+}
+.padding-chat {
+  padding: 17rpx 20rpx;
+}
+.tb-nv {
+  width: 50rpx;
+  height: 50rpx;
+}
+.yzb-jia {
+  font-size: 50rpx;
+  text-align: center;
+  color: #666;
+}
+.yzb-jiaoseqiehuan {
+  font-size: 45rpx;
+  text-align: center;
+  color: #f0ad4e;
+}
+.yzb-yijianfankui {
+  color: #f0ad4e;
+}
+.yzb-kefuguanli {
+  color: #f0ad4e;
+}
+

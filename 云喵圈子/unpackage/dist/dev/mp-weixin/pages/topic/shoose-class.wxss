@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.title.data-v-ebcbd76a {
+  margin-bottom: 30rpx;
+}
+.class-wrap.data-v-ebcbd76a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20rpx;
+}
+.class-wrap .class-item.data-v-ebcbd76a {
+  border: 1px solid #999;
+  padding: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.class-wrap .class-item.data-v-ebcbd76a:active {
+  background-color: #333;
+  color: #fff;
+}
+

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.topic-add-btn.data-v-2061b685 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #758d71;
+  padding: 20rpx;
+  border-radius: 100px;
+}
+.topic-add-btn .text.data-v-2061b685 {
+  color: #fff;
+}
+

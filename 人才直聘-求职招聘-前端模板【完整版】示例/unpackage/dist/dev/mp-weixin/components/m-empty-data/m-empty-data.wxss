@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-empty-data.data-v-1dd87dc4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.m-empty-data > view.data-v-1dd87dc4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+.m-empty-data > view > view.data-v-1dd87dc4 {
+  width: 220rpx;
+  height: 220rpx;
+  margin: -250rpx auto 0;
+}
+.m-empty-data > view > view image.data-v-1dd87dc4 {
+  width: 100%;
+  height: 100%;
+}
+.m-empty-data > view > text.data-v-1dd87dc4 {
+  padding: 15rpx 0;
+  font-size: 30rpx;
+  color: #333;
+  white-space: nowrap;
+  position: relative;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+

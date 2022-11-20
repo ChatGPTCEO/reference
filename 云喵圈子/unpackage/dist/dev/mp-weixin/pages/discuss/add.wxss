@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.dis-title.data-v-51acf109 {
+  padding: 30rpx 0;
+}
+.post-txt.data-v-51acf109 {
+  width: calc(100% - 40rpx);
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  border-radius: 20rpx;
+}
+

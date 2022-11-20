@@ -1,0 +1,8 @@
+
+page {
+	background-color: #fff;
+}
+.upload-wrap {
+	padding: 30rpx;
+}
+

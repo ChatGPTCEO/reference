@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "q-discuss-list": "/components/q-discuss-list/q-discuss-list"
+  }
+}

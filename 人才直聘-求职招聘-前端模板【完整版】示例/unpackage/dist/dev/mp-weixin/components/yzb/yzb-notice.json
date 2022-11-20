@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bctos-rich-text": "/uni_modules/bctos-rich-text/components/bctos-rich-text/bctos-rich-text"
+  }
+}

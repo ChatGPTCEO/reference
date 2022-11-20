@@ -1,0 +1,41 @@
+.Qin-Question .qin_more.data-v-57280228 {
+  margin: 20rpx 0;
+  font-size: 20rpx;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55);
+}
+.Qin-Question .qin_select.data-v-57280228 {
+  height: 80rpx;
+  width: 100%;
+  background-color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Qin-Question .qin_input.data-v-57280228 {
+  height: 80rpx;
+}
+.Qin-Question .uni-input-wrapper.data-v-57280228 {
+  align-items: center;
+  justify-content: center;
+}
+.Qin-Question .qin_header.data-v-57280228 {
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Qin-Question .qin_header view.data-v-57280228:last-child {
+  height: 70rpx;
+  width: 130rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+  background-color: #00965e;
+}
+.Qin-Question .qin_content_list.data-v-57280228 {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+

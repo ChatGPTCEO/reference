@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "m-swiper": "/components/m-swiper/m-swiper",
+    "yzb-position": "/components/yzb/yzb-position",
+    "m-ad": "/components/m-ad/m-ad",
+    "yzbfilter-dropdown": "/components/yzb/yzb-filterDropdown"
+  }
+}

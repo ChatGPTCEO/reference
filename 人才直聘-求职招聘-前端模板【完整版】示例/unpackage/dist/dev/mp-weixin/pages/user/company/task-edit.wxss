@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.input-group {
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  margin-bottom: 100rpx;
+}
+.input-row .title {
+  width: 25%;
+  padding: 20rpx 0;
+  padding-left: 20rpx;
+  line-height: 50rpx;
+}
+.border-bottom-1px {
+  position: relative;
+}
+.border-bottom-1px::after {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 20rpx;
+  height: 1rpx;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #e2e2e2;
+}
+.input-column {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20rpx 20rpx 10rpx 20rpx;
+}
+.input-column .title {
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.input-column .picker {
+  padding: 30rpx 0 20rpx 0;
+  margin-left: 10rpx;
+  position: relative;
+}
+.input-column .picker picker {
+  font-size: 32rpx;
+  width: 100%;
+  position: absolute;
+}
+.input-column .yzb-next {
+  float: right;
+  color: #999999;
+}
+.content {
+  background: #ffffff;
+}
+.btn-row {
+  position: fixed;
+  bottom: 10rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.btn-row button {
+  background-color: #12ae85;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+}
+textarea {
+  width: 98%;
+  border: 1rpx solid #f8f8f8;
+  padding: 20rpx;
+  box-sizing: border-box;
+  height: 230px;
+}
+.r-top-t {
+  display: flex;
+  justify-content: space-between;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  opacity: 1;
+}
+

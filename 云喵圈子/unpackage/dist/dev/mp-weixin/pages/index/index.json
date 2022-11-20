@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "动态",
+  "backgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "q-post-list": "/components/q-post-list/q-post-list",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "q-tabbar": "/components/q-tabbar/q-tabbar"
+  }
+}

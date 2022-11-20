@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "基本信息",
+  "usingComponents": {
+    "m-input": "/components/m-input/m-input",
+    "m-cell": "/components/m-cell/m-cell",
+    "mpvue-picker": "/components/mpvue-picker/mpvue-picker",
+    "m-upimg": "/components/m-upimg/m-upimg",
+    "m-codedialog": "/components/m-codedialog/m-codedialog"
+  }
+}

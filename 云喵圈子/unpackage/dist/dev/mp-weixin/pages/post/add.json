@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "q-alioss-upload": "/components/q-alioss-upload/q-alioss-upload",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input"
+  }
+}

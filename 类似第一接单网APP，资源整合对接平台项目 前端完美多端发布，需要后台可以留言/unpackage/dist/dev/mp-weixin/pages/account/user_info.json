@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "个人信息",
-  "usingComponents": {
-    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
-    "city": "/components/city",
-    "customtop": "/components/customtop"
-  }
-}

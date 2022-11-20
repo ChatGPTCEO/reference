@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "q-post-list": "/components/q-post-list/q-post-list"
+  }
+}

@@ -1,0 +1,47 @@
+
+page{
+	background: #FFFFFF;
+}
+view {
+	font-size: 30rpx;
+	line-height: 1.8;
+}
+text {
+	font-size: 30rpx;
+}
+.aboutus-bg{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.img-head{
+	width: 200rpx;
+	height: 200rpx;
+	justify-content: center;
+	margin: auto;
+	margin-top: 60rpx;
+	margin-bottom: 30rpx;
+}
+.txt-head{
+	margin: auto;
+	width: 90%;
+	word-wrap: break-word;
+}
+.txt-heads{
+	text-align: center;
+}
+.aboutus-tail{
+	bottom: 0;
+	pos-bottom: absolute;
+	text-align: center;
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	position: absolute;
+	bottom: 20rpx;
+}
+

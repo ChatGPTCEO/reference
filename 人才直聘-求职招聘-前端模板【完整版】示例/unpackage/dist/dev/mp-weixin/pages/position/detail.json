@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "职位详情",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav",
+    "yzb-position": "/components/yzb/yzb-position"
+  }
+}

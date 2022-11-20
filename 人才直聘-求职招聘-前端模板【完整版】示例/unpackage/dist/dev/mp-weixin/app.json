@@ -1,0 +1,174 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/search",
+    "pages/company/list",
+    "pages/company/resumeList",
+    "pages/company/detail",
+    "pages/user/user",
+    "pages/user/userInfo",
+    "pages/chat/chat",
+    "pages/chat/notice/notices",
+    "pages/chat/notice/noticeDetail",
+    "pages/type/type",
+    "pages/chat/privateChat",
+    "pages/user/service/robot",
+    "pages/index/selectCity"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/login",
+      "pages": [
+        "login",
+        "xcxLogin",
+        "forgetPwd",
+        "loginPwd",
+        "resetPwd"
+      ]
+    },
+    {
+      "root": "pages/user/finance",
+      "pages": [
+        "wallet",
+        "rule",
+        "withdraw",
+        "records",
+        "withdrawLog"
+      ]
+    },
+    {
+      "root": "pages/law",
+      "pages": [
+        "law",
+        "lawDetail"
+      ]
+    },
+    {
+      "root": "pages/course",
+      "pages": [
+        "list",
+        "detail"
+      ]
+    },
+    {
+      "root": "pages/position",
+      "pages": [
+        "list",
+        "detail",
+        "search",
+        "shareList",
+        "taskList",
+        "taskDetail",
+        "taskApply"
+      ]
+    },
+    {
+      "root": "pages/common",
+      "pages": [
+        "industry",
+        "post"
+      ]
+    },
+    {
+      "root": "pages/user/person",
+      "pages": [
+        "resume",
+        "resumeDetail",
+        "edit-cert",
+        "edit-edu",
+        "edit-expect",
+        "edit-pro",
+        "edit-pro-content",
+        "edit-skill",
+        "edit-work",
+        "edit-work-content",
+        "resume-base-info",
+        "resume-file",
+        "resume-preview",
+        "resume-export"
+      ]
+    },
+    {
+      "root": "pages/user/company",
+      "pages": [
+        "company",
+        "enter",
+        "positions",
+        "position-edit",
+        "position-preview",
+        "tasks",
+        "task-preview",
+        "task-edit",
+        "auth"
+      ]
+    },
+    {
+      "root": "pages/user/common",
+      "pages": [
+        "aboutUs",
+        "contactUs",
+        "system",
+        "promoCode",
+        "collect",
+        "course",
+        "share",
+        "apply",
+        "task",
+        "visitme",
+        "terms",
+        "privacy",
+        "browse",
+        "connected",
+        "hideSetting",
+        "addShield",
+        "serviceCenter",
+        "office-preview"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#12ae85",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#12ae85",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home_light.png",
+        "selectedIconPath": "static/icon/home_fill_light.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "iconPath": "static/icon/search.png",
+        "selectedIconPath": "static/icon/search-fill.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/icon/message_light.png",
+        "selectedIconPath": "static/icon/message_fill_light.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/my_light.png",
+        "selectedIconPath": "static/icon/my_fill_light.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于设置公司位置信息或者职位工作地点"
+    }
+  },
+  "usingComponents": {
+    "yzb-page": "/components/m-page-view/m-page-view"
+  }
+}

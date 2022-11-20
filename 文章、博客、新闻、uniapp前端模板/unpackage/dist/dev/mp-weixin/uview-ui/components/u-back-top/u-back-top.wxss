@@ -1,0 +1,27 @@
+.u-back-top.data-v-b41816c0 {
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E1E1E1;
+  color: #606266;
+  align-items: center;
+  transition: opacity 0.4s;
+}
+.u-back-top__content.data-v-b41816c0 {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+}
+.u-back-top__content__tips.data-v-b41816c0 {
+  font-size: 24rpx;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  line-height: 1;
+}
+

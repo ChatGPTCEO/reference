@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzb-resume": "/components/yzb/yzb-resume",
+    "yzb-position": "/components/yzb/yzb-position"
+  }
+}

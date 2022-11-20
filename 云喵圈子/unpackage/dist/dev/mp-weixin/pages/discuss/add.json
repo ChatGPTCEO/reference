@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "q-button": "/components/q-button/q-button",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

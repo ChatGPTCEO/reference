@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-position .item {
+  background-color: #ffffff;
+  padding: 30rpx 20rpx;
+  border-bottom: 3rpx solid #f8f8f8;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title .left {
+  display: flex;
+  flex-direction: column;
+}
+.title .left .name {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.title .left .skill {
+  color: #666666;
+  margin-top: 5rpx;
+  font-size: 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title .left .skill .height-line {
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #cccccc;
+  margin: 0 15rpx;
+}
+.title .right {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.company {
+  color: #666666;
+  margin-top: 15rpx;
+  font-size: 24rpx;
+}
+.company .left {
+  margin-right: 15rpx;
+}
+.exp {
+  line-height: 1.2;
+}
+.exp .exp-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.2;
+}
+.exp .exp-item .top-icon {
+  margin-right: 10rpx;
+  margin-top: 3rpx;
+}
+.exp .exp-item .name {
+  color: #666666;
+  font-size: 24rpx;
+}
+.desc {
+  margin-top: 15rpx;
+  flex-wrap: wrap;
+}
+.desc text {
+  font-size: 24rpx;
+  padding: 5rpx 10rpx;
+  margin-right: 15rpx;
+  background-color: #f8f8f8;
+  border-radius: 5rpx;
+  color: #666666;
+}
+.user {
+  margin-top: 15rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.user image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+.user .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28rpx;
+}
+.user .left .name {
+  margin: 0 20rpx;
+}
+.user .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #666666;
+  font-size: 28rpx;
+}
+.user .right .area {
+  margin-right: 15rpx;
+}
+

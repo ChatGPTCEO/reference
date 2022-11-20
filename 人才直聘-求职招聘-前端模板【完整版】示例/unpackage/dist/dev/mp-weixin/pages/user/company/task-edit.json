@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "外包任务编辑",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "m-input": "/components/m-input/m-input"
+  }
+}

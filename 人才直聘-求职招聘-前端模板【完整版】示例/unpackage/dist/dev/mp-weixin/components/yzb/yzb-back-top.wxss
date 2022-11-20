@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-back-top.data-v-544bd104 {
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  z-index: 9;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E1E1E1;
+  color: #E1E1E1;
+  align-items: center;
+  transition: opacity 0.4s;
+  display: flex;
+}
+.u-back-top__content.data-v-544bd104 {
+  flex-direction: column;
+  align-items: center;
+}
+.u-back-top__content__tips.data-v-544bd104 {
+  font-size: 24rpx;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  line-height: 1;
+}
+

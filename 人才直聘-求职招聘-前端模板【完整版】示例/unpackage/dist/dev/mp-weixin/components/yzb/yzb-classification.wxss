@@ -1,0 +1,70 @@
+.classification.data-v-f4081f8a {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  /* 隐藏滚动条 */
+}
+.classification.data-v-f4081f8a ::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+.classification .left.data-v-f4081f8a {
+  width: 30%;
+  background-color: #fff;
+  border-right: 1rpx solid #EBEEF5;
+}
+.classification .left .type1.data-v-f4081f8a {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+.classification .left .current.data-v-f4081f8a {
+  color: #12ae85;
+  background-color: #FFFFFF;
+}
+.classification .right.data-v-f4081f8a {
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 2%;
+}
+.classification .right .type2.data-v-f4081f8a {
+  margin-bottom: 10rpx;
+}
+.classification .right .type2 ._p.data-v-f4081f8a {
+  font-size: 14px;
+  padding: 20rpx 0 20rpx 10rpx;
+  font-weight: bold;
+}
+.classification .right .type2 .type3Box.data-v-f4081f8a {
+  width: 100%;
+  height: auto;
+  border-radius: 28rpx;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.classification .right .type2 .type3Box .type3.data-v-f4081f8a {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.classification .right .type2 .type3Box .type3 text.data-v-f4081f8a {
+  background-color: #f4f4f4;
+  border-radius: 6rpx;
+  padding: 0 20rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 80%;
+  text-align: center;
+}
+

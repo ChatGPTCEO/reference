@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-image": "/uni_modules/uview-ui/components/u-image/u-image",
+    "q-number-box": "/components/q-number-box/q-number-box",
+    "q-button": "/components/q-button/q-button"
+  }
+}

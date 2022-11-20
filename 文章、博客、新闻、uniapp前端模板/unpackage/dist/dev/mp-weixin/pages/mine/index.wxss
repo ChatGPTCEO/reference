@@ -1,0 +1,35 @@
+page.data-v-4bd6864f {
+  background-color: #ededed;
+}
+.pupbox.data-v-4bd6864f {
+  height: 320rpx;
+  background-color: #84E7B9;
+}
+.pupbox .box-icon.data-v-4bd6864f {
+  padding: 60rpx 30rpx 10rpx;
+}
+.camera.data-v-4bd6864f {
+  width: 54px;
+  height: 44px;
+}
+.camera.data-v-4bd6864f:active {
+  background-color: #ededed;
+}
+.user-box.data-v-4bd6864f {
+  background-color: #fff;
+}
+.class-none.data-v-4bd6864f {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  outline: none;
+}
+.class-none.data-v-4bd6864f::after {
+  outline: none;
+  border: none;
+}
+.red.data-v-4bd6864f {
+  color: #FF0F00;
+}
+

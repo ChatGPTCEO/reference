@@ -1,0 +1,1 @@
+<view class="ad-box data-v-e2eedf38"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="ad data-v-e2eedf38"><image src="{{item.src}}" mode class="data-v-e2eedf38"></image></view></block></view>

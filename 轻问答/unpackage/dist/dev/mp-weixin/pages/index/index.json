@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "轻问答",
+  "usingComponents": {
+    "qin-content": "/components/qin_content/qin_content"
+  }
+}

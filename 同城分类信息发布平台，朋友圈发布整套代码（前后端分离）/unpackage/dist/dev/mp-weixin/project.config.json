@@ -18,7 +18,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.27.0",
+  "libVersion": "2.27.3",
   "appid": "touristappid",
   "projectname": "同城分类信息发布平台，朋友圈发布整套代码（前后端分离）",
   "condition": {},

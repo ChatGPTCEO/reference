@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.member-item.data-v-4b6231f4 {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1px solid #F5F5F5;
+  background-color: #FFFFFF;
+}
+.member-item .icon-nv.data-v-4b6231f4 {
+  color: #ff4d94;
+}
+.member-item .icon-nan.data-v-4b6231f4 {
+  color: #0091ff;
+}
+.member-item .avatar.data-v-4b6231f4 {
+  margin-right: 20rpx;
+}
+.member-item .user .name.data-v-4b6231f4 {
+  margin-right: 20rpx;
+}
+.member-item .user .iconfont.data-v-4b6231f4 {
+  font-size: 12px;
+}
+.member-item .btn-gz.data-v-4b6231f4 {
+  margin-left: auto;
+}
+

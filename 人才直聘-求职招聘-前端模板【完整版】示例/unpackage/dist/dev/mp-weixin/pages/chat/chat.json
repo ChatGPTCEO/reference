@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "消息",
+  "usingComponents": {
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-chat": "/uni_modules/uni-list/components/uni-list-chat/uni-list-chat",
+    "go-easy-audio-player": "/components/GoEasyAudioPlayer/GoEasyAudioPlayer",
+    "m-empty-data": "/components/m-empty-data/m-empty-data"
+  }
+}

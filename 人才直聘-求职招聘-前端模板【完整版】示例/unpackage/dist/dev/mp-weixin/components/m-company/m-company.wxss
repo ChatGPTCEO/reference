@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-position .item {
+  background-color: #ffffff;
+  padding: 30rpx 20rpx;
+  border-bottom: 3rpx solid #f8f8f8;
+}
+.m-position .item .company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m-position .item .logo {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #EBEEF5;
+}
+.m-position .item .info {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.m-position .item .info .name {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.m-position .item .info .require {
+  color: #666666;
+  margin-top: 5rpx;
+}
+.m-position .item .info .post {
+  color: #666666;
+}
+.m-position .item .info .post text {
+  margin: 0 10rpx;
+  color: #12ae85;
+}
+.m-position .item .yzb-next {
+  color: #999999;
+}
+

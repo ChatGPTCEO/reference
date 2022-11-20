@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/post/detail",
+    "pages/user/login",
+    "pages/user/home",
+    "pages/topic/detail",
+    "pages/discuss/detail",
+    "pages/my/discuss",
+    "pages/my/topic",
+    "pages/my/post",
+    "pages/my/thumb",
+    "pages/post/add",
+    "pages/message/message",
+    "pages/message/list",
+    "pages/my/fans",
+    "pages/my/follow",
+    "pages/topic/add",
+    "pages/more/more",
+    "pages/topic/class-list",
+    "pages/discuss/add",
+    "pages/user/edit-info/edit",
+    "pages/user/edit-info/submit",
+    "pages/topic/list",
+    "pages/jump/jump",
+    "pages/shop/product/list",
+    "pages/shop/product/detail",
+    "pages/shop/order/detail",
+    "pages/shop/order/list",
+    "pages/shop/address/choose",
+    "pages/shop/address/add",
+    "pages/shop/address/edit",
+    "pages/shop/index",
+    "pages/shop/address/list",
+    "pages/post/video-detail",
+    "pages/chat/chat",
+    "pages/discuss/list",
+    "pages/choose-topic/choose-topic",
+    "pages/topic/setting",
+    "pages/topic/info-edit",
+    "pages/topic/admin",
+    "pages/post/vote",
+    "pages/choose-discuss/choose-discuss",
+    "pages/search/search",
+    "pages/agreement/agreement",
+    "pages/topic/user-list",
+    "pages/shop/order/create",
+    "pages/shop/car",
+    "pages/shop/car-total",
+    "pages/webview/webview",
+    "pages/topic/shoose-class"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云圈",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#758d71",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/tab_1_s.png",
+        "selectedIconPath": "static/tabbar/tab_1.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "static/tabbar/tab_2_s.png",
+        "selectedIconPath": "static/tabbar/tab_2.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabbar/tab_4_s.png",
+        "selectedIconPath": "static/tabbar/tab_4.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/tab_5_s.png",
+        "selectedIconPath": "static/tabbar/tab_5.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取用户位置信息"
+    }
+  },
+  "usingComponents": {}
+}

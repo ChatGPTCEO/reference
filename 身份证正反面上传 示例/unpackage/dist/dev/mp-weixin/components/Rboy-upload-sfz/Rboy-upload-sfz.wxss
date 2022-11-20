@@ -1,0 +1,69 @@
+.Rboy-box.data-v-2e67e762 {
+  display: flex;
+  justify-content: space-between;
+}
+.Rboy-box .Rboy-obverse.data-v-2e67e762 {
+  border-radius: 10rpx;
+  width: 345rpx;
+  height: 280rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Rboy-box .Rboy-obverse .obverseimg.data-v-2e67e762 {
+  width: 345rpx;
+  height: 220rpx;
+}
+.Rboy-box .Rboy-obverse .bottom.data-v-2e67e762 {
+  text-align: center;
+  height: calc(280rpx - 220rpx);
+  background-color: #B7D7FF;
+  color: #3B5FD2;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Rboy-box .Rboy-obverse .del_btn.data-v-2e67e762 {
+  position: absolute;
+  top: 5rpx;
+  right: 5rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  z-index: 20;
+}
+.Rboy-box .Rboy-reverse.data-v-2e67e762 {
+  border-radius: 10rpx;
+  width: 345rpx;
+  height: 280rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Rboy-box .Rboy-reverse .reverseimg.data-v-2e67e762 {
+  width: 345rpx;
+  height: 220rpx;
+}
+.Rboy-box .Rboy-reverse .bottom.data-v-2e67e762 {
+  text-align: center;
+  height: calc(280rpx - 220rpx);
+  background-color: #B7D7FF;
+  color: #3B5FD2;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Rboy-box .Rboy-reverse .del_btn.data-v-2e67e762 {
+  position: absolute;
+  top: 5rpx;
+  right: 5rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  z-index: 20;
+}
+

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 主题颜色 */
+.join-topic-wrap.data-v-57280228 {
+  margin: 20rpx;
+}
+.join-topic-wrap .title.data-v-57280228 {
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  color: #999;
+}
+.join-topic-wrap .topic-list.data-v-57280228 {
+  display: flex;
+}
+.join-topic-wrap .topic-list .topic-item.data-v-57280228 {
+  width: 120rpx;
+  margin-right: 30rpx;
+}
+.join-topic-wrap .topic-list .topic-item .cover-img.data-v-57280228 {
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  border-radius: 10rpx;
+  background-color: #eee;
+}
+.join-topic-wrap .topic-list .topic-item .name-text.data-v-57280228 {
+  font-size: 28rpx;
+  text-align: center;
+}
+.notice-wrap.data-v-57280228 {
+  padding: 30rpx;
+}
+.notice-wrap .title.data-v-57280228 {
+  text-align: center;
+  font-weight: bold;
+  color: #616161;
+  margin-bottom: 30rpx;
+}
+.notice-wrap .content.data-v-57280228 {
+  line-height: 1.8;
+  color: #616161;
+  margin-bottom: 50rpx;
+}
+.notice-wrap .time.data-v-57280228 {
+  color: #999;
+  text-align: right;
+  margin-bottom: 50rpx;
+}
+.notice-wrap .footer.data-v-57280228 {
+  padding: 0 50rpx;
+}
+

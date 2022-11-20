@@ -1,0 +1,17 @@
+.u-card-wrap.data-v-5ed3214e {
+  background-color: #f3f4f6;
+  padding: 1px;
+}
+.u-body-item.data-v-5ed3214e {
+  font-size: 32rpx;
+  color: #333;
+  padding: 20rpx 10rpx;
+}
+.u-body-item image.data-v-5ed3214e {
+  width: 120rpx;
+  flex: 0 0 120rpx;
+  height: 120rpx;
+  border-radius: 8rpx;
+  margin-left: 12rpx;
+}
+

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-cell.data-v-12563204 {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  padding: 24rpx 20rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+.m-cell .title.data-v-12563204 {
+  width: 25%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.m-cell .ml-20.data-v-12563204 {
+  margin-left: 20rpx;
+}
+.m-cell .desc.data-v-12563204 {
+  color: #666;
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: right;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  /* display: table-cell;  */
+  /* line-height: 30rpx;  */
+  /* vertical-align:middle; */
+}
+.m-cell .cont.data-v-12563204 {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.m-cell .link-icon.data-v-12563204 {
+  width: 20rpx;
+  height: 34rpx;
+  margin-left: 6rpx;
+}
+.m-cell .mr-l.data-v-12563204 {
+  margin-right: 20rpx;
+}
+.bottom-line.data-v-12563204:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 20rpx;
+  height: 1rpx;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #e2e2e2;
+}
+.top-line.data-v-12563204:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 20rpx;
+  height: 1rpx;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #e2e2e2;
+}
+

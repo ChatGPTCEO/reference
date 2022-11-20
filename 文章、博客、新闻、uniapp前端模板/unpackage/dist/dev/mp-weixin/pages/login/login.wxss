@@ -1,0 +1,47 @@
+.content.data-v-b237504c {
+  margin: 80rpx 60rpx 30rpx 60rpx;
+}
+.content .title.data-v-b237504c {
+  text-align: center;
+  font-size: 60rpx;
+  font-weight: 500;
+  margin-bottom: 100rpx;
+}
+.content .getCaptcha.data-v-b237504c {
+  background-color: #A9FFDA;
+  color: #FFFFFF;
+  border: none;
+  font-size: 30rpx;
+  margin: 60rpx 0;
+}
+.content .getCaptcha.data-v-b237504c::after {
+  border: none;
+}
+.content .alternative.data-v-b237504c {
+  color: #909399;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.buttom .loginType.data-v-b237504c {
+  display: flex;
+  padding: 200rpx 150rpx 150rpx 150rpx;
+  justify-content: space-between;
+}
+.buttom .loginType .item.data-v-b237504c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #606266;
+  font-size: 28rpx;
+}
+.buttom .hint.data-v-b237504c {
+  padding: 20rpx 40rpx;
+  font-size: 20rpx;
+  color: #909399;
+  text-align: center;
+}
+.buttom .hint .link.data-v-b237504c {
+  color: #ff9900;
+}
+

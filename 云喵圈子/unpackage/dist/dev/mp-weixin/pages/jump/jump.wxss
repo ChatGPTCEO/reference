@@ -1,0 +1,11 @@
+
+.tip {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.tip .txt {
+	margin-top: 50rpx;
+}
+

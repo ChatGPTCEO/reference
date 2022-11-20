@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "q-field": "/components/q-field/q-field",
+    "q-alioss-upload": "/components/q-alioss-upload/q-alioss-upload",
+    "q-button": "/components/q-button/q-button"
+  }
+}

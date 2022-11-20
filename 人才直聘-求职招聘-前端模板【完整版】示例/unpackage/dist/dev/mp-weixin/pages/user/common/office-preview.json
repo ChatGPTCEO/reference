@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "附件预览",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "office-preview": "/components/m-previewOffce/m-previewOffce"
+  }
+}

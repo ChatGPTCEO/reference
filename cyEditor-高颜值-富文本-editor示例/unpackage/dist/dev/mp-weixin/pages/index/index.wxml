@@ -1,0 +1,1 @@
+<view><c-editor class="vue-ref" vue-id="8dd740cc-1" htmlContent="文本内容" uploadUrl="{{uploadUrl}}" header="{{header}}" isUseCustomNavbar="{{isUseCustomNavbar}}" data-ref="cEditor" data-event-opts="{{[['^uploadFile',[['uploadFile']]],['^saveContent',[['saveContent']]]]}}" bind:uploadFile="__e" bind:saveContent="__e" bind:__l="__l"></c-editor></view>

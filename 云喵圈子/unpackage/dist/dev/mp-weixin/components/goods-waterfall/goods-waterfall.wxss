@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page不能写带scope的style标签中，否则无效 */
+page {
+	background-color: rgb(240, 240, 240);
+}
+
+@charset "UTF-8";
+/* 主题颜色 */
+.demo-warter.data-v-762442bc {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.demo-title.data-v-762442bc {
+  font-size: 30rpx;
+  margin-top: 5px;
+  color: #303133;
+}
+.footer-wrap.data-v-762442bc {
+  padding: 20rpx;
+  color: #616161;
+}
+.footer-wrap .g-price.data-v-762442bc {
+  color: red;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.footer-wrap .p-title.data-v-762442bc {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.footer-wrap .p-user.data-v-762442bc {
+  display: flex;
+  align-items: center;
+  line-height: 20rpx;
+  font-size: 22rpx;
+  margin-top: 20rpx;
+}
+.footer-wrap .p-user .username.data-v-762442bc {
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.footer-wrap .p-user .distance.data-v-762442bc {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.post-video.data-v-762442bc {
+  width: 100%;
+}
+

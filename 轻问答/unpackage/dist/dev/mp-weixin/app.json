@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more/more",
+    "pages/ranking/ranking",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "轻问答",
+    "navigationBarBackgroundColor": "#00965e",
+    "backgroundColor": "#e9ecef"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00965e",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tbar_icon/home.png",
+        "selectedIconPath": "./static/img/tbar_icon/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "static/img/tbar_icon/more.png",
+        "selectedIconPath": "./static/img/tbar_icon/more-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "iconPath": "static/img/tbar_icon/ranking.png",
+        "selectedIconPath": "./static/img/tbar_icon/ranking-active.png",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/tbar_icon/my.png",
+        "selectedIconPath": "./static/img/tbar_icon/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view><yzb-notice vue-id="06d04864-1" detail="{{data}}" bind:__l="__l"></yzb-notice><block wx:if="{{loading}}"><view class="loading"><text>加载中...</text></view></block></view>

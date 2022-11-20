@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "外包任务",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-swiper": "/components/m-swiper/m-swiper2",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzb-task": "/components/yzb/yzb-task"
+  }
+}

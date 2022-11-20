@@ -1,0 +1,39 @@
+
+page {
+	background-color: #f5f5f5;
+}
+
+@charset "UTF-8";
+/* 主题颜色 */
+.cell-wrap.data-v-52424472 {
+  background-color: #fff;
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.cell-wrap .cell-item.data-v-52424472 {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 30rpx 0;
+}
+.cell-wrap .cell-item.data-v-52424472:last-child {
+  border-bottom: 0;
+}
+.cell-wrap .cell-item .right.data-v-52424472 {
+  margin-left: auto;
+}
+.cell-wrap .cell-item .right .icon.data-v-52424472 {
+  margin-left: 10rpx;
+}
+.btn-quit.data-v-52424472 {
+  background-color: #fff;
+  border-radius: 20rpx;
+  text-align: center;
+  font-size: 28rpx;
+  padding: 20rpx;
+  color: red;
+}
+

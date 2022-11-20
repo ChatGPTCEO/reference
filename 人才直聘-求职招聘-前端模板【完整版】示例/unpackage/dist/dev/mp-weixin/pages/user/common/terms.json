@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "用户协议",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yzb-terms": "/components/yzb/yzb-terms"
+  }
+}

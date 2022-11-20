@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "排行",
+  "usingComponents": {
+    "qin-content": "/components/qin_content/qin_content"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "人才直聘",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-swiper": "/components/m-swiper/m-swiper",
+    "yzb-notice": "/components/yzb-notice/yzb-notice",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzb-position": "/components/yzb/yzb-position",
+    "m-ad": "/components/m-ad/m-ad",
+    "yzb-resume": "/components/yzb/yzb-resume",
+    "yzb-grid": "/components/yzb/yzb-grid"
+  }
+}

@@ -1,0 +1,116 @@
+
+.button-item.data-v-4eb63fa4:active {
+	background: #d4d4d4;
+}
+.button-item+.button-item.data-v-4eb63fa4 {
+	border-left: 0.1px solid #d4d4d4;
+}
+.button-item.data-v-4eb63fa4 {
+	flex: 1;
+	padding: 14px 0px;
+}
+.keyboard-line+.keyboard-line.data-v-4eb63fa4 {
+	border-top: 0.1px solid #d4d4d4;
+}
+.keyboard-line.data-v-4eb63fa4 {
+	display: flex;
+}
+.keyboard.data-v-4eb63fa4 {
+	background: #fff;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	font-size: 17px;
+}
+.dialog-close.data-v-4eb63fa4 {
+	color: #999;
+	height: 20px;
+	width: 20px;
+	font-size: 15px;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+.dialog-close.data-v-4eb63fa4:before {
+	content: "\2716";
+}
+.countdown.data-v-4eb63fa4 {
+	color: #666;
+	font-size: 16px;
+}
+.resend.data-v-4eb63fa4 {
+	color: #12ae85;
+	font-size: 16px;
+}
+.dialog-ft.data-v-4eb63fa4 {
+	margin-top: 10px;
+}
+.code-view.data-v-4eb63fa4 {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+}
+.code-item+.code-item.data-v-4eb63fa4 {
+	margin-left: 5px;
+}
+.code-item.data-v-4eb63fa4 {
+	flex: 1;
+	border-bottom: 1px solid #999;
+	padding-bottom: 2px;
+	height: 60rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30rpx;
+}
+.dialog-bd.data-v-4eb63fa4 {
+	margin-top: 5px;
+}
+.codedialog-subtitle.data-v-4eb63fa4 {
+	margin-top: 5px;
+	padding: 5px 0px;
+	font-size: 15px;
+	line-height: 1.4;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: #999;
+}
+.dialog-view.data-v-4eb63fa4 {
+	position: fixed;
+	z-index: 999;
+	width: 70%;
+	max-width: 300px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -120%);
+	        transform: translate(-50%, -120%);
+	background-color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+	padding: 20px 10px;
+}
+.mask.data-v-4eb63fa4 {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .6);
+}
+.codedialog.data-v-4eb63fa4 {
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+

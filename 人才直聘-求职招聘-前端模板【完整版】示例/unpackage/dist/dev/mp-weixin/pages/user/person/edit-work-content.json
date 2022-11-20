@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工作内容",
+  "usingComponents": {
+    "m-textarea": "/components/m-textarea/m-textarea"
+  }
+}

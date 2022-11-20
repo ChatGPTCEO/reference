@@ -1,0 +1,23 @@
+.qin_question_more.data-v-5796f226 {
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.qin_question_more .more_title.data-v-5796f226 {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.qin_question_more .more_tag.data-v-5796f226 {
+  font-size: 20rpx;
+  word-wrap: break-word;
+}
+.qin_question_more .more_tag > text.data-v-5796f226 {
+  display: inline-block;
+  margin: 0rpx 20rpx 20rpx 0;
+  color: #00965e;
+  background-color: rgba(0, 150, 94, 0.1);
+  padding: 8rpx 20rpx;
+  box-sizing: border-box;
+}
+

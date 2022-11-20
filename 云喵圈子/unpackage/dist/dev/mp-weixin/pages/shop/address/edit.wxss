@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 主题颜色 */
+page.data-v-ff7730d6 {
+  background-color: #f5f5f5;
+}
+.container.data-v-ff7730d6 {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.btn-submit.data-v-ff7730d6 {
+  position: fixed;
+  bottom: 20rpx;
+  left: 20rpx;
+  right: 20rpx;
+  z-index: 999;
+}
+

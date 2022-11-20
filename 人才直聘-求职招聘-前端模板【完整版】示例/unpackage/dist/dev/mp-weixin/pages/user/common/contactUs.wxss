@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-content .logo {
+  width: 200rpx;
+  height: 200rpx;
+  padding: 30rpx 0;
+}
+.contact-content .list {
+  margin-top: 50rpx;
+  width: 100%;
+}
+

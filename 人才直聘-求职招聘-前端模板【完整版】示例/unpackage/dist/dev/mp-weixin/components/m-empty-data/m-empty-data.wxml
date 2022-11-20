@@ -1,0 +1,1 @@
+<view class="m-empty-data data-v-1dd87dc4"><view class="data-v-1dd87dc4"><view class="data-v-1dd87dc4"><image src="{{coverUrl}}" mode class="data-v-1dd87dc4"></image></view><text class="data-v-1dd87dc4"><block wx:if="{{$slots.default}}"><slot></slot></block><block wx:else>{{noTxt}}</block></text></view></view>

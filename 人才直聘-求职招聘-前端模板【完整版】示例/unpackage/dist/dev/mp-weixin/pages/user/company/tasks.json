@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "外包任务管理",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "q-s-tabs": "/components/QS-tabs/QS-tabs"
+  }
+}

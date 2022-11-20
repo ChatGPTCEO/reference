@@ -1,1 +1,0 @@
-<view><customtop vue-id="32b04712-1" top_title="详情" bind:__l="__l"></customtop><view class="container"><view class="luckbox top_page">{{''+article.title+''}}</view><view class="luckbox content"><view class="bd"><rich-text nodes="{{article.content}}"></rich-text></view></view></view></view>

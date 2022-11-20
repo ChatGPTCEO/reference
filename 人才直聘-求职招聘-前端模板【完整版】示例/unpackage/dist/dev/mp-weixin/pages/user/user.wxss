@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #fff;
+}
+.header {
+  background-color: #12ae85;
+  width: 92%;
+  height: 30vw;
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+}
+.header.status {
+  padding-top: 25px;
+}
+.header .userinfo {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .userinfo .face image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+}
+.header .userinfo .info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rpx;
+  margin-top: -15rpx;
+}
+.header .userinfo .info .username {
+  width: 100%;
+  color: #fff;
+  font-size: 40rpx;
+  margin-left: 10rpx;
+}
+.header .userinfo .info .integral {
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+.header .setting {
+  flex-shrink: 0;
+  width: 6vw;
+  height: 6vw;
+}
+.header .setting image {
+  width: 100%;
+  height: 100%;
+}
+.hover {
+  background-color: #eee;
+}
+.w-list {
+  background-color: #12ae85;
+  width: 100%;
+  height: 20vw;
+  padding: 0 4%;
+  margin-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 100% 100%;
+  margin-top: -1rpx;
+  box-sizing: border-box;
+}
+.w-list .grid {
+  background-color: #ffffff;
+  margin-bottom: 6rpx;
+  width: 100%;
+  margin-top: -10rpx;
+  border-radius: 24rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+}
+.w-list .grid .grid-dot {
+  position: absolute;
+  top: 5rpx;
+  right: 15rpx;
+}
+.w-list .grid .grid-icon {
+  color: #12ae85;
+  font-size: 60rpx;
+  line-height: 100rpx;
+}
+.w-list .uni-grid .text {
+  font-size: 30rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  color: #817f82;
+}
+.w-list .uni-grid .item  .uni-grid-item__box {
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  width: 100%;
+  border-bottom: solid 26rpx #f8f8f8;
+}
+.list .li {
+  width: 92%;
+  height: 100rpx;
+  padding: 0 4%;
+  border-bottom: solid 1rpx #ebeef5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .li.noborder {
+  border-bottom: 0;
+}
+.list .li .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list .li .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list .li .icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+  align-items: center;
+}
+.list .li .icons text {
+  font-size: 40rpx;
+}
+.list .li .icons image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.list .li .text {
+  width: 100%;
+  color: #666;
+}
+.list .li .to {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.list .li .auth-result {
+  min-width: 200rpx;
+  text-align: right;
+  margin-right: 10rpx;
+  color: #12ae85;
+}
+.list .li .auth-success {
+  color: #4cd964;
+}
+.list .li .icon-next {
+  font-size: 34rpx;
+  color: #999999;
+}
+

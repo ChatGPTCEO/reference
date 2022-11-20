@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加教育经历",
+  "usingComponents": {
+    "yzb-select-input": "/components/yzb/yzb-select-input"
+  }
+}

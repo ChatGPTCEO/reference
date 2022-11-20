@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-5be3fc3d {
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.body.data-v-5be3fc3d {
+  padding: 20rpx;
+}
+.title.data-v-5be3fc3d {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.btn-row.data-v-5be3fc3d {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  background-color: #ffff;
+  box-sizing: border-box;
+}
+.btn-row button.data-v-5be3fc3d {
+  background-color: #12ae85;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+  border-radius: 0rpx;
+}
+textarea.data-v-5be3fc3d {
+  height: 400rpx;
+  width: 100%;
+}
+.r-top.data-v-5be3fc3d {
+  margin-top: 50rpx;
+  padding: 10rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  height: 100%;
+}
+.r-top-t.data-v-5be3fc3d {
+  display: flex;
+  justify-content: space-between;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  opacity: 1;
+}
+

@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.account {
+  display: flex;
+  flex-direction: column;
+  background-color: #12ae85;
+}
+.account .item {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.account .item text {
+  color: #ffffff;
+}
+.account .item .money {
+  font-size: 60rpx;
+}
+.account .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account .bottom .btn {
+  padding: 15rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 32rpx;
+}
+.account .bottom :first-child {
+  border-right: solid 1rpx #FF822B;
+}
+.list {
+  width: 100%;
+  border-bottom: solid 26rpx #f1f1f1;
+  display: flex;
+  flex-direction: column;
+}
+.list .li {
+  width: 92%;
+  height: 100rpx;
+  padding: 0 4%;
+  border-bottom: solid 1rpx #ebeef5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .li.noborder {
+  border-bottom: 0;
+}
+.list .li .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list .li .icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+  align-items: center;
+}
+.list .li .icons text {
+  font-size: 40rpx;
+}
+.list .li .icons image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.list .li .text {
+  width: 100%;
+  color: #666;
+}
+.list .li .to {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.list .li .icon-next {
+  font-size: 34rpx;
+  color: #999999;
+}
+.list .right {
+  width: 300rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.list .right .right-text {
+  color: #999999;
+  margin-right: 10rpx;
+}
+

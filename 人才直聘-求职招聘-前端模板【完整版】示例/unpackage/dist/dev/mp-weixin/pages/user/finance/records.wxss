@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 背景颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  background-color: #f8f8f8;
+  padding: 5rpx 0;
+}
+.body {
+  margin-top: 90rpx;
+  padding: 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.body .item {
+  border-bottom: 1rpx solid #f8f8f8;
+  padding: 15rpx 0;
+}
+.body .space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .item-top text {
+  color: #000;
+  font-size: 30rpx;
+}
+.body .item-bottom {
+  color: #666;
+}
+

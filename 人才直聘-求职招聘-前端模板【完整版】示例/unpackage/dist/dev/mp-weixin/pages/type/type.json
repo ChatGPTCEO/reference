@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "m-position": "/components/yzb/yzb-position",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "yzbfilter-dropdown": "/components/yzb/yzb-filterDropdown",
+    "yzb-resume": "/components/yzb/yzb-resume"
+  }
+}

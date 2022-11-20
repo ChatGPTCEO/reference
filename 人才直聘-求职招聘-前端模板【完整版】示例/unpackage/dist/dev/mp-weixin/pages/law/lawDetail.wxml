@@ -1,0 +1,1 @@
+<view class="content"><view class="body"><text class="name">{{data.name}}</text><text class="summary">{{data.summary}}</text><view class="detail"><text user-select="true">{{data.content}}</text></view></view><yzb-back-top vue-id="2acc16e9-1" scroll-top="{{scrollTop}}" top="600" bind:__l="__l"></yzb-back-top></view>

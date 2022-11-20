@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人简历",
+  "usingComponents": {
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav",
+    "m-cell": "/components/m-cell/m-cell"
+  }
+}

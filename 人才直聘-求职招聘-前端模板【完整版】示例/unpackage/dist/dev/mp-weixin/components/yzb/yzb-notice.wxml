@@ -1,0 +1,1 @@
+<view class="content"><view class="title"><text>{{detail.title}}</text></view><view class="date"><block wx:if="{{detail}}"><text>{{$root.m0}}</text></block></view><view class="detail"><bctos-rich-text vue-id="6da5cf79-1" nodes="{{detail.content}}" bind:__l="__l"></bctos-rich-text></view></view>

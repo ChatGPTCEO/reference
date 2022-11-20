@@ -1,0 +1,1 @@
+<view class="content"><rboy-upload-sfz vue-id="8dd740cc-1" obverse-url="{{formData.obverseUrl}}" reverse-url="{{formData.reverseUrl}}" data-event-opts="{{[['^selectChange',[['sfz_chagne']]],['^del',[['del_btn']]]]}}" bind:selectChange="__e" bind:del="__e" bind:__l="__l"></rboy-upload-sfz></view>

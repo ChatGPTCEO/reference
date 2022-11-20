@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "q-user-list": "/components/q-user-list/q-user-list"
+  }
+}

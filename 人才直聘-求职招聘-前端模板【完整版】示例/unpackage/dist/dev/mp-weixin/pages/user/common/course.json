@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的课程",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "m-empty-data": "/components/m-empty-data/m-empty-data",
+    "yzb-course": "/components/yzb/yzb-mycourse"
+  }
+}
